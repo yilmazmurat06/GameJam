@@ -66,6 +66,10 @@ public class EnemyBase : MonoBehaviour
         // Subscribe to death event
         Health.OnDeath += HandleDeath;
         
+        // Register with Manager
+        if (EnemyManager.Instance != null)
+            EnemyManager.Instance.RegisterEnemy(this);
+        
         // Start in idle state
         ChangeState(new EnemyIdleState());
     }
@@ -74,6 +78,9 @@ public class EnemyBase : MonoBehaviour
     {
         if (Health != null)
             Health.OnDeath -= HandleDeath;
+            
+        if (EnemyManager.Instance != null)
+            EnemyManager.Instance.UnregisterEnemy(this);
     }
     
     protected virtual void Update()
@@ -111,31 +118,46 @@ public class EnemyBase : MonoBehaviour
     
     /// <summary>
     /// Move toward a target position with smoothing / acceleration.
+    /// Can also take a raw direction/target vector.
     /// </summary>
     public void SmoothMoveToward(Vector2 targetPosition)
     {
         Vector2 direction = (targetPosition - (Vector2)transform.position).normalized;
-        Vector2 targetVelocity = direction * _moveSpeed;
+        
+        // If target is very close (e.g. separation vector addition), just use the vector provided if it was meant to be a direction
+        // But here we assume targetPosition is a world point.
+        // Let's Add a Steering helper.
+        
+        ApplySteering(direction);
+    }
+    
+    public void ApplySteering(Vector2 direction)
+    {
+        Vector2 targetVelocity = direction.normalized * _moveSpeed;
         
         // Smoothly interpolate current velocity to target velocity
         Rigidbody.linearVelocity = Vector2.Lerp(Rigidbody.linearVelocity, targetVelocity, _acceleration * Time.deltaTime);
         
-        // Face target
-        if (direction.x != 0 && _spriteRenderer != null)
+        // Only flip manually if we don't have directional sprites
+        EnemyAnimator anim = GetComponent<EnemyAnimator>();
+        if (anim == null || !anim.HasDirectionalSprites)
         {
-            _spriteRenderer.flipX = direction.x < 0;
+            if (direction.x != 0 && _spriteRenderer != null)
+            {
+                _spriteRenderer.flipX = direction.x < 0;
+            }
         }
         
-        // Update Animator if exists
+        // Update Animator (legacy Unity Animator) if present
         Animator animator = GetComponent<Animator>();
         if (animator != null)
         {
-            animator.SetBool("IsMoving", Rigidbody.linearVelocity.magnitude > 0.1f);
-            if (direction != Vector2.zero)
-            {
-                animator.SetFloat("MoveX", direction.x);
-                animator.SetFloat("MoveY", direction.y);
-            }
+             animator.SetBool("IsMoving", Rigidbody.linearVelocity.magnitude > 0.1f);
+             if (direction != Vector2.zero)
+             {
+                 animator.SetFloat("MoveX", direction.x);
+                 animator.SetFloat("MoveY", direction.y);
+             }
         }
     }
 

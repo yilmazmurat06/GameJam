@@ -1,14 +1,15 @@
 using UnityEngine;
 
 /// <summary>
-/// Mask types that affect player abilities and movement.
+/// Mask types representing emotional stages of relationship collapse.
 /// </summary>
 public enum MaskType
 {
     None,
-    Rage,
-    Sadness,
-    Joy
+    Fear,    // KORKU - Glass cannon, shadow form
+    Hate,    // NEFRET - Damage reduction, shield bash
+    Sorrow,  // HÜZÜN - Phasing ability
+    Guilt    // SUÇLULUK - Heavy anchor
 }
 
 /// <summary>
@@ -65,6 +66,8 @@ public class PlayerController : MonoBehaviour
         
         // Disable gravity for top-down movement
         Rigidbody.gravityScale = 0f;
+        Rigidbody.bodyType = RigidbodyType2D.Dynamic; // Ensure it can move
+        Rigidbody.constraints = RigidbodyConstraints2D.FreezeRotation; // Don't spin
         
         // Store base speed
         _baseMoveSpeed = _moveSpeed;
@@ -170,8 +173,16 @@ public class PlayerController : MonoBehaviour
     {
         // Reset to base values first
         _moveSpeed = _baseMoveSpeed;
-        Rigidbody.mass = 100f; // High mass to prevent pushing
+        Rigidbody.mass = 100f;
         Time.timeScale = 1f;
+        
+        // Reset sprite alpha
+        if (_spriteRenderer != null)
+        {
+            Color c = _spriteRenderer.color;
+            c.a = 1f;
+            _spriteRenderer.color = c;
+        }
         
         switch (_currentMask)
         {
@@ -179,26 +190,38 @@ public class PlayerController : MonoBehaviour
                 // Default values - no modifications
                 break;
                 
-            case MaskType.Rage:
-                // Rage: Slower but heavier (more knockback resistance)
-                _moveSpeed = _baseMoveSpeed * 0.7f;
+            case MaskType.Fear:
+                // KORKU: Glass cannon - 1 HP (handled by Health component)
+                // Passive: Extreme vulnerability
+                if (Health != null) Health.SetMaxHealth(1);
+                break;
+                
+            case MaskType.Hate:
+                // NEFRET: 30% damage reduction, aggressive
+                // Passive: Damage resistance
+                if (Health != null) Health.SetDamageMultiplier(0.7f);
+                break;
+                
+            case MaskType.Sorrow:
+                // HÜZÜN: 50% alpha, ethereal
+                // Passive: Semi-transparent
+                if (_spriteRenderer != null)
+                {
+                    Color c = _spriteRenderer.color;
+                    c.a = 0.5f;
+                    _spriteRenderer.color = c;
+                }
+                break;
+                
+            case MaskType.Guilt:
+                // SUÇLULUK: -50% speed, heavy
+                // Passive: Slow movement
+                _moveSpeed = _baseMoveSpeed * 0.5f;
                 Rigidbody.mass = 200f;
-                break;
-                
-            case MaskType.Sadness:
-                // Sadness: Time moves slower
-                _moveSpeed = _baseMoveSpeed * 0.8f;
-                Time.timeScale = 0.7f;
-                break;
-                
-            case MaskType.Joy:
-                // Joy: Faster and lighter
-                _moveSpeed = _baseMoveSpeed * 1.3f;
-                Rigidbody.mass = 50f;
                 break;
         }
         
-        Debug.Log($"[PlayerController] Mask changed to {_currentMask}. Speed: {_moveSpeed}, Mass: {Rigidbody.mass}");
+        Debug.Log($"[PlayerController] Mask: {_currentMask} | Speed: {_moveSpeed} | Mass: {Rigidbody.mass}");
     }
     
     // --- Cutscene Handlers ---
