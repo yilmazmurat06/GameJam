@@ -1,0 +1,3081 @@
+fileFormatVersion: 2
+guid: 4b1d1967ecd194264b4fe53c5baf0fa6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3222929847189484983
+    second: blue_mask-2_0
+  - first:
+      213: 6862191127116652069
+    second: blue_mask-2_1
+  - first:
+      213: -4170160115620914416
+    second: blue_mask-2_2
+  - first:
+      213: 1650325717467131451
+    second: blue_mask-2_3
+  - first:
+      213: 8978397433033009802
+    second: blue_mask-2_4
+  - first:
+      213: -81042450871245055
+    second: blue_mask-2_5
+  - first:
+      213: 2165861503932556394
+    second: blue_mask-2_6
+  - first:
+      213: 6574209855206697791
+    second: blue_mask-2_7
+  - first:
+      213: 8352948781023718343
+    second: blue_mask-2_8
+  - first:
+      213: -4171554469578099702
+    second: blue_mask-2_9
+  - first:
+      213: -1691450724179077013
+    second: blue_mask-2_10
+  - first:
+      213: 1863812881014411966
+    second: blue_mask-2_11
+  - first:
+      213: -1800175291364294622
+    second: blue_mask-2_12
+  - first:
+      213: -4565807584011787343
+    second: blue_mask-2_13
+  - first:
+      213: 9080668062503670091
+    second: blue_mask-2_14
+  - first:
+      213: -5240618336894498798
+    second: blue_mask-2_15
+  - first:
+      213: 3589775349935132962
+    second: blue_mask-2_16
+  - first:
+      213: -7510502126092286168
+    second: blue_mask-2_17
+  - first:
+      213: -1515936733945213726
+    second: blue_mask-2_18
+  - first:
+      213: -5160919871639551116
+    second: blue_mask-2_19
+  - first:
+      213: -5264909460800281581
+    second: blue_mask-2_20
+  - first:
+      213: -3779435050497846966
+    second: blue_mask-2_21
+  - first:
+      213: 1648078525112646407
+    second: blue_mask-2_22
+  - first:
+      213: 3367929981047667998
+    second: blue_mask-2_23
+  - first:
+      213: -512998160342695121
+    second: blue_mask-2_24
+  - first:
+      213: -4751205804611804515
+    second: blue_mask-2_25
+  - first:
+      213: 5921815683203651908
+    second: blue_mask-2_26
+  - first:
+      213: -8059737669790592278
+    second: blue_mask-2_27
+  - first:
+      213: -8767470576015847243
+    second: blue_mask-2_28
+  - first:
+      213: -7767633755527652748
+    second: blue_mask-2_29
+  - first:
+      213: -6498185808862746658
+    second: blue_mask-2_30
+  - first:
+      213: 918672994230265584
+    second: blue_mask-2_31
+  - first:
+      213: 8422781492556028635
+    second: blue_mask-2_32
+  - first:
+      213: 3803186988083875743
+    second: blue_mask-2_33
+  - first:
+      213: -7980040726791756374
+    second: blue_mask-2_34
+  - first:
+      213: -6324174978164162251
+    second: blue_mask-2_35
+  - first:
+      213: 2059416330459948446
+    second: blue_mask-2_36
+  - first:
+      213: 621654753205735428
+    second: blue_mask-2_37
+  - first:
+      213: 6222623169528557138
+    second: blue_mask-2_38
+  - first:
+      213: 5234091490953722290
+    second: blue_mask-2_39
+  - first:
+      213: 6198231182362882945
+    second: blue_mask-2_40
+  - first:
+      213: -2648113385496658961
+    second: blue_mask-2_41
+  - first:
+      213: -3034707427429745688
+    second: blue_mask-2_42
+  - first:
+      213: -1388674168511934684
+    second: blue_mask-2_43
+  - first:
+      213: -3548122634292995669
+    second: blue_mask-2_44
+  - first:
+      213: -5601114805641335984
+    second: blue_mask-2_45
+  - first:
+      213: -1085948878522535074
+    second: blue_mask-2_46
+  - first:
+      213: -4774012523311839864
+    second: blue_mask-2_47
+  - first:
+      213: 341529497368849243
+    second: blue_mask-2_48
+  - first:
+      213: 651201997649157620
+    second: blue_mask-2_49
+  - first:
+      213: 8108732093861428216
+    second: blue_mask-2_50
+  - first:
+      213: -4066801961187250439
+    second: blue_mask-2_51
+  - first:
+      213: 5058032530159302041
+    second: blue_mask-2_52
+  - first:
+      213: 820493655147187539
+    second: blue_mask-2_53
+  - first:
+      213: -211233144658050990
+    second: blue_mask-2_54
+  - first:
+      213: -9127739841186886418
+    second: blue_mask-2_55
+  - first:
+      213: 3950680966235790615
+    second: blue_mask-2_56
+  - first:
+      213: 7108123029074927175
+    second: blue_mask-2_57
+  - first:
+      213: -3307473659391362307
+    second: blue_mask-2_58
+  - first:
+      213: -3781288105729867302
+    second: blue_mask-2_59
+  - first:
+      213: -2068516732821728175
+    second: blue_mask-2_60
+  - first:
+      213: 6524052271937267953
+    second: blue_mask-2_61
+  - first:
+      213: 556301695661441530
+    second: blue_mask-2_62
+  - first:
+      213: -590045860357949477
+    second: blue_mask-2_63
+  - first:
+      213: -4479737912098200662
+    second: blue_mask-2_64
+  - first:
+      213: -1880217854886711045
+    second: blue_mask-2_65
+  - first:
+      213: 4537760787843496415
+    second: blue_mask-2_66
+  - first:
+      213: -4310511032609444612
+    second: blue_mask-2_67
+  - first:
+      213: 4888281692826810974
+    second: blue_mask-2_68
+  - first:
+      213: -2325293340313657496
+    second: blue_mask-2_69
+  - first:
+      213: -5690481004862297873
+    second: blue_mask-2_70
+  - first:
+      213: 8870163585624457292
+    second: blue_mask-2_71
+  - first:
+      213: -8509100784193771819
+    second: blue_mask-2_72
+  - first:
+      213: 6141338327981184370
+    second: blue_mask-2_73
+  - first:
+      213: -3326330020617261654
+    second: blue_mask-2_74
+  - first:
+      213: 3922624760590765511
+    second: blue_mask-2_75
+  - first:
+      213: -7355906760976637619
+    second: blue_mask-2_76
+  - first:
+      213: 2611991754944509611
+    second: blue_mask-2_77
+  - first:
+      213: -4497086443338000070
+    second: blue_mask-2_78
+  - first:
+      213: -6481762851489778981
+    second: blue_mask-2_79
+  - first:
+      213: -5154693610388545518
+    second: blue_mask-2_80
+  - first:
+      213: 4440292444070600199
+    second: blue_mask-2_81
+  - first:
+      213: -8052572129021215200
+    second: blue_mask-2_82
+  - first:
+      213: -213737115864171851
+    second: blue_mask-2_83
+  - first:
+      213: -1585952391010288341
+    second: blue_mask-2_84
+  - first:
+      213: 3199482503699653410
+    second: blue_mask-2_85
+  - first:
+      213: -328006987321341886
+    second: blue_mask-2_86
+  - first:
+      213: -6868543067693048647
+    second: blue_mask-2_87
+  - first:
+      213: 4198450068362212069
+    second: blue_mask-2_88
+  - first:
+      213: -24625059927937828
+    second: blue_mask-2_89
+  - first:
+      213: -3685478444323320812
+    second: blue_mask-2_90
+  - first:
+      213: 9040290465565751793
+    second: blue_mask-2_91
+  - first:
+      213: -4363211945680294824
+    second: blue_mask-2_92
+  - first:
+      213: 5197720198614675905
+    second: blue_mask-2_93
+  - first:
+      213: -3073864089486064956
+    second: blue_mask-2_94
+  - first:
+      213: -37189832571871497
+    second: blue_mask-2_95
+  - first:
+      213: 7969548540987772266
+    second: blue_mask-2_96
+  - first:
+      213: 1602002323231991968
+    second: blue_mask-2_97
+  - first:
+      213: 1987230457847062637
+    second: blue_mask-2_98
+  - first:
+      213: -3469650803121885767
+    second: blue_mask-2_99
+  - first:
+      213: -974526451259058869
+    second: blue_mask-2_100
+  - first:
+      213: 4118149728553115185
+    second: blue_mask-2_101
+  - first:
+      213: -1392773290116368189
+    second: blue_mask-2_102
+  - first:
+      213: 7583590788078674312
+    second: blue_mask-2_103
+  - first:
+      213: -5201882870771887970
+    second: blue_mask-2_104
+  - first:
+      213: 4159890732078856916
+    second: blue_mask-2_105
+  - first:
+      213: 6829758665620966631
+    second: blue_mask-2_106
+  - first:
+      213: -5646194015671494298
+    second: blue_mask-2_107
+  - first:
+      213: -3071032940078864567
+    second: blue_mask-2_108
+  - first:
+      213: 2690336507847743703
+    second: blue_mask-2_109
+  - first:
+      213: 3840585187312065138
+    second: blue_mask-2_110
+  - first:
+      213: 5887725613777937709
+    second: blue_mask-2_111
+  - first:
+      213: -2678957689027930986
+    second: blue_mask-2_112
+  - first:
+      213: -6973362233312779382
+    second: blue_mask-2_113
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue_mask-2_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2193
+        width: 94
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a444a316ad543d0800000000000000
+      internalID: -3222929847189484983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2198
+        width: 96
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e10a009766b3f50800000000000000
+      internalID: 6862191127116652069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2203
+        width: 87
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bd9e3287d9026c0800000000000000
+      internalID: -4170160115620914416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_3
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2196
+        width: 87
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ee1590f7227e610800000000000000
+      internalID: 1650325717467131451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_4
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2188
+        width: 94
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a263055eca99c70800000000000000
+      internalID: 8978397433033009802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_5
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2199
+        width: 98
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107a710025410eef0800000000000000
+      internalID: -81042450871245055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_6
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 2203
+        width: 100
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64e796009fae0e10800000000000000
+      internalID: 2165861503932556394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_7
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 2205
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ba77a18094c3b50800000000000000
+      internalID: 6574209855206697791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_8
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2194
+        width: 88
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb63f719a2abe370800000000000000
+      internalID: 8352948781023718343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2022
+        width: 91
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04ba9fcf49ab16c0800000000000000
+      internalID: -4171554469578099702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2030
+        width: 99
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b689a3e2782c688e0800000000000000
+      internalID: -1691450724179077013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2106
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb259acb0f79dd910800000000000000
+      internalID: 1863812881014411966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2036
+        width: 94
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220cbc83c1e7407e0800000000000000
+      internalID: -1800175291364294622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_13
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 2023
+        width: 92
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3613a613ef2a0c0800000000000000
+      internalID: -4565807584011787343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_14
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2021
+        width: 92
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4114cccd73050e70800000000000000
+      internalID: 9080668062503670091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_15
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 2033
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218410a73659547b0800000000000000
+      internalID: -5240618336894498798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_16
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 2041
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221565c49a171d130800000000000000
+      internalID: 3589775349935132962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_17
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2025
+        width: 90
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8270471db1655c790800000000000000
+      internalID: -7510502126092286168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1852
+        width: 87
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecca3f729f46fae0800000000000000
+      internalID: -1515936733945213726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_19
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1862
+        width: 104
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4738ba078bab068b0800000000000000
+      internalID: -5160919871639551116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_20
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1870
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314e7667db84fe6b0800000000000000
+      internalID: -5264909460800281581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_21
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1863
+        width: 89
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a415a6b88dfbc8bc0800000000000000
+      internalID: -3779435050497846966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_22
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1851
+        width: 84
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bf94bcfa62fd610800000000000000
+      internalID: 1648078525112646407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_23
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1862
+        width: 88
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dfbb4497a4dbe20800000000000000
+      internalID: 3367929981047667998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_24
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1874
+        width: 81
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23485224e671e8f0800000000000000
+      internalID: -512998160342695121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_25
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1852
+        width: 94
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92e6516e73501eb0800000000000000
+      internalID: -4751205804611804515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_26
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1983
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449d0be1df38e2250800000000000000
+      internalID: 5921815683203651908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_27
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1693
+        width: 83
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae21c49aa4f062090800000000000000
+      internalID: -8059737669790592278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1698
+        width: 90
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0d2e196ffa35680800000000000000
+      internalID: -8767470576015847243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1708
+        width: 85
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ad0780142d33490800000000000000
+      internalID: -7767633755527652748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_30
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1696
+        width: 86
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7604a8f6ec1d5a0800000000000000
+      internalID: -6498185808862746658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_31
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1693
+        width: 85
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6e6dd8838cfbc00800000000000000
+      internalID: 918672994230265584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1527
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda5984442bb3e470800000000000000
+      internalID: 8422781492556028635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_33
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1537
+        width: 90
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f802f5a62a7c430800000000000000
+      internalID: 3803186988083875743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_34
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1555
+        width: 94
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa56d623d33314190800000000000000
+      internalID: -7980040726791756374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_35
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1530
+        width: 88
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5318c114d540c38a0800000000000000
+      internalID: -6324174978164162251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_36
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1655
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9524b5cd34849c10800000000000000
+      internalID: 2059416330459948446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_37
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1517
+        width: 101
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400d2c154bf80a800800000000000000
+      internalID: 621654753205735428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_38
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1520
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e6dd6cdc23b5650800000000000000
+      internalID: 6222623169528557138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1361
+        width: 93
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9f038ca7a33a840800000000000000
+      internalID: 5234091490953722290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_40
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1360
+        width: 94
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1833d74bb6a840650800000000000000
+      internalID: 6198231182362882945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_41
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1369
+        width: 95
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febb38cf7e2004bd0800000000000000
+      internalID: -2648113385496658961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_42
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1386
+        width: 100
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb7fce5cad82e5d0800000000000000
+      internalID: -3034707427429745688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_43
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1367
+        width: 86
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fc51583307abce0800000000000000
+      internalID: -1388674168511934684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_44
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1204
+        width: 91
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9517b434982cec0800000000000000
+      internalID: -3548122634292995669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_45
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1200
+        width: 91
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b219f92c7d442b0800000000000000
+      internalID: -5601114805641335984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1200
+        width: 85
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e533e63af3fede0f0800000000000000
+      internalID: -1085948878522535074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_47
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1220
+        width: 92
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8854bb267ec4fbdb0800000000000000
+      internalID: -4774012523311839864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_48
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1202
+        width: 98
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5becf2b44b5db400800000000000000
+      internalID: 341529497368849243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_49
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1040
+        width: 95
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd17e244c8890900800000000000000
+      internalID: 651201997649157620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_50
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1038
+        width: 94
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb7b61a0e0088070800000000000000
+      internalID: 8108732093861428216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_51
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1041
+        width: 90
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe6293c921df87c0800000000000000
+      internalID: -4066801961187250439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_52
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1036
+        width: 97
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995f38e99cdb13640800000000000000
+      internalID: 5058032530159302041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_53
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1041
+        width: 94
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d8287d1aaf26b00800000000000000
+      internalID: 820493655147187539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_54
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 855
+        width: 92
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2504ed7f29c811df0800000000000000
+      internalID: -211233144658050990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 864
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec00eba9f0c35180800000000000000
+      internalID: -9127739841186886418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_56
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 871
+        width: 104
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d916d3863a3d630800000000000000
+      internalID: 3950680966235790615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_57
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 853
+        width: 104
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ed8c70c3025a260800000000000000
+      internalID: 7108123029074927175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_58
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 971
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa34040b3e7912d0800000000000000
+      internalID: -3307473659391362307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_59
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 850
+        width: 108
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1cf80808a268bc0800000000000000
+      internalID: -3781288105729867302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_60
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 856
+        width: 98
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1549530bdf62b43e0800000000000000
+      internalID: -2068516732821728175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_61
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 868
+        width: 93
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8a6e4b9f61a8a50800000000000000
+      internalID: 6524052271937267953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_62
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 850
+        width: 111
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af109ddd17168b700800000000000000
+      internalID: 556301695661441530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_63
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 858
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7bc2c8a6cbfc7f0800000000000000
+      internalID: -590045860357949477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_64
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 858
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa369868a16c4d1c0800000000000000
+      internalID: -4479737912098200662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_65
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 685
+        width: 102
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf07123a2df18e5e0800000000000000
+      internalID: -1880217854886711045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_66
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 688
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9bb1bf46d59fe30800000000000000
+      internalID: 4537760787843496415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_67
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 701
+        width: 107
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc69eccd0dfd24c0800000000000000
+      internalID: -4310511032609444612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_68
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 683
+        width: 103
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5abcf6ec4aa6d340800000000000000
+      internalID: 4888281692826810974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_69
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 684
+        width: 103
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fd504e606eabfd0800000000000000
+      internalID: -2325293340313657496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_70
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 816
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe82310fca95701b0800000000000000
+      internalID: -5690481004862297873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_71
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 689
+        width: 105
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4040c4f8c6291b70800000000000000
+      internalID: 8870163585624457292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_72
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 700
+        width: 109
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6e1208be999e980800000000000000
+      internalID: -8509100784193771819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_73
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 682
+        width: 107
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2755fcccbaa6a3550800000000000000
+      internalID: 6141338327981184370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_74
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 497
+        width: 111
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aade36b487086d1d0800000000000000
+      internalID: -3326330020617261654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_75
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 488
+        width: 109
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd0a22df66ff6630800000000000000
+      internalID: 3922624760590765511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_76
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 498
+        width: 98
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41e71f26c19ae990800000000000000
+      internalID: -7355906760976637619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_77
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 496
+        width: 144
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba677b589a8af3420800000000000000
+      internalID: 2611991754944509611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_78
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 498
+        width: 131
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a391d94d4b32791c0800000000000000
+      internalID: -4497086443338000070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_79
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 498
+        width: 115
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2f0a647072c06a0800000000000000
+      internalID: -6481762851489778981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_80
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 525
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210a0dad879d678b0800000000000000
+      internalID: -5154693610388545518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_81
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 499
+        width: 108
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70edda3c3761f9d30800000000000000
+      internalID: 4440292444070600199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_82
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 506
+        width: 98
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02eba7120548f3090800000000000000
+      internalID: -8052572129021215200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_83
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 482
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba799db937a80df0800000000000000
+      internalID: -213737115864171851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_84
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 333
+        width: 95
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d762ff3b09df9e0800000000000000
+      internalID: -1585952391010288341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_85
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 321
+        width: 90
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2236812b268d66c20800000000000000
+      internalID: 3199482503699653410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_86
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 327
+        width: 105
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2488dd4026fa27bf0800000000000000
+      internalID: -328006987321341886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_87
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 330
+        width: 89
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc1fa598780ea0a0800000000000000
+      internalID: -6868543067693048647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_88
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 329
+        width: 86
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2b1f3c714e34a30800000000000000
+      internalID: 4198450068362212069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_89
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 470
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc2c6273a388aff0800000000000000
+      internalID: -24625059927937828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_90
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 331
+        width: 89
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ccfb2a1ec8adcc0800000000000000
+      internalID: -3685478444323320812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_91
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 330
+        width: 93
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9b56ae740957d70800000000000000
+      internalID: 9040290465565751793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_92
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 166
+        width: 94
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c2cf94ad1c273c0800000000000000
+      internalID: -4363211945680294824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_93
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 169
+        width: 91
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1fc406bf2022840800000000000000
+      internalID: 5197720198614675905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_94
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 170
+        width: 99
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c28a5a85e07755d0800000000000000
+      internalID: -3073864089486064956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_95
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 168
+        width: 89
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe1c485b00eb7ff0800000000000000
+      internalID: -37189832571871497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_96
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 160
+        width: 91
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d0fcd6c26899e60800000000000000
+      internalID: 7969548540987772266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_97
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 302
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8e79d00a47b3610800000000000000
+      internalID: 1602002323231991968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_98
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 167
+        width: 122
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60afc6929f049b10800000000000000
+      internalID: 1987230457847062637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_99
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 166
+        width: 128
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd65414af259dfc0800000000000000
+      internalID: -3469650803121885767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_100
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 134
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b455b781b59c972f0800000000000000
+      internalID: -974526451259058869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_101
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3
+        width: 117
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e9746fb5b962930800000000000000
+      internalID: 4118149728553115185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_102
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 133
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c836f56210ebace0800000000000000
+      internalID: -1392773290116368189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_103
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 147
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881aa5564a35e3960800000000000000
+      internalID: 7583590788078674312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_104
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 190
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90d37cf6133fc7b0800000000000000
+      internalID: -5201882870771887970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_105
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 136
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dafffda496eab930800000000000000
+      internalID: 4159890732078856916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_106
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 0
+        width: 142
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eccbfd125d28ce50800000000000000
+      internalID: 6829758665620966631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_107
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 134
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669d6f22570b4a1b0800000000000000
+      internalID: -5646194015671494298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_108
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 0
+        width: 187
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9476311efcf7165d0800000000000000
+      internalID: -3071032940078864567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_109
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 292
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d89784cccef55520800000000000000
+      internalID: 2690336507847743703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_110
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 52
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27adc5b21ef7c4530800000000000000
+      internalID: 3840585187312065138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_111
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 57
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25e330504765b150800000000000000
+      internalID: 5887725613777937709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_112
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 46
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6945031fc2e62dad0800000000000000
+      internalID: -2678957689027930986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_mask-2_113
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 0
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a836449cef3a93f90800000000000000
+      internalID: -6973362233312779382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blue_mask-2_0: -3222929847189484983
+      blue_mask-2_1: 6862191127116652069
+      blue_mask-2_10: -1691450724179077013
+      blue_mask-2_100: -974526451259058869
+      blue_mask-2_101: 4118149728553115185
+      blue_mask-2_102: -1392773290116368189
+      blue_mask-2_103: 7583590788078674312
+      blue_mask-2_104: -5201882870771887970
+      blue_mask-2_105: 4159890732078856916
+      blue_mask-2_106: 6829758665620966631
+      blue_mask-2_107: -5646194015671494298
+      blue_mask-2_108: -3071032940078864567
+      blue_mask-2_109: 2690336507847743703
+      blue_mask-2_11: 1863812881014411966
+      blue_mask-2_110: 3840585187312065138
+      blue_mask-2_111: 5887725613777937709
+      blue_mask-2_112: -2678957689027930986
+      blue_mask-2_113: -6973362233312779382
+      blue_mask-2_12: -1800175291364294622
+      blue_mask-2_13: -4565807584011787343
+      blue_mask-2_14: 9080668062503670091
+      blue_mask-2_15: -5240618336894498798
+      blue_mask-2_16: 3589775349935132962
+      blue_mask-2_17: -7510502126092286168
+      blue_mask-2_18: -1515936733945213726
+      blue_mask-2_19: -5160919871639551116
+      blue_mask-2_2: -4170160115620914416
+      blue_mask-2_20: -5264909460800281581
+      blue_mask-2_21: -3779435050497846966
+      blue_mask-2_22: 1648078525112646407
+      blue_mask-2_23: 3367929981047667998
+      blue_mask-2_24: -512998160342695121
+      blue_mask-2_25: -4751205804611804515
+      blue_mask-2_26: 5921815683203651908
+      blue_mask-2_27: -8059737669790592278
+      blue_mask-2_28: -8767470576015847243
+      blue_mask-2_29: -7767633755527652748
+      blue_mask-2_3: 1650325717467131451
+      blue_mask-2_30: -6498185808862746658
+      blue_mask-2_31: 918672994230265584
+      blue_mask-2_32: 8422781492556028635
+      blue_mask-2_33: 3803186988083875743
+      blue_mask-2_34: -7980040726791756374
+      blue_mask-2_35: -6324174978164162251
+      blue_mask-2_36: 2059416330459948446
+      blue_mask-2_37: 621654753205735428
+      blue_mask-2_38: 6222623169528557138
+      blue_mask-2_39: 5234091490953722290
+      blue_mask-2_4: 8978397433033009802
+      blue_mask-2_40: 6198231182362882945
+      blue_mask-2_41: -2648113385496658961
+      blue_mask-2_42: -3034707427429745688
+      blue_mask-2_43: -1388674168511934684
+      blue_mask-2_44: -3548122634292995669
+      blue_mask-2_45: -5601114805641335984
+      blue_mask-2_46: -1085948878522535074
+      blue_mask-2_47: -4774012523311839864
+      blue_mask-2_48: 341529497368849243
+      blue_mask-2_49: 651201997649157620
+      blue_mask-2_5: -81042450871245055
+      blue_mask-2_50: 8108732093861428216
+      blue_mask-2_51: -4066801961187250439
+      blue_mask-2_52: 5058032530159302041
+      blue_mask-2_53: 820493655147187539
+      blue_mask-2_54: -211233144658050990
+      blue_mask-2_55: -9127739841186886418
+      blue_mask-2_56: 3950680966235790615
+      blue_mask-2_57: 7108123029074927175
+      blue_mask-2_58: -3307473659391362307
+      blue_mask-2_59: -3781288105729867302
+      blue_mask-2_6: 2165861503932556394
+      blue_mask-2_60: -2068516732821728175
+      blue_mask-2_61: 6524052271937267953
+      blue_mask-2_62: 556301695661441530
+      blue_mask-2_63: -590045860357949477
+      blue_mask-2_64: -4479737912098200662
+      blue_mask-2_65: -1880217854886711045
+      blue_mask-2_66: 4537760787843496415
+      blue_mask-2_67: -4310511032609444612
+      blue_mask-2_68: 4888281692826810974
+      blue_mask-2_69: -2325293340313657496
+      blue_mask-2_7: 6574209855206697791
+      blue_mask-2_70: -5690481004862297873
+      blue_mask-2_71: 8870163585624457292
+      blue_mask-2_72: -8509100784193771819
+      blue_mask-2_73: 6141338327981184370
+      blue_mask-2_74: -3326330020617261654
+      blue_mask-2_75: 3922624760590765511
+      blue_mask-2_76: -7355906760976637619
+      blue_mask-2_77: 2611991754944509611
+      blue_mask-2_78: -4497086443338000070
+      blue_mask-2_79: -6481762851489778981
+      blue_mask-2_8: 8352948781023718343
+      blue_mask-2_80: -5154693610388545518
+      blue_mask-2_81: 4440292444070600199
+      blue_mask-2_82: -8052572129021215200
+      blue_mask-2_83: -213737115864171851
+      blue_mask-2_84: -1585952391010288341
+      blue_mask-2_85: 3199482503699653410
+      blue_mask-2_86: -328006987321341886
+      blue_mask-2_87: -6868543067693048647
+      blue_mask-2_88: 4198450068362212069
+      blue_mask-2_89: -24625059927937828
+      blue_mask-2_9: -4171554469578099702
+      blue_mask-2_90: -3685478444323320812
+      blue_mask-2_91: 9040290465565751793
+      blue_mask-2_92: -4363211945680294824
+      blue_mask-2_93: 5197720198614675905
+      blue_mask-2_94: -3073864089486064956
+      blue_mask-2_95: -37189832571871497
+      blue_mask-2_96: 7969548540987772266
+      blue_mask-2_97: 1602002323231991968
+      blue_mask-2_98: 1987230457847062637
+      blue_mask-2_99: -3469650803121885767
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: b7cebdc41b411480e88147c3cd8948b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4002644538028444218
+    second: red_mask_0
+  - first:
+      213: -8056365499331171476
+    second: red_mask_1
+  - first:
+      213: -8687813600058418074
+    second: red_mask_2
+  - first:
+      213: -8055637163602474970
+    second: red_mask_3
+  - first:
+      213: -333668813053732628
+    second: red_mask_4
+  - first:
+      213: 1562595289628366891
+    second: red_mask_5
+  - first:
+      213: -4584147670296134357
+    second: red_mask_6
+  - first:
+      213: 5777490744727027364
+    second: red_mask_7
+  - first:
+      213: 4221731883673260029
+    second: red_mask_8
+  - first:
+      213: -7919618442462147781
+    second: red_mask_9
+  - first:
+      213: -8873522128255452819
+    second: red_mask_10
+  - first:
+      213: 964229080740766487
+    second: red_mask_11
+  - first:
+      213: -6066741120352189524
+    second: red_mask_12
+  - first:
+      213: -5430926026141266352
+    second: red_mask_13
+  - first:
+      213: -265178594482474888
+    second: red_mask_14
+  - first:
+      213: 145248064415749458
+    second: red_mask_15
+  - first:
+      213: 4910417501643277921
+    second: red_mask_16
+  - first:
+      213: -1642929037876307866
+    second: red_mask_17
+  - first:
+      213: 8162982495864415835
+    second: red_mask_18
+  - first:
+      213: 8013346348882562378
+    second: red_mask_19
+  - first:
+      213: 2791545490371433970
+    second: red_mask_20
+  - first:
+      213: 5619500663473353823
+    second: red_mask_21
+  - first:
+      213: 7663071861967170656
+    second: red_mask_22
+  - first:
+      213: -4568540545616989278
+    second: red_mask_23
+  - first:
+      213: -5432866532050370083
+    second: red_mask_24
+  - first:
+      213: -4453857606149832745
+    second: red_mask_25
+  - first:
+      213: -2274810438676612144
+    second: red_mask_26
+  - first:
+      213: 593795390024158943
+    second: red_mask_27
+  - first:
+      213: 1656873369676745827
+    second: red_mask_28
+  - first:
+      213: 8401785482951582125
+    second: red_mask_29
+  - first:
+      213: 1345476465635736233
+    second: red_mask_30
+  - first:
+      213: 6692839835934395814
+    second: red_mask_31
+  - first:
+      213: 650573198549851512
+    second: red_mask_32
+  - first:
+      213: -6041396745334404547
+    second: red_mask_33
+  - first:
+      213: 8697763354413089173
+    second: red_mask_34
+  - first:
+      213: 2530237746891840409
+    second: red_mask_35
+  - first:
+      213: 1978271142965449499
+    second: red_mask_36
+  - first:
+      213: -8142951836540187689
+    second: red_mask_37
+  - first:
+      213: 2567648156451801730
+    second: red_mask_38
+  - first:
+      213: 1047396582212165064
+    second: red_mask_39
+  - first:
+      213: 8008075590871400847
+    second: red_mask_40
+  - first:
+      213: 6851351401400826944
+    second: red_mask_41
+  - first:
+      213: -6380248461459191336
+    second: red_mask_42
+  - first:
+      213: -3105515734749487960
+    second: red_mask_43
+  - first:
+      213: 4897263877692239772
+    second: red_mask_44
+  - first:
+      213: 1953368401139150191
+    second: red_mask_45
+  - first:
+      213: -559596266385975374
+    second: red_mask_46
+  - first:
+      213: -7942945283227058001
+    second: red_mask_47
+  - first:
+      213: -3233547516636199626
+    second: red_mask_48
+  - first:
+      213: 393623012352496634
+    second: red_mask_49
+  - first:
+      213: 6829918547555289293
+    second: red_mask_50
+  - first:
+      213: -5467015210816335685
+    second: red_mask_51
+  - first:
+      213: -1787906622245365216
+    second: red_mask_52
+  - first:
+      213: -5616548581920617147
+    second: red_mask_53
+  - first:
+      213: 8198947786213882444
+    second: red_mask_54
+  - first:
+      213: -7835599272502251009
+    second: red_mask_55
+  - first:
+      213: 5565783517485375812
+    second: red_mask_56
+  - first:
+      213: -5802187360006028386
+    second: red_mask_57
+  - first:
+      213: -7267066419785856341
+    second: red_mask_58
+  - first:
+      213: -5192722025473498382
+    second: red_mask_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red_mask_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1118
+        width: 81
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ac75b10004c8730800000000000000
+      internalID: 4002644538028444218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1118
+        width: 87
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b27a7434a023090800000000000000
+      internalID: -8056365499331171476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1120
+        width: 82
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cd5bd8f8fae6780800000000000000
+      internalID: -8687813600058418074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1116
+        width: 80
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6280a082ea0a43090800000000000000
+      internalID: -8055637163602474970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_4
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1118
+        width: 90
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce85e4d7bf19e5bf0800000000000000
+      internalID: -333668813053732628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_5
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1118
+        width: 90
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b285ffd03247fa510800000000000000
+      internalID: 1562595289628366891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_6
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1118
+        width: 90
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d70125bf5d160c0800000000000000
+      internalID: -4584147670296134357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_7
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1118
+        width: 84
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aebf8cc835cd2050800000000000000
+      internalID: 5777490744727027364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_8
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 951
+        width: 84
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff094fc7ca969a30800000000000000
+      internalID: 4221731883673260029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1021
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b496c8cfcd71290800000000000000
+      internalID: -7919618442462147781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_10
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 951
+        width: 84
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69f3c663aaead480800000000000000
+      internalID: -8873522128255452819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_11
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 960
+        width: 82
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713a7af7d31a16d00800000000000000
+      internalID: 964229080740766487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_12
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 951
+        width: 84
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca30721181b9ecba0800000000000000
+      internalID: -6066741120352189524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_13
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 949
+        width: 82
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e0d62bd8971a4b0800000000000000
+      internalID: -5430926026141266352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_14
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 951
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870b5d92975e15cf0800000000000000
+      internalID: -265178594482474888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_15
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 958
+        width: 89
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25550d35856040200800000000000000
+      internalID: 145248064415749458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_16
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 951
+        width: 81
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1660f4483be452440800000000000000
+      internalID: 4910417501643277921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 785
+        width: 88
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6685532aeb42339e0800000000000000
+      internalID: -1642929037876307866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 784
+        width: 95
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56eab5a45db84170800000000000000
+      internalID: 8162982495864415835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_19
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 791
+        width: 97
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d815b3c00253f60800000000000000
+      internalID: 8013346348882562378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_20
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 785
+        width: 82
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5deef45df8db620800000000000000
+      internalID: 2791545490371433970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_21
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 784
+        width: 83
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54b66d741a7cfd40800000000000000
+      internalID: 5619500663473353823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_22
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 791
+        width: 95
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c28dcf143b85a60800000000000000
+      internalID: 7663071861967170656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_23
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 783
+        width: 103
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3b78434984990c0800000000000000
+      internalID: -4568540545616989278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_24
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 784
+        width: 98
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd187057ca49a94b0800000000000000
+      internalID: -5432866532050370083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 607
+        width: 88
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df7441da18b032c0800000000000000
+      internalID: -4453857606149832745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_26
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 607
+        width: 94
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db745f55ff3e60e0800000000000000
+      internalID: -2274810438676612144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_27
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 616
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde87abd2c59d3800800000000000000
+      internalID: 593795390024158943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_28
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 607
+        width: 83
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c036d1d856ef610800000000000000
+      internalID: 1656873369676745827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_29
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 608
+        width: 84
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1ec56d163299470800000000000000
+      internalID: 8401785482951582125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_30
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 615
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aabdd387b71ca210800000000000000
+      internalID: 1345476465635736233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_31
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 607
+        width: 111
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad047fde5eb1ec50800000000000000
+      internalID: 6692839835934395814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_32
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 606
+        width: 96
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d14ff80ec470900800000000000000
+      internalID: 650573198549851512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 426
+        width: 107
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a44273ba5a82ca0800000000000000
+      internalID: -6041396745334404547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_34
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 426
+        width: 108
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591c33820b9a4b870800000000000000
+      internalID: 8697763354413089173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_35
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 424
+        width: 103
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bd5c433d53d1320800000000000000
+      internalID: 2530237746891840409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_36
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 426
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b139cd98f1b347b10800000000000000
+      internalID: 1978271142965449499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_37
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 420
+        width: 143
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db48e7a27c6efe80800000000000000
+      internalID: -8142951836540187689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_38
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 420
+        width: 103
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a0f71f46e12a320800000000000000
+      internalID: 2567648156451801730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_39
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 415
+        width: 91
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdd6b564a9198e00800000000000000
+      internalID: 1047396582212165064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_40
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 415
+        width: 174
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81cd504256622f60800000000000000
+      internalID: 8008075590871400847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_41
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 223
+        width: 103
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cfedfacc3e41f50800000000000000
+      internalID: 6851351401400826944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_42
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 225
+        width: 94
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d90efb04ddc477a0800000000000000
+      internalID: -6380248461459191336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_43
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 228
+        width: 97
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acded994edf6e4d0800000000000000
+      internalID: -3105515734749487960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_44
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 150
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fa239cc8396f340800000000000000
+      internalID: 4897263877692239772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_45
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 224
+        width: 138
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d2f512632cb1b10800000000000000
+      internalID: 1953368401139150191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_46
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 225
+        width: 106
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7dd6c192aeb38f0800000000000000
+      internalID: -559596266385975374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_47
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 228
+        width: 112
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa003e2395df4c190800000000000000
+      internalID: -7942945283227058001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_48
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 224
+        width: 129
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6358d8a6aa12023d0800000000000000
+      internalID: -3233547516636199626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_49
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 30
+        width: 103
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af390b25b0e667500800000000000000
+      internalID: 393623012352496634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_50
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 30
+        width: 108
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc882e78bbeb8ce50800000000000000
+      internalID: 6829918547555289293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_51
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 31
+        width: 120
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb092a991a24124b0800000000000000
+      internalID: -5467015210816335685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_52
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 31
+        width: 149
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a1f7956641037e0800000000000000
+      internalID: -1787906622245365216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_53
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 31
+        width: 128
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dc5ee82d20e02b0800000000000000
+      internalID: -5616548581920617147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_54
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 135
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4af049529388c170800000000000000
+      internalID: 8198947786213882444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_55
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 30
+        width: 137
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1b138f9fb524390800000000000000
+      internalID: -7835599272502251009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_56
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 36
+        width: 99
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441a070de92ad3d40800000000000000
+      internalID: 5565783517485375812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_57
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 93
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93449e565d7a7fa0800000000000000
+      internalID: -5802187360006028386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_58
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 30
+        width: 192
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa8e710891362b90800000000000000
+      internalID: -7267066419785856341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_mask_59
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 53
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f22e4e74debfe7b0800000000000000
+      internalID: -5192722025473498382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      red_mask_0: 4002644538028444218
+      red_mask_1: -8056365499331171476
+      red_mask_10: -8873522128255452819
+      red_mask_11: 964229080740766487
+      red_mask_12: -6066741120352189524
+      red_mask_13: -5430926026141266352
+      red_mask_14: -265178594482474888
+      red_mask_15: 145248064415749458
+      red_mask_16: 4910417501643277921
+      red_mask_17: -1642929037876307866
+      red_mask_18: 8162982495864415835
+      red_mask_19: 8013346348882562378
+      red_mask_2: -8687813600058418074
+      red_mask_20: 2791545490371433970
+      red_mask_21: 5619500663473353823
+      red_mask_22: 7663071861967170656
+      red_mask_23: -4568540545616989278
+      red_mask_24: -5432866532050370083
+      red_mask_25: -4453857606149832745
+      red_mask_26: -2274810438676612144
+      red_mask_27: 593795390024158943
+      red_mask_28: 1656873369676745827
+      red_mask_29: 8401785482951582125
+      red_mask_3: -8055637163602474970
+      red_mask_30: 1345476465635736233
+      red_mask_31: 6692839835934395814
+      red_mask_32: 650573198549851512
+      red_mask_33: -6041396745334404547
+      red_mask_34: 8697763354413089173
+      red_mask_35: 2530237746891840409
+      red_mask_36: 1978271142965449499
+      red_mask_37: -8142951836540187689
+      red_mask_38: 2567648156451801730
+      red_mask_39: 1047396582212165064
+      red_mask_4: -333668813053732628
+      red_mask_40: 8008075590871400847
+      red_mask_41: 6851351401400826944
+      red_mask_42: -6380248461459191336
+      red_mask_43: -3105515734749487960
+      red_mask_44: 4897263877692239772
+      red_mask_45: 1953368401139150191
+      red_mask_46: -559596266385975374
+      red_mask_47: -7942945283227058001
+      red_mask_48: -3233547516636199626
+      red_mask_49: 393623012352496634
+      red_mask_5: 1562595289628366891
+      red_mask_50: 6829918547555289293
+      red_mask_51: -5467015210816335685
+      red_mask_52: -1787906622245365216
+      red_mask_53: -5616548581920617147
+      red_mask_54: 8198947786213882444
+      red_mask_55: -7835599272502251009
+      red_mask_56: 5565783517485375812
+      red_mask_57: -5802187360006028386
+      red_mask_58: -7267066419785856341
+      red_mask_59: -5192722025473498382
+      red_mask_6: -4584147670296134357
+      red_mask_7: 5777490744727027364
+      red_mask_8: 4221731883673260029
+      red_mask_9: -7919618442462147781
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1833 @@
+fileFormatVersion: 2
+guid: b8627ceeaa3284139a660203a265a4bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3786670436073943214
+    second: purple_mask_0
+  - first:
+      213: 7835594855179455033
+    second: purple_mask_1
+  - first:
+      213: 2876363887998689249
+    second: purple_mask_2
+  - first:
+      213: 7591874337490187930
+    second: purple_mask_3
+  - first:
+      213: 8088053041322135441
+    second: purple_mask_4
+  - first:
+      213: -7188752831322562821
+    second: purple_mask_5
+  - first:
+      213: 2312780656320769449
+    second: purple_mask_6
+  - first:
+      213: -9167314719258609455
+    second: purple_mask_7
+  - first:
+      213: -6780286289760747012
+    second: purple_mask_8
+  - first:
+      213: 5372122355431902614
+    second: purple_mask_9
+  - first:
+      213: -1880589475349403934
+    second: purple_mask_10
+  - first:
+      213: -34074391376267228
+    second: purple_mask_11
+  - first:
+      213: -3727638469690806626
+    second: purple_mask_12
+  - first:
+      213: 2657848462789987187
+    second: purple_mask_13
+  - first:
+      213: 6694441504464948777
+    second: purple_mask_14
+  - first:
+      213: -3267056922846011832
+    second: purple_mask_15
+  - first:
+      213: -3351257901068561281
+    second: purple_mask_16
+  - first:
+      213: 4946894361307336073
+    second: purple_mask_17
+  - first:
+      213: 3612326294978677897
+    second: purple_mask_18
+  - first:
+      213: -737923171908152098
+    second: purple_mask_19
+  - first:
+      213: 6446037785456210019
+    second: purple_mask_20
+  - first:
+      213: 1550073678346414164
+    second: purple_mask_21
+  - first:
+      213: 991259574497852374
+    second: purple_mask_22
+  - first:
+      213: -152848134053441162
+    second: purple_mask_23
+  - first:
+      213: -1484781635465478131
+    second: purple_mask_24
+  - first:
+      213: 6240566114490381986
+    second: purple_mask_25
+  - first:
+      213: 490541014352968593
+    second: purple_mask_26
+  - first:
+      213: 5099135469283490400
+    second: purple_mask_27
+  - first:
+      213: 6584593683479579426
+    second: purple_mask_28
+  - first:
+      213: 6869928614589829757
+    second: purple_mask_29
+  - first:
+      213: -4886643192370941492
+    second: purple_mask_30
+  - first:
+      213: -5219382552369558465
+    second: purple_mask_31
+  - first:
+      213: -2244770041071399803
+    second: purple_mask_32
+  - first:
+      213: 4633755167047165083
+    second: purple_mask_33
+  - first:
+      213: -8449776005974764076
+    second: purple_mask_34
+  - first:
+      213: 5855820007747180344
+    second: purple_mask_35
+  - first:
+      213: 7492690420613155463
+    second: purple_mask_36
+  - first:
+      213: 5414019470460656169
+    second: purple_mask_37
+  - first:
+      213: 2678393980180228181
+    second: purple_mask_38
+  - first:
+      213: 6110714619861104256
+    second: purple_mask_39
+  - first:
+      213: -6402268519605997771
+    second: purple_mask_40
+  - first:
+      213: 5873774887746115938
+    second: purple_mask_41
+  - first:
+      213: -7153368477787027783
+    second: purple_mask_42
+  - first:
+      213: 4338858487097834700
+    second: purple_mask_43
+  - first:
+      213: 4205148023004716346
+    second: purple_mask_44
+  - first:
+      213: 496603251783957359
+    second: purple_mask_45
+  - first:
+      213: 1564930988660776575
+    second: purple_mask_46
+  - first:
+      213: 2552546156973123690
+    second: purple_mask_47
+  - first:
+      213: -4269303282704363906
+    second: purple_mask_48
+  - first:
+      213: -6088046307960525577
+    second: purple_mask_49
+  - first:
+      213: -7908205246203704712
+    second: purple_mask_50
+  - first:
+      213: 238529115741889451
+    second: purple_mask_51
+  - first:
+      213: 2967007389233452758
+    second: purple_mask_52
+  - first:
+      213: 7954130584164402224
+    second: purple_mask_53
+  - first:
+      213: 147559623618172012
+    second: purple_mask_54
+  - first:
+      213: -8312417588482325007
+    second: purple_mask_55
+  - first:
+      213: 1969476292918002441
+    second: purple_mask_56
+  - first:
+      213: -2388877351135758384
+    second: purple_mask_57
+  - first:
+      213: -5229926814592597923
+    second: purple_mask_58
+  - first:
+      213: 12991252892654976
+    second: purple_mask_59
+  - first:
+      213: 8291848912834382013
+    second: purple_mask_60
+  - first:
+      213: -8689561275452724090
+    second: purple_mask_61
+  - first:
+      213: 17825415116881667
+    second: purple_mask_62
+  - first:
+      213: -901011025742590496
+    second: purple_mask_63
+  - first:
+      213: 7380035931365044498
+    second: purple_mask_64
+  - first:
+      213: 5136581673890571042
+    second: purple_mask_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: purple_mask_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1801
+        width: 140
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fc6501d4b037bc0800000000000000
+      internalID: -3786670436073943214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1801
+        width: 141
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a89da8100adbc60800000000000000
+      internalID: 7835594855179455033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_2
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1801
+        width: 138
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef5cec67b5eae720800000000000000
+      internalID: 2876363887998689249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_3
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1800
+        width: 139
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96b1898c71cb5960800000000000000
+      internalID: 7591874337490187930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_4
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1800
+        width: 139
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f068483698e3070800000000000000
+      internalID: 8088053041322135441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_5
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1800
+        width: 139
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe5fe6336b6c3c90800000000000000
+      internalID: -7188752831322562821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_6
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1801
+        width: 146
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ade467d0c5a81020800000000000000
+      internalID: 2312780656320769449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_7
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1799
+        width: 141
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8716655d727c080800000000000000
+      internalID: -9167314719258609455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_8
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1800
+        width: 140
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf10c5ffa8597e1a0800000000000000
+      internalID: -6780286289760747012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1553
+        width: 141
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d047dc1dc9d8a40800000000000000
+      internalID: 5372122355431902614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1555
+        width: 140
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6e57106ddc6e5e0800000000000000
+      internalID: -1880589475349403934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_11
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1553
+        width: 139
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42874168581f68ff0800000000000000
+      internalID: -34074391376267228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_12
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1553
+        width: 146
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9eaffacf84c44cc0800000000000000
+      internalID: -3727638469690806626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1554
+        width: 141
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b4a63581392e420800000000000000
+      internalID: 2657848462789987187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_14
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1555
+        width: 148
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ec343641f67ec50800000000000000
+      internalID: 6694441504464948777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_15
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1553
+        width: 140
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e58ccc90519a2d0800000000000000
+      internalID: -3267056922846011832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_16
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1552
+        width: 140
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f745618d1b0fd71d0800000000000000
+      internalID: -3351257901068561281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_17
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1555
+        width: 149
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d4b1b3636e6a440800000000000000
+      internalID: 4946894361307336073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1304
+        width: 140
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cc10950af812230800000000000000
+      internalID: 3612326294978677897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_19
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1304
+        width: 140
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed492eae8ce52c5f0800000000000000
+      internalID: -737923171908152098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_20
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1300
+        width: 139
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360fcda963de47950800000000000000
+      internalID: 6446037785456210019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_21
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1304
+        width: 143
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458658d3cc7f28510800000000000000
+      internalID: 1550073678346414164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_22
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1305
+        width: 145
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db3622c459a1cd00800000000000000
+      internalID: 991259574497852374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_23
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1371
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671d9219e69f0edf0800000000000000
+      internalID: -152848134053441162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_24
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1300
+        width: 143
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d008e0128fef46be0800000000000000
+      internalID: -1484781635465478131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_25
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1306
+        width: 147
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6f98331d1fa9650800000000000000
+      internalID: 6240566114490381986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_26
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1306
+        width: 142
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bb44c1470cec600800000000000000
+      internalID: 490541014352968593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_27
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1304
+        width: 142
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06abc3461b4c3c640800000000000000
+      internalID: 5099135469283490400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_28
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1304
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bc416811d216b50800000000000000
+      internalID: 6584593683479579426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_29
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1304
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d721be03da3e65f50800000000000000
+      internalID: 6869928614589829757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_30
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1062
+        width: 142
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc136a638e72f2cb0800000000000000
+      internalID: -4886643192370941492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1063
+        width: 141
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c042bd8370197b0800000000000000
+      internalID: -5219382552369558465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_32
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1062
+        width: 137
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c008b7a89f8d0e0800000000000000
+      internalID: -2244770041071399803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_33
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1063
+        width: 141
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b942af316c76e4040800000000000000
+      internalID: 4633755167047165083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_34
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1062
+        width: 142
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5514ccd7d5cba80800000000000000
+      internalID: -8449776005974764076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_35
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1059
+        width: 139
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8375566854d044150800000000000000
+      internalID: 5855820007747180344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_36
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1062
+        width: 147
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a8e945d326bf760800000000000000
+      internalID: 7492690420613155463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_37
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1063
+        width: 141
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a1bdf0606722b40800000000000000
+      internalID: 5414019470460656169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_38
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1060
+        width: 132
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558ef2d52219b2520800000000000000
+      internalID: 2678393980180228181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_39
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 802
+        width: 161
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0867b90229e9dc450800000000000000
+      internalID: 6110714619861104256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_40
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 803
+        width: 144
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fe73cb3b29627a0800000000000000
+      internalID: -6402268519605997771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_41
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 804
+        width: 161
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26997bac327d38150800000000000000
+      internalID: 5873774887746115938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_42
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 807
+        width: 177
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6070605412abc90800000000000000
+      internalID: -7153368477787027783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_43
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 804
+        width: 225
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccb7264ec8b63c30800000000000000
+      internalID: 4338858487097834700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_44
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 803
+        width: 170
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dd12bd8dfab5a30800000000000000
+      internalID: 4205148023004716346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_45
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 550
+        width: 164
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bf2e0c60a44e600800000000000000
+      internalID: 496603251783957359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_46
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 561
+        width: 159
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e502d5170c7b510800000000000000
+      internalID: 1564930988660776575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_47
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 551
+        width: 149
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68eb2fa4377c6320800000000000000
+      internalID: 2552546156973123690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_48
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 549
+        width: 148
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e4ffbb84360c4c0800000000000000
+      internalID: -4269303282704363906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_49
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 550
+        width: 160
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc62e5832ae28ba0800000000000000
+      internalID: -6088046307960525577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 285
+        width: 161
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ac5216a39604290800000000000000
+      internalID: -7908205246203704712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_51
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 285
+        width: 170
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3226c87fc6f4300800000000000000
+      internalID: 238529115741889451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_52
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 284
+        width: 149
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d61839208dec2920800000000000000
+      internalID: 2967007389233452758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_53
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 284
+        width: 160
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034803e9f9fb26e60800000000000000
+      internalID: 7954130584164402224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_54
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 284
+        width: 177
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6493f422bc3c0200800000000000000
+      internalID: 147559623618172012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_55
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 284
+        width: 148
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f54dcd8e3c54ac80800000000000000
+      internalID: -8312417588482325007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_56
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 8
+        width: 217
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9034ee0f04cf45b10800000000000000
+      internalID: 1969476292918002441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_57
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 6
+        width: 202
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7b399b4b009ded0800000000000000
+      internalID: -2388877351135758384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_58
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 8
+        width: 189
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d500bee75419b67b0800000000000000
+      internalID: -5229926814592597923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_59
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 7
+        width: 256
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d9ad5c9772e2000800000000000000
+      internalID: 12991252892654976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_60
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 8
+        width: 208
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8c3b477a0921370800000000000000
+      internalID: 8291848912834382013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_61
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 201
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c66aa2f0a786780800000000000000
+      internalID: -8689561275452724090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_62
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 8
+        width: 220
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ff300ee145f3000800000000000000
+      internalID: 17825415116881667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_63
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 8
+        width: 212
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed07efee37fe73f0800000000000000
+      internalID: -901011025742590496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_64
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 57
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211f1a614972b6660800000000000000
+      internalID: 7380035931365044498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_mask_65
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 6
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223670051ddc84740800000000000000
+      internalID: 5136581673890571042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      purple_mask_0: -3786670436073943214
+      purple_mask_1: 7835594855179455033
+      purple_mask_10: -1880589475349403934
+      purple_mask_11: -34074391376267228
+      purple_mask_12: -3727638469690806626
+      purple_mask_13: 2657848462789987187
+      purple_mask_14: 6694441504464948777
+      purple_mask_15: -3267056922846011832
+      purple_mask_16: -3351257901068561281
+      purple_mask_17: 4946894361307336073
+      purple_mask_18: 3612326294978677897
+      purple_mask_19: -737923171908152098
+      purple_mask_2: 2876363887998689249
+      purple_mask_20: 6446037785456210019
+      purple_mask_21: 1550073678346414164
+      purple_mask_22: 991259574497852374
+      purple_mask_23: -152848134053441162
+      purple_mask_24: -1484781635465478131
+      purple_mask_25: 6240566114490381986
+      purple_mask_26: 490541014352968593
+      purple_mask_27: 5099135469283490400
+      purple_mask_28: 6584593683479579426
+      purple_mask_29: 6869928614589829757
+      purple_mask_3: 7591874337490187930
+      purple_mask_30: -4886643192370941492
+      purple_mask_31: -5219382552369558465
+      purple_mask_32: -2244770041071399803
+      purple_mask_33: 4633755167047165083
+      purple_mask_34: -8449776005974764076
+      purple_mask_35: 5855820007747180344
+      purple_mask_36: 7492690420613155463
+      purple_mask_37: 5414019470460656169
+      purple_mask_38: 2678393980180228181
+      purple_mask_39: 6110714619861104256
+      purple_mask_4: 8088053041322135441
+      purple_mask_40: -6402268519605997771
+      purple_mask_41: 5873774887746115938
+      purple_mask_42: -7153368477787027783
+      purple_mask_43: 4338858487097834700
+      purple_mask_44: 4205148023004716346
+      purple_mask_45: 496603251783957359
+      purple_mask_46: 1564930988660776575
+      purple_mask_47: 2552546156973123690
+      purple_mask_48: -4269303282704363906
+      purple_mask_49: -6088046307960525577
+      purple_mask_5: -7188752831322562821
+      purple_mask_50: -7908205246203704712
+      purple_mask_51: 238529115741889451
+      purple_mask_52: 2967007389233452758
+      purple_mask_53: 7954130584164402224
+      purple_mask_54: 147559623618172012
+      purple_mask_55: -8312417588482325007
+      purple_mask_56: 1969476292918002441
+      purple_mask_57: -2388877351135758384
+      purple_mask_58: -5229926814592597923
+      purple_mask_59: 12991252892654976
+      purple_mask_6: 2312780656320769449
+      purple_mask_60: 8291848912834382013
+      purple_mask_61: -8689561275452724090
+      purple_mask_62: 17825415116881667
+      purple_mask_63: -901011025742590496
+      purple_mask_64: 7380035931365044498
+      purple_mask_65: 5136581673890571042
+      purple_mask_7: -9167314719258609455
+      purple_mask_8: -6780286289760747012
+      purple_mask_9: 5372122355431902614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
