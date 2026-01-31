@@ -4,29 +4,33 @@ using UnityEngine.InputSystem;
 /// <summary>
 /// Handles player input using Unity's new Input System.
 /// Falls back to legacy Input.GetKey() if Input Actions are not assigned.
+/// Supports 8-directional top-down movement.
 /// </summary>
 public class PlayerInputHandler : MonoBehaviour
 {
     // Input values
-    private float _horizontalInput;
-    private bool _jumpPressed;
+    private Vector2 _moveInput;
     private bool _interactPressed;
+    private bool _attackPressed;
     
     // Track if using legacy input
     private bool _useLegacyInput = false;
     
     // Public accessors
-    public float HorizontalInput => _horizontalInput;
+    /// <summary>
+    /// Returns normalized 8-directional movement input.
+    /// </summary>
+    public Vector2 MoveInput => _moveInput.normalized;
     
-    public bool JumpPressed
-    {
-        get
-        {
-            bool value = _jumpPressed;
-            _jumpPressed = false; // Consume on read
-            return value;
-        }
-    }
+    /// <summary>
+    /// Raw horizontal input (for backwards compatibility).
+    /// </summary>
+    public float HorizontalInput => _moveInput.x;
+    
+    /// <summary>
+    /// Raw vertical input.
+    /// </summary>
+    public float VerticalInput => _moveInput.y;
     
     public bool InteractPressed
     {
@@ -38,24 +42,33 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
     
+    public bool AttackPressed
+    {
+        get
+        {
+            bool value = _attackPressed;
+            _attackPressed = false; // Consume on read
+            return value;
+        }
+    }
+    
     // Input Action references (assign in Inspector or via code)
     [Header("Input Actions (Optional - falls back to legacy input)")]
     [SerializeField] private InputActionReference moveAction;
-    [SerializeField] private InputActionReference jumpAction;
     [SerializeField] private InputActionReference interactAction;
     
     [Header("Legacy Input Keys")]
-    [SerializeField] private KeyCode jumpKey = KeyCode.Space;
     [SerializeField] private KeyCode interactKey = KeyCode.E;
+    [SerializeField] private KeyCode attackKey = KeyCode.Space;
     
     private void OnEnable()
     {
         // Check if we should use legacy input
-        _useLegacyInput = (moveAction == null && jumpAction == null && interactAction == null);
+        _useLegacyInput = (moveAction == null && interactAction == null);
         
         if (_useLegacyInput)
         {
-            Debug.Log("[PlayerInputHandler] Using legacy Input (WASD/Space/E)");
+            Debug.Log("[PlayerInputHandler] Using legacy Input (WASD/E)");
             return;
         }
         
@@ -65,12 +78,6 @@ public class PlayerInputHandler : MonoBehaviour
             moveAction.action.Enable();
             moveAction.action.performed += OnMove;
             moveAction.action.canceled += OnMove;
-        }
-        
-        if (jumpAction != null)
-        {
-            jumpAction.action.Enable();
-            jumpAction.action.performed += OnJump;
         }
         
         if (interactAction != null)
@@ -91,11 +98,6 @@ public class PlayerInputHandler : MonoBehaviour
             moveAction.action.canceled -= OnMove;
         }
         
-        if (jumpAction != null)
-        {
-            jumpAction.action.performed -= OnJump;
-        }
-        
         if (interactAction != null)
         {
             interactAction.action.performed -= OnInteract;
@@ -107,19 +109,23 @@ public class PlayerInputHandler : MonoBehaviour
         // Legacy input fallback
         if (_useLegacyInput || moveAction == null)
         {
-            // Horizontal input (A/D or Left/Right arrows)
-            _horizontalInput = 0f;
+            // 8-directional input (WASD or Arrow keys)
+            float horizontal = 0f;
+            float vertical = 0f;
+            
+            // Horizontal
             if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-                _horizontalInput = -1f;
+                horizontal = -1f;
             else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-                _horizontalInput = 1f;
-        }
-        
-        if (_useLegacyInput || jumpAction == null)
-        {
-            // Jump
-            if (Input.GetKeyDown(jumpKey))
-                _jumpPressed = true;
+                horizontal = 1f;
+            
+            // Vertical
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+                vertical = 1f;
+            else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+                vertical = -1f;
+            
+            _moveInput = new Vector2(horizontal, vertical);
         }
         
         if (_useLegacyInput || interactAction == null)
@@ -127,18 +133,16 @@ public class PlayerInputHandler : MonoBehaviour
             // Interact
             if (Input.GetKeyDown(interactKey))
                 _interactPressed = true;
+            
+            // Attack (Space or Mouse)
+            if (Input.GetKeyDown(attackKey) || Input.GetMouseButtonDown(0))
+                _attackPressed = true;
         }
     }
     
     private void OnMove(InputAction.CallbackContext context)
     {
-        Vector2 input = context.ReadValue<Vector2>();
-        _horizontalInput = input.x;
-    }
-    
-    private void OnJump(InputAction.CallbackContext context)
-    {
-        _jumpPressed = true;
+        _moveInput = context.ReadValue<Vector2>();
     }
     
     private void OnInteract(InputAction.CallbackContext context)
@@ -151,8 +155,8 @@ public class PlayerInputHandler : MonoBehaviour
     /// </summary>
     public void ClearInput()
     {
-        _horizontalInput = 0f;
-        _jumpPressed = false;
+        _moveInput = Vector2.zero;
         _interactPressed = false;
+        _attackPressed = false;
     }
 }

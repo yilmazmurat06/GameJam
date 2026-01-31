@@ -1,33 +1,39 @@
 using UnityEngine;
 
 /// <summary>
-/// Idle state - player is stationary on ground.
-/// Transitions to Move when input detected, Jump when jump pressed.
+/// Idle state - player is stationary (top-down).
+/// Transitions to Move when input detected.
 /// </summary>
 public class PlayerIdleState : IPlayerState
 {
+    // Animator parameter hashes for performance
+    private static readonly int IsMovingHash = Animator.StringToHash("IsMoving");
+    
     public void Enter(PlayerController player)
     {
-        // Stop horizontal movement
-        player.SetHorizontalVelocity(0f);
+        // Stop all movement
+        player.SetVelocity(Vector2.zero);
         
-        // Could trigger idle animation here
-        // player.Animator?.SetBool("IsMoving", false);
+        // Set idle animation
+        if (player.Animator != null)
+        {
+            player.Animator.SetBool(IsMovingHash, false);
+        }
     }
     
     public void Execute(PlayerController player)
     {
-        // Check for movement input
-        if (Mathf.Abs(player.InputHandler.HorizontalInput) > 0.1f)
+        // Check for attack input
+        if (player.InputHandler.AttackPressed)
         {
-            player.ChangeState(new PlayerMoveState());
+            player.ChangeState(new PlayerAttackState());
             return;
         }
         
-        // Check for jump
-        if (player.InputHandler.JumpPressed && player.IsGrounded)
+        // Check for movement input (8-directional)
+        if (player.InputHandler.MoveInput.magnitude > 0.1f)
         {
-            player.ChangeState(new PlayerJumpState());
+            player.ChangeState(new PlayerMoveState());
             return;
         }
     }

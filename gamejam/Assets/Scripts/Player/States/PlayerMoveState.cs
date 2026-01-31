@@ -1,39 +1,60 @@
 using UnityEngine;
 
 /// <summary>
-/// Move state - player is moving horizontally.
-/// Transitions to Idle when no input, Jump when jump pressed.
+/// Move state - player is moving in 8 directions (top-down).
+/// Transitions to Idle when no input.
+/// Updates animator parameters for directional animations.
 /// </summary>
 public class PlayerMoveState : IPlayerState
 {
+    // Animator parameter hashes for performance
+    private static readonly int MoveXHash = Animator.StringToHash("MoveX");
+    private static readonly int MoveYHash = Animator.StringToHash("MoveY");
+    private static readonly int IsMovingHash = Animator.StringToHash("IsMoving");
+    
     public void Enter(PlayerController player)
     {
-        // Could trigger walk animation
-        // player.Animator?.SetBool("IsMoving", true);
+        // Set moving flag for animator
+        if (player.Animator != null)
+        {
+            player.Animator.SetBool(IsMovingHash, true);
+        }
     }
     
     public void Execute(PlayerController player)
     {
-        float horizontalInput = player.InputHandler.HorizontalInput;
-        
-        // Apply horizontal movement
-        player.SetHorizontalVelocity(horizontalInput * player.MoveSpeed);
-        
-        // Flip sprite based on direction
-        if (horizontalInput != 0)
+        // Check for attack input
+        if (player.InputHandler.AttackPressed)
         {
-            player.SetFacingDirection(horizontalInput > 0);
-        }
-        
-        // Check for jump
-        if (player.InputHandler.JumpPressed && player.IsGrounded)
-        {
-            player.ChangeState(new PlayerJumpState());
+            player.ChangeState(new PlayerAttackState());
             return;
         }
         
+        Vector2 moveInput = player.InputHandler.MoveInput;
+        
+        // Apply 8-directional movement
+        player.SetVelocity(moveInput * player.MoveSpeed);
+        
+        // Update animator blend tree parameters
+        if (player.Animator != null)
+        {
+            player.Animator.SetFloat(MoveXHash, moveInput.x);
+            player.Animator.SetFloat(MoveYHash, moveInput.y);
+        }
+        
+        // Update animator blend tree parameters ONLY if moving
+        // This ensures appropriate MoveX/MoveY values persist for the Idle state
+        if (player.Animator != null && moveInput.magnitude > 0.01f)
+        {
+            // Normalize the vector we send to the animator for clean directional states
+            // This prevents "middle" states in the blend tree
+            Vector2 animDir = moveInput.normalized;
+            player.Animator.SetFloat(MoveXHash, animDir.x);
+            player.Animator.SetFloat(MoveYHash, animDir.y);
+        }
+        
         // Return to idle if no input
-        if (Mathf.Abs(horizontalInput) < 0.1f)
+        if (moveInput.magnitude < 0.1f)
         {
             player.ChangeState(new PlayerIdleState());
             return;
@@ -42,6 +63,10 @@ public class PlayerMoveState : IPlayerState
     
     public void Exit(PlayerController player)
     {
-        // Cleanup if needed
+        // Clear moving flag
+        if (player.Animator != null)
+        {
+            player.Animator.SetBool(IsMovingHash, false);
+        }
     }
 }

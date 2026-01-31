@@ -9,8 +9,7 @@ public class PlayerFrozenState : IPlayerState
     public void Enter(PlayerController player)
     {
         // Stop all movement
-        player.SetHorizontalVelocity(0f);
-        player.Rigidbody.linearVelocity = Vector2.zero;
+        player.SetVelocity(Vector2.zero);
         
         // Could trigger frozen/idle animation
         // player.Animator?.SetBool("IsFrozen", true);
