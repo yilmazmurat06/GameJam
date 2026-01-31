@@ -39,16 +39,27 @@ public class EnemyChaseState : IEnemyState
             return; // Don't move yet
         }
         
-        // In attack range - attack
+        // In attack range?
         if (enemy.IsTargetInAttackRange())
         {
-            enemy.ChangeState(new EnemyAttackState());
+            // Try to get token. If yes, Attack. If no, Strafe.
+            if (enemy.CanAttack && EnemyManager.Instance.RequestAttackToken(enemy))
+            {
+                enemy.ChangeState(new EnemyAttackState());
+            }
+            else
+            {
+                enemy.ChangeState(new EnemyStrafeState());
+            }
             return;
         }
         
-        // Smooth Move toward target with basic obstacle avoidance check
+        // Smooth Move toward target with Separation
         Vector2 targetPos = enemy.Target.position;
-        enemy.SmoothMoveToward(targetPos);
+        Vector2 separation = EnemyManager.Instance.GetSeparationVector(enemy, 1.2f); // Avoid others
+        
+        // Blend movement and separation
+        enemy.SmoothMoveToward(targetPos + separation); // Boid-like steering
     }
     
     public void Exit(EnemyBase enemy)

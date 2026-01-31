@@ -18,8 +18,8 @@ public class DungeonLighting : MonoBehaviour
         if (light == null) light = globalLightGO.AddComponent<Light2D>();
         
         light.lightType = Light2D.LightType.Global;
-        light.color = new Color(0.1f, 0.1f, 0.2f, 1f); // Dark Blue/Purple
-        light.intensity = 0.3f; // Dark mood
+        light.color = new Color(0.8f, 0.8f, 0.9f, 1f); // Neutral Daylight/Bright Dungeon
+        light.intensity = 0.8f; // Brighter "Normal" look
         
         Debug.Log("Dungeon Lighting Setup Complete!");
     }

@@ -66,5 +66,9 @@ public class EnemyAttackState : IEnemyState
     public void Exit(EnemyBase enemy)
     {
         _hasAttacked = false;
+        
+        // Release token so others can attack
+        if (EnemyManager.Instance != null)
+            EnemyManager.Instance.ReleaseAttackToken(enemy);
     }
 }

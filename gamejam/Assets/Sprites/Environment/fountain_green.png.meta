@@ -1,0 +1,3562 @@
+fileFormatVersion: 2
+guid: 5c3a41e12729a4396a1814b859612f01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4702689132908499602
+    second: fountain_green_0
+  - first:
+      213: 6555892239970539257
+    second: fountain_green_1
+  - first:
+      213: -991718572072103201
+    second: fountain_green_2
+  - first:
+      213: -5110490539248522354
+    second: fountain_green_3
+  - first:
+      213: 5479320204947657980
+    second: fountain_green_4
+  - first:
+      213: -3301505473598387859
+    second: fountain_green_5
+  - first:
+      213: 2958447610494630916
+    second: fountain_green_6
+  - first:
+      213: -5467964792963213503
+    second: fountain_green_7
+  - first:
+      213: -48687000256148841
+    second: fountain_green_8
+  - first:
+      213: -7933224452996863166
+    second: fountain_green_9
+  - first:
+      213: -5045145988633914329
+    second: fountain_green_10
+  - first:
+      213: -3505452435944914566
+    second: fountain_green_11
+  - first:
+      213: 1221874802163455040
+    second: fountain_green_12
+  - first:
+      213: -2984533802271594473
+    second: fountain_green_13
+  - first:
+      213: 3607137061630253002
+    second: fountain_green_14
+  - first:
+      213: 5556805290913854606
+    second: fountain_green_15
+  - first:
+      213: -3280057362056774393
+    second: fountain_green_16
+  - first:
+      213: -6033596683846801278
+    second: fountain_green_17
+  - first:
+      213: 4987212828457486249
+    second: fountain_green_18
+  - first:
+      213: -4931267344992805518
+    second: fountain_green_19
+  - first:
+      213: -8595392396183167630
+    second: fountain_green_20
+  - first:
+      213: -7776895927865039337
+    second: fountain_green_21
+  - first:
+      213: 4583662161505894655
+    second: fountain_green_22
+  - first:
+      213: 1724419320936491292
+    second: fountain_green_23
+  - first:
+      213: -7896681197177947755
+    second: fountain_green_24
+  - first:
+      213: -5937835212591316572
+    second: fountain_green_25
+  - first:
+      213: 8535922909281560033
+    second: fountain_green_26
+  - first:
+      213: 5033524312373518316
+    second: fountain_green_27
+  - first:
+      213: 2071385384852855003
+    second: fountain_green_28
+  - first:
+      213: 2726407536620783559
+    second: fountain_green_29
+  - first:
+      213: -3897425681459399906
+    second: fountain_green_30
+  - first:
+      213: 6660245459802662203
+    second: fountain_green_31
+  - first:
+      213: 9150791994867369215
+    second: fountain_green_32
+  - first:
+      213: -6112415967032900363
+    second: fountain_green_33
+  - first:
+      213: -8722141878986882233
+    second: fountain_green_34
+  - first:
+      213: 3470440701169719857
+    second: fountain_green_35
+  - first:
+      213: 8509503634263247792
+    second: fountain_green_36
+  - first:
+      213: 1948837299630299064
+    second: fountain_green_37
+  - first:
+      213: 8386583738361560852
+    second: fountain_green_38
+  - first:
+      213: -6151571374328191472
+    second: fountain_green_39
+  - first:
+      213: 4503126016931383916
+    second: fountain_green_40
+  - first:
+      213: -8363028288130636677
+    second: fountain_green_41
+  - first:
+      213: 5909473043573241070
+    second: fountain_green_42
+  - first:
+      213: 9208884928047017671
+    second: fountain_green_43
+  - first:
+      213: 4814956305722238477
+    second: fountain_green_44
+  - first:
+      213: 3584186861684923293
+    second: fountain_green_45
+  - first:
+      213: -93724794287207073
+    second: fountain_green_46
+  - first:
+      213: -175633808624405890
+    second: fountain_green_47
+  - first:
+      213: 9081868422515639672
+    second: fountain_green_48
+  - first:
+      213: -8244680928559580291
+    second: fountain_green_49
+  - first:
+      213: -4329919261991472404
+    second: fountain_green_50
+  - first:
+      213: 3055277181606264696
+    second: fountain_green_51
+  - first:
+      213: -5702419765169214299
+    second: fountain_green_52
+  - first:
+      213: 2529786389620234138
+    second: fountain_green_53
+  - first:
+      213: 4530769546949928906
+    second: fountain_green_54
+  - first:
+      213: -4019648594843070076
+    second: fountain_green_55
+  - first:
+      213: -8555712902608230529
+    second: fountain_green_56
+  - first:
+      213: 5697894269280700639
+    second: fountain_green_57
+  - first:
+      213: 5184125342230824431
+    second: fountain_green_58
+  - first:
+      213: 718651169123189802
+    second: fountain_green_59
+  - first:
+      213: -2535271443356110651
+    second: fountain_green_60
+  - first:
+      213: -3585838643353158232
+    second: fountain_green_61
+  - first:
+      213: -7464240327629096260
+    second: fountain_green_62
+  - first:
+      213: -5879416054197921469
+    second: fountain_green_63
+  - first:
+      213: 4448377592633222963
+    second: fountain_green_64
+  - first:
+      213: 5001969531711426413
+    second: fountain_green_65
+  - first:
+      213: -7560903178844431752
+    second: fountain_green_66
+  - first:
+      213: -921029124736813033
+    second: fountain_green_67
+  - first:
+      213: 844627157937685395
+    second: fountain_green_68
+  - first:
+      213: -3195887232788722972
+    second: fountain_green_69
+  - first:
+      213: 6992710720070467395
+    second: fountain_green_70
+  - first:
+      213: -8830696633177072649
+    second: fountain_green_71
+  - first:
+      213: -1845769740423232773
+    second: fountain_green_72
+  - first:
+      213: -4407661381700924082
+    second: fountain_green_73
+  - first:
+      213: -5113138823130231460
+    second: fountain_green_74
+  - first:
+      213: -687193175833168010
+    second: fountain_green_75
+  - first:
+      213: 8176481085850608340
+    second: fountain_green_76
+  - first:
+      213: 2030948978153775140
+    second: fountain_green_77
+  - first:
+      213: -6657760985664982070
+    second: fountain_green_78
+  - first:
+      213: -4273731310338587443
+    second: fountain_green_79
+  - first:
+      213: -6588071347721140508
+    second: fountain_green_80
+  - first:
+      213: -7577259040732466435
+    second: fountain_green_81
+  - first:
+      213: 3024646886092261712
+    second: fountain_green_82
+  - first:
+      213: -963708876086533302
+    second: fountain_green_83
+  - first:
+      213: -7167720729189343340
+    second: fountain_green_84
+  - first:
+      213: 817918584180075425
+    second: fountain_green_85
+  - first:
+      213: 1858889192297336337
+    second: fountain_green_86
+  - first:
+      213: 5573593348408107872
+    second: fountain_green_87
+  - first:
+      213: 7400067762464035229
+    second: fountain_green_88
+  - first:
+      213: -2988215852333446445
+    second: fountain_green_89
+  - first:
+      213: -284038394247980708
+    second: fountain_green_90
+  - first:
+      213: -6315455204814617933
+    second: fountain_green_91
+  - first:
+      213: -6150537486926946567
+    second: fountain_green_92
+  - first:
+      213: 1125827160340024413
+    second: fountain_green_93
+  - first:
+      213: 1823053017231304296
+    second: fountain_green_94
+  - first:
+      213: 6078805271503760863
+    second: fountain_green_95
+  - first:
+      213: -5999234559552105398
+    second: fountain_green_96
+  - first:
+      213: 877215838024828301
+    second: fountain_green_97
+  - first:
+      213: 965981188201531322
+    second: fountain_green_98
+  - first:
+      213: 8488261082547264168
+    second: fountain_green_99
+  - first:
+      213: -8204010228025759838
+    second: fountain_green_100
+  - first:
+      213: 4285126502723697545
+    second: fountain_green_101
+  - first:
+      213: -4827264571861167528
+    second: fountain_green_102
+  - first:
+      213: 5988342308387759229
+    second: fountain_green_103
+  - first:
+      213: -5569386802405838840
+    second: fountain_green_104
+  - first:
+      213: 3703582850561972224
+    second: fountain_green_105
+  - first:
+      213: 6395943937146885175
+    second: fountain_green_106
+  - first:
+      213: 7585716490546536109
+    second: fountain_green_107
+  - first:
+      213: -8695479546143986272
+    second: fountain_green_108
+  - first:
+      213: 7066172109397179160
+    second: fountain_green_109
+  - first:
+      213: -5837573140865374657
+    second: fountain_green_110
+  - first:
+      213: 734662070987577374
+    second: fountain_green_111
+  - first:
+      213: 7364456308014124720
+    second: fountain_green_112
+  - first:
+      213: -671936290762184886
+    second: fountain_green_113
+  - first:
+      213: -2082529317875825100
+    second: fountain_green_114
+  - first:
+      213: 2552460090911602300
+    second: fountain_green_115
+  - first:
+      213: 6892829810783474919
+    second: fountain_green_116
+  - first:
+      213: 1397679694766843332
+    second: fountain_green_117
+  - first:
+      213: 1847952601199252272
+    second: fountain_green_118
+  - first:
+      213: 5850976831942275930
+    second: fountain_green_119
+  - first:
+      213: -8028761510241067322
+    second: fountain_green_120
+  - first:
+      213: 7692366110744909153
+    second: fountain_green_121
+  - first:
+      213: -5990383405744376683
+    second: fountain_green_122
+  - first:
+      213: -5221219302380809187
+    second: fountain_green_123
+  - first:
+      213: -4481752470668801310
+    second: fountain_green_124
+  - first:
+      213: 1873489771508094880
+    second: fountain_green_125
+  - first:
+      213: 5889093819012673517
+    second: fountain_green_126
+  - first:
+      213: 4727677865497830171
+    second: fountain_green_127
+  - first:
+      213: -4494854753981179246
+    second: fountain_green_128
+  - first:
+      213: 519547543996420761
+    second: fountain_green_129
+  - first:
+      213: 8351809443205145718
+    second: fountain_green_130
+  - first:
+      213: -6803988743994379081
+    second: fountain_green_131
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fountain_green_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3110
+        width: 106
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d26e74621bcbeb0800000000000000
+      internalID: -4702689132908499602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3108
+        width: 96
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f61f25f1453bfa50800000000000000
+      internalID: 6555892239970539257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 3115
+        width: 106
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd21c7a8635bc32f0800000000000000
+      internalID: -991718572072103201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_3
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 3106
+        width: 88
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8be81c5ee3e319b0800000000000000
+      internalID: -5110490539248522354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_4
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 3114
+        width: 105
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4968a12b47a0c40800000000000000
+      internalID: 5479320204947657980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_5
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 3108
+        width: 96
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69092e8342be22d0800000000000000
+      internalID: -3301505473598387859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_6
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 3115
+        width: 90
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cb22e5d648e0920800000000000000
+      internalID: 2958447610494630916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_7
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 3105
+        width: 108
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147d517cdf2ed14b0800000000000000
+      internalID: -5467964792963213503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2942
+        width: 108
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a8d846e67035ff0800000000000000
+      internalID: -48687000256148841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2946
+        width: 88
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bedab546687e190800000000000000
+      internalID: -7933224452996863166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2952
+        width: 94
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7241d73247a0cf9b0800000000000000
+      internalID: -5045145988633914329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_11
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2945
+        width: 97
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71c97a05912a5fc0800000000000000
+      internalID: -3505452435944914566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_12
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2943
+        width: 105
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04414f6a8a8f4f010800000000000000
+      internalID: 1221874802163455040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_13
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 2946
+        width: 92
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718a47fc15ec496d0800000000000000
+      internalID: -2984533802271594473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_14
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 2952
+        width: 103
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac71e9ecb002f0230800000000000000
+      internalID: 3607137061630253002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_15
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 2943
+        width: 108
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e847eea88fcbd1d40800000000000000
+      internalID: 5556805290913854606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2778
+        width: 97
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d73bb2535ea72d0800000000000000
+      internalID: -3280057362056774393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2782
+        width: 98
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288265d88cb544ca0800000000000000
+      internalID: -6033596683846801278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_18
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 2788
+        width: 117
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7ca73e4a3263540800000000000000
+      internalID: 4987212828457486249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_19
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2784
+        width: 103
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d58390a7e909bb0800000000000000
+      internalID: -4931267344992805518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_20
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2779
+        width: 104
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d9860f72807b880800000000000000
+      internalID: -8595392396183167630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_21
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 2780
+        width: 87
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7162c6c7b5ae21490800000000000000
+      internalID: -7776895927865039337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_22
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 2792
+        width: 94
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff045fa53707c9f30800000000000000
+      internalID: 4583662161505894655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_23
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2777
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c196d3c6c3e5ee710800000000000000
+      internalID: 1724419320936491292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2615
+        width: 107
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599b3b12a4a596290800000000000000
+      internalID: -7896681197177947755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_25
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2617
+        width: 81
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a140ba8552989da0800000000000000
+      internalID: -5937835212591316572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_26
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2624
+        width: 84
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5a8d529a0b57670800000000000000
+      internalID: 8535922909281560033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_27
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2615
+        width: 81
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefd05f71bbaad540800000000000000
+      internalID: 5033524312373518316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_28
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2615
+        width: 89
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd81719680a0fbc10800000000000000
+      internalID: 2071385384852855003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_29
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 2619
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7ca3d953526d520800000000000000
+      internalID: 2726407536620783559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_30
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 2624
+        width: 117
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13b02efdff89e9c0800000000000000
+      internalID: -3897425681459399906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_31
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 2621
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35227c45f1fd6c50800000000000000
+      internalID: 6660245459802662203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2457
+        width: 91
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4ce8b16d42efe70800000000000000
+      internalID: 9150791994867369215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2455
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4049d10165c2ba0800000000000000
+      internalID: -6112415967032900363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_34
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2459
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743cd664c2ab4f680800000000000000
+      internalID: -8722141878986882233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_35
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2472
+        width: 112
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a57473e6b792030800000000000000
+      internalID: 3470440701169719857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_36
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2453
+        width: 89
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb08275874d71670800000000000000
+      internalID: 8509503634263247792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_37
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2305
+        width: 97
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7de79d239ab0b10800000000000000
+      internalID: 1948837299630299064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_38
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2302
+        width: 83
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fbb1cd971236470800000000000000
+      internalID: 8386583738361560852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_39
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2310
+        width: 90
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016e4be6d6a31aaa0800000000000000
+      internalID: -6151571374328191472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_40
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 2312
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ac30af0415e7e30800000000000000
+      internalID: 4503126016931383916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_41
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2304
+        width: 86
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b742e67c41e80fb80800000000000000
+      internalID: -8363028288130636677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_42
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2148
+        width: 101
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4fde36c6aa20250800000000000000
+      internalID: 5909473043573241070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_43
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2146
+        width: 90
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cee0b12d088ccf70800000000000000
+      internalID: 9208884928047017671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_44
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2145
+        width: 90
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06e993df3922d240800000000000000
+      internalID: 4814956305722238477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_45
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2142
+        width: 86
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b1a5bf5f69db130800000000000000
+      internalID: 3584186861684923293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_46
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2145
+        width: 87
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d4dd1dbc503bef0800000000000000
+      internalID: -93724794287207073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_47
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1984
+        width: 97
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72b46a4bf5009df0800000000000000
+      internalID: -175633808624405890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1982
+        width: 81
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875c1e46637490e70800000000000000
+      internalID: 9081868422515639672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_49
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1979
+        width: 94
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bb4cea062059d80800000000000000
+      internalID: -8244680928559580291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_50
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1984
+        width: 86
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce270e24f5909e3c0800000000000000
+      internalID: -4329919261991472404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_51
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1983
+        width: 83
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f7ffbb866866a20800000000000000
+      internalID: 3055277181606264696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_52
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1816
+        width: 90
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac2ce0bf6fecd0b0800000000000000
+      internalID: -5702419765169214299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_53
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1817
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a979ee6615b9b1320800000000000000
+      internalID: 2529786389620234138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_54
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1819
+        width: 105
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7ab1dd5e680ee30800000000000000
+      internalID: 4530769546949928906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_55
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1815
+        width: 96
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4811b7666e65738c0800000000000000
+      internalID: -4019648594843070076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_56
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1813
+        width: 102
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f776fc7f170044980800000000000000
+      internalID: -8555712902608230529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_57
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1811
+        width: 96
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8c53036acf21f40800000000000000
+      internalID: 5697894269280700639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_58
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1824
+        width: 95
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5c4c63886b1f740800000000000000
+      internalID: 5184125342230824431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_59
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1813
+        width: 109
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24c1054e6929f900800000000000000
+      internalID: 718651169123189802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_60
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1662
+        width: 112
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c031910e08e0dcd0800000000000000
+      internalID: -2535271443356110651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_61
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1660
+        width: 111
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adf011a0ca8c3ec0800000000000000
+      internalID: -3585838643353158232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_62
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1669
+        width: 123
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbab58128f0b96890800000000000000
+      internalID: -7464240327629096260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_63
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1662
+        width: 136
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349ddcacf3e186ea0800000000000000
+      internalID: -5879416054197921469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_64
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1655
+        width: 104
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337e5bb1adfcbbd30800000000000000
+      internalID: 4448377592633222963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_65
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1654
+        width: 91
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f8cfa99c09a6540800000000000000
+      internalID: 5001969531711426413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_66
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1668
+        width: 93
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a1bd34e96421790800000000000000
+      internalID: -7560903178844431752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_67
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1655
+        width: 108
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718f54014e8d733f0800000000000000
+      internalID: -921029124736813033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_68
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1505
+        width: 110
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3930684dce7b8bb00800000000000000
+      internalID: 844627157937685395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_69
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1505
+        width: 87
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea0c6b8e7de5a3d0800000000000000
+      internalID: -3195887232788722972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_70
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1504
+        width: 120
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fbdd6d9591b0160800000000000000
+      internalID: 6992710720070467395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_71
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1506
+        width: 133
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb1e3cf230137580800000000000000
+      internalID: -8830696633177072649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_72
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1497
+        width: 89
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf288ec43328266e0800000000000000
+      internalID: -1845769740423232773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_73
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1497
+        width: 93
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d428d7357d4d2c0800000000000000
+      internalID: -4407661381700924082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_74
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1513
+        width: 114
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d4018b45b7a09b0800000000000000
+      internalID: -5113138823130231460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_75
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1497
+        width: 81
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677346e82799676f0800000000000000
+      internalID: -687193175833168010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_76
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1346
+        width: 161
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d263da0a32b87170800000000000000
+      internalID: 8176481085850608340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_77
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1346
+        width: 87
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4206ccfc5516f2c10800000000000000
+      internalID: 2030948978153775140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_78
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1341
+        width: 126
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3fbf968a1ea93a0800000000000000
+      internalID: -6657760985664982070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_79
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1345
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4cdc53408a0b4c0800000000000000
+      internalID: -4273731310338587443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_80
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1341
+        width: 84
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6072ca3087294a0800000000000000
+      internalID: -6588071347721140508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_81
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1341
+        width: 108
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2360a6c0b28d690800000000000000
+      internalID: -7577259040732466435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_82
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1355
+        width: 119
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05945805154b9f920800000000000000
+      internalID: 3024646886092261712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_83
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1346
+        width: 121
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43a8f512e730a2f0800000000000000
+      internalID: -963708876086533302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_84
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1185
+        width: 121
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f177719f3278c90800000000000000
+      internalID: -7167720729189343340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_85
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1185
+        width: 84
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab6e396e94d95b00800000000000000
+      internalID: 817918584180075425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_86
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1187
+        width: 80
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e02bf1fd91cc910800000000000000
+      internalID: 1858889192297336337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_87
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1190
+        width: 126
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0636856ce91695d40800000000000000
+      internalID: 5573593348408107872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_88
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1188
+        width: 110
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d911d773c6252b660800000000000000
+      internalID: 7400067762464035229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_89
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1189
+        width: 113
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da4979b389b786d0800000000000000
+      internalID: -2988215852333446445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_90
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1205
+        width: 121
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59d648d594ee0cf0800000000000000
+      internalID: -284038394247980708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_91
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1193
+        width: 121
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b20222b3fefa58a0800000000000000
+      internalID: -6315455204814617933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1034
+        width: 117
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fedef91eb6e4aaa0800000000000000
+      internalID: -6150537486926946567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_93
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1032
+        width: 82
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ccd8266ddbf9f00800000000000000
+      internalID: 1125827160340024413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_94
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1034
+        width: 74
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866a6ca6f09cc4910800000000000000
+      internalID: 1823053017231304296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_95
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1033
+        width: 126
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdde0c200314c5450800000000000000
+      internalID: 6078805271503760863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_96
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1034
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4456a114ff6ebca0800000000000000
+      internalID: -5999234559552105398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_97
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 890
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8501d0382f7c2c00800000000000000
+      internalID: 877215838024828301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_98
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 887
+        width: 71
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7467ec5cad76d00800000000000000
+      internalID: 965981188201531322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_99
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 884
+        width: 83
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa900a5b7c5cc570800000000000000
+      internalID: 8488261082547264168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_100
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 888
+        width: 78
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a76ad01a20852e80800000000000000
+      internalID: -8204010228025759838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_101
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 884
+        width: 78
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b3574c9d3d77b30800000000000000
+      internalID: 4285126502723697545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_102
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 737
+        width: 70
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8521365a27c120db0800000000000000
+      internalID: -4827264571861167528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_103
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 737
+        width: 68
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7425e41a9dda1350800000000000000
+      internalID: 5988342308387759229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_104
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 737
+        width: 74
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800f9d9063095b2b0800000000000000
+      internalID: -5569386802405838840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_105
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 737
+        width: 71
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00899fbeaf4c56330800000000000000
+      internalID: 3703582850561972224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_106
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 737
+        width: 70
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73414f8af15f2c850800000000000000
+      internalID: 6395943937146885175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_107
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 590
+        width: 113
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae59d115f0e54960800000000000000
+      internalID: 7585716490546536109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_108
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 587
+        width: 107
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ada9646c63735780800000000000000
+      internalID: -8695479546143986272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_109
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 587
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b34666816101260800000000000000
+      internalID: 7066172109397179160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_110
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 584
+        width: 107
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36ab5c3826ccfea0800000000000000
+      internalID: -5837573140865374657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_111
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 587
+        width: 115
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18da2bd24b023a00800000000000000
+      internalID: 734662070987577374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_112
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 449
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be011b5efdc33660800000000000000
+      internalID: 7364456308014124720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_113
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 445
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a472d6de08dcca6f0800000000000000
+      internalID: -671936290762184886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_114
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 445
+        width: 105
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436ccad7e9e5913e0800000000000000
+      internalID: -2082529317875825100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_115
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 442
+        width: 102
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76b52edde82c6320800000000000000
+      internalID: 2552460090911602300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_116
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 445
+        width: 106
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4d8f0713048af50800000000000000
+      internalID: 6892829810783474919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_117
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 286
+        width: 73
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5aa54f64e856310800000000000000
+      internalID: 1397679694766843332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_118
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 302
+        width: 90
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0339d34991f35a910800000000000000
+      internalID: 1847952601199252272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_119
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 302
+        width: 75
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53b5f8cd68d23150800000000000000
+      internalID: 5850976831942275930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_120
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 287
+        width: 83
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce90c3d1fb149090800000000000000
+      internalID: -8028761510241067322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_121
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 286
+        width: 74
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1651439c836c0ca60800000000000000
+      internalID: 7692366110744909153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_122
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 144
+        width: 115
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5943638e702eddca0800000000000000
+      internalID: -5990383405744376683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_123
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 143
+        width: 78
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14dd2b25b08a87b0800000000000000
+      internalID: -5221219302380809187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_124
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 144
+        width: 114
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea8e8e8fdd9dc1c0800000000000000
+      internalID: -4481752470668801310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_125
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 160
+        width: 78
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a751116509fff910800000000000000
+      internalID: 1873489771508094880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_126
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 144
+        width: 111
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defe23b60a34ab150800000000000000
+      internalID: 5889093819012673517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_127
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 118
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13a97968f51c9140800000000000000
+      internalID: 4727677865497830171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_128
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 78
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ad9ff7a611f91c0800000000000000
+      internalID: -4494854753981179246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_129
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 0
+        width: 115
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99255d31dbdc53700800000000000000
+      internalID: 519547543996420761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_130
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 14
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674eef5507697e370800000000000000
+      internalID: 8351809443205145718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fountain_green_131
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 110
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4757259406391a0800000000000000
+      internalID: -6803988743994379081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fountain_green_0: -4702689132908499602
+      fountain_green_1: 6555892239970539257
+      fountain_green_10: -5045145988633914329
+      fountain_green_100: -8204010228025759838
+      fountain_green_101: 4285126502723697545
+      fountain_green_102: -4827264571861167528
+      fountain_green_103: 5988342308387759229
+      fountain_green_104: -5569386802405838840
+      fountain_green_105: 3703582850561972224
+      fountain_green_106: 6395943937146885175
+      fountain_green_107: 7585716490546536109
+      fountain_green_108: -8695479546143986272
+      fountain_green_109: 7066172109397179160
+      fountain_green_11: -3505452435944914566
+      fountain_green_110: -5837573140865374657
+      fountain_green_111: 734662070987577374
+      fountain_green_112: 7364456308014124720
+      fountain_green_113: -671936290762184886
+      fountain_green_114: -2082529317875825100
+      fountain_green_115: 2552460090911602300
+      fountain_green_116: 6892829810783474919
+      fountain_green_117: 1397679694766843332
+      fountain_green_118: 1847952601199252272
+      fountain_green_119: 5850976831942275930
+      fountain_green_12: 1221874802163455040
+      fountain_green_120: -8028761510241067322
+      fountain_green_121: 7692366110744909153
+      fountain_green_122: -5990383405744376683
+      fountain_green_123: -5221219302380809187
+      fountain_green_124: -4481752470668801310
+      fountain_green_125: 1873489771508094880
+      fountain_green_126: 5889093819012673517
+      fountain_green_127: 4727677865497830171
+      fountain_green_128: -4494854753981179246
+      fountain_green_129: 519547543996420761
+      fountain_green_13: -2984533802271594473
+      fountain_green_130: 8351809443205145718
+      fountain_green_131: -6803988743994379081
+      fountain_green_14: 3607137061630253002
+      fountain_green_15: 5556805290913854606
+      fountain_green_16: -3280057362056774393
+      fountain_green_17: -6033596683846801278
+      fountain_green_18: 4987212828457486249
+      fountain_green_19: -4931267344992805518
+      fountain_green_2: -991718572072103201
+      fountain_green_20: -8595392396183167630
+      fountain_green_21: -7776895927865039337
+      fountain_green_22: 4583662161505894655
+      fountain_green_23: 1724419320936491292
+      fountain_green_24: -7896681197177947755
+      fountain_green_25: -5937835212591316572
+      fountain_green_26: 8535922909281560033
+      fountain_green_27: 5033524312373518316
+      fountain_green_28: 2071385384852855003
+      fountain_green_29: 2726407536620783559
+      fountain_green_3: -5110490539248522354
+      fountain_green_30: -3897425681459399906
+      fountain_green_31: 6660245459802662203
+      fountain_green_32: 9150791994867369215
+      fountain_green_33: -6112415967032900363
+      fountain_green_34: -8722141878986882233
+      fountain_green_35: 3470440701169719857
+      fountain_green_36: 8509503634263247792
+      fountain_green_37: 1948837299630299064
+      fountain_green_38: 8386583738361560852
+      fountain_green_39: -6151571374328191472
+      fountain_green_4: 5479320204947657980
+      fountain_green_40: 4503126016931383916
+      fountain_green_41: -8363028288130636677
+      fountain_green_42: 5909473043573241070
+      fountain_green_43: 9208884928047017671
+      fountain_green_44: 4814956305722238477
+      fountain_green_45: 3584186861684923293
+      fountain_green_46: -93724794287207073
+      fountain_green_47: -175633808624405890
+      fountain_green_48: 9081868422515639672
+      fountain_green_49: -8244680928559580291
+      fountain_green_5: -3301505473598387859
+      fountain_green_50: -4329919261991472404
+      fountain_green_51: 3055277181606264696
+      fountain_green_52: -5702419765169214299
+      fountain_green_53: 2529786389620234138
+      fountain_green_54: 4530769546949928906
+      fountain_green_55: -4019648594843070076
+      fountain_green_56: -8555712902608230529
+      fountain_green_57: 5697894269280700639
+      fountain_green_58: 5184125342230824431
+      fountain_green_59: 718651169123189802
+      fountain_green_6: 2958447610494630916
+      fountain_green_60: -2535271443356110651
+      fountain_green_61: -3585838643353158232
+      fountain_green_62: -7464240327629096260
+      fountain_green_63: -5879416054197921469
+      fountain_green_64: 4448377592633222963
+      fountain_green_65: 5001969531711426413
+      fountain_green_66: -7560903178844431752
+      fountain_green_67: -921029124736813033
+      fountain_green_68: 844627157937685395
+      fountain_green_69: -3195887232788722972
+      fountain_green_7: -5467964792963213503
+      fountain_green_70: 6992710720070467395
+      fountain_green_71: -8830696633177072649
+      fountain_green_72: -1845769740423232773
+      fountain_green_73: -4407661381700924082
+      fountain_green_74: -5113138823130231460
+      fountain_green_75: -687193175833168010
+      fountain_green_76: 8176481085850608340
+      fountain_green_77: 2030948978153775140
+      fountain_green_78: -6657760985664982070
+      fountain_green_79: -4273731310338587443
+      fountain_green_8: -48687000256148841
+      fountain_green_80: -6588071347721140508
+      fountain_green_81: -7577259040732466435
+      fountain_green_82: 3024646886092261712
+      fountain_green_83: -963708876086533302
+      fountain_green_84: -7167720729189343340
+      fountain_green_85: 817918584180075425
+      fountain_green_86: 1858889192297336337
+      fountain_green_87: 5573593348408107872
+      fountain_green_88: 7400067762464035229
+      fountain_green_89: -2988215852333446445
+      fountain_green_9: -7933224452996863166
+      fountain_green_90: -284038394247980708
+      fountain_green_91: -6315455204814617933
+      fountain_green_92: -6150537486926946567
+      fountain_green_93: 1125827160340024413
+      fountain_green_94: 1823053017231304296
+      fountain_green_95: 6078805271503760863
+      fountain_green_96: -5999234559552105398
+      fountain_green_97: 877215838024828301
+      fountain_green_98: 965981188201531322
+      fountain_green_99: 8488261082547264168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

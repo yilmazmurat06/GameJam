@@ -61,7 +61,9 @@ public class Health : MonoBehaviour, IDamageable
         if (!IsAlive) return;
         if (IsInvincible) return;
         
-        _currentHealth -= damageInfo.Amount;
+        // Apply damage multiplier (for Hate mask damage reduction)
+        float actualDamage = damageInfo.Amount * _damageMultiplier;
+        _currentHealth -= actualDamage;
         _currentHealth = Mathf.Max(0, _currentHealth);
         
         // Start invincibility
@@ -137,6 +139,26 @@ public class Health : MonoBehaviour, IDamageable
         _currentHealth = _maxHealth;
         OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
     }
+    
+    /// <summary>
+    /// Set maximum health (for mask effects like Fear).
+    /// </summary>
+    public void SetMaxHealth(float value)
+    {
+        _maxHealth = value;
+        _currentHealth = Mathf.Min(_currentHealth, _maxHealth);
+        OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
+    }
+    
+    /// <summary>
+    /// Set damage multiplier (for mask effects like Hate).
+    /// </summary>
+    public void SetDamageMultiplier(float multiplier)
+    {
+        _damageMultiplier = multiplier;
+    }
+    
+    private float _damageMultiplier = 1f;
     
     private void Die()
     {
