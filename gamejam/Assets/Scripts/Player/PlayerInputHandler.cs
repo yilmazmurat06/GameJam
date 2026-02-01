@@ -12,6 +12,8 @@ public class PlayerInputHandler : MonoBehaviour
     private Vector2 _moveInput;
     private bool _interactPressed;
     private bool _attackPressed;
+    private bool _attackHeld;
+    private bool _weaponSwapPressed;
     
     // Track if using legacy input
     private bool _useLegacyInput = false;
@@ -52,6 +54,40 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
     
+    /// <summary>
+    /// Is attack button currently held (for automatic weapons).
+    /// </summary>
+    public bool AttackHeld => _attackHeld;
+    
+    /// <summary>
+    /// Was weapon swap button pressed this frame.
+    /// </summary>
+    public bool WeaponSwapPressed
+    {
+        get
+        {
+            bool value = _weaponSwapPressed;
+            _weaponSwapPressed = false; // Consume on read
+            return value;
+        }
+    }
+    
+    /// <summary>
+    /// Returns aim direction based on mouse position relative to player.
+    /// </summary>
+    public Vector2 AimDirection
+    {
+        get
+        {
+            Camera cam = Camera.main;
+            if (cam == null) return Vector2.right;
+            
+            Vector3 mouseWorld = cam.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 direction = (mouseWorld - transform.position).normalized;
+            return direction == Vector2.zero ? Vector2.right : direction;
+        }
+    }
+    
     // Input Action references (assign in Inspector or via code)
     [Header("Input Actions (Optional - falls back to legacy input)")]
     [SerializeField] private InputActionReference moveAction;
@@ -60,6 +96,20 @@ public class PlayerInputHandler : MonoBehaviour
     [Header("Legacy Input Keys")]
     [SerializeField] private KeyCode interactKey = KeyCode.E;
     [SerializeField] private KeyCode attackKey = KeyCode.Space;
+    [SerializeField] private KeyCode abilityKey = KeyCode.LeftShift;
+    [SerializeField] private KeyCode weaponSwapKey = KeyCode.Q;
+
+    private bool _abilityPressed;
+
+    public bool AbilityPressed
+    {
+        get
+        {
+            bool value = _abilityPressed;
+            _abilityPressed = false; // Consume on read
+            return value;
+        }
+    }
     
     private void OnEnable()
     {
@@ -126,10 +176,7 @@ public class PlayerInputHandler : MonoBehaviour
                 vertical = -1f;
             
             _moveInput = new Vector2(horizontal, vertical);
-        }
-        
-        if (_useLegacyInput || interactAction == null)
-        {
+            
             // Interact
             if (Input.GetKeyDown(interactKey))
                 _interactPressed = true;
@@ -137,9 +184,21 @@ public class PlayerInputHandler : MonoBehaviour
             // Attack (Space or Mouse)
             if (Input.GetKeyDown(attackKey) || Input.GetMouseButtonDown(0))
                 _attackPressed = true;
+            
+            // Attack held (for automatic weapons)
+            _attackHeld = Input.GetKey(attackKey) || Input.GetMouseButton(0);
+                
+            // Ability (Shift)
+            if (Input.GetKeyDown(abilityKey))
+                _abilityPressed = true;
+            
+            // Weapon Swap (Q)
+            if (Input.GetKeyDown(weaponSwapKey))
+                _weaponSwapPressed = true;
         }
     }
     
+
     private void OnMove(InputAction.CallbackContext context)
     {
         _moveInput = context.ReadValue<Vector2>();
@@ -158,5 +217,8 @@ public class PlayerInputHandler : MonoBehaviour
         _moveInput = Vector2.zero;
         _interactPressed = false;
         _attackPressed = false;
+        _attackHeld = false;
+        _abilityPressed = false;
+        _weaponSwapPressed = false;
     }
 }

@@ -161,45 +161,31 @@ public class DungeonGenerator : MonoBehaviour
     public GameObject enemyPrefab;
     public int enemyCount = 10;
     
+    // Enemy type distribution
+    public enum SpawnableEnemyType { Mummy, Ranger, Charger }
+    
     void SpawnEnemies()
     {
         CleanupOldEnemies();
         GameObject container = new GameObject("Enemies");
 
-        // 1. Try to load Enemy Prefab
-        GameObject loadedPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Enemy.prefab");
-        if (loadedPrefab == null)
-             loadedPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Enemy.prefab");
-
-        // 2. Load ALL Sprites from enemy.png
-        List<Sprite> enemySprites = new List<Sprite>();
-        string enemyPngPath = "Assets/enemy.png";
+        // Load sprites from available enemy sprite sheets
+        List<Sprite> bananaSprites = LoadSpriteSheet("Assets/Sprites/Enemies/banana_enemy.png");
+        List<Sprite> cultistSprites = LoadSpriteSheet("Assets/Sprites/Enemies/cultist_enemy.png");
+        List<Sprite> hoodedSprites = LoadSpriteSheet("Assets/Sprites/Enemies/hooded_enemy.png");
+        List<Sprite> defaultSprites = LoadSpriteSheet("Assets/enemy.png");
         
-        Object[] objs = AssetDatabase.LoadAllAssetsAtPath(enemyPngPath);
+        // Combine available sprite sets (use first non-empty for each type)
+        List<Sprite>[] spriteOptions = new List<Sprite>[] { 
+            bananaSprites.Count > 0 ? bananaSprites : defaultSprites,
+            cultistSprites.Count > 0 ? cultistSprites : defaultSprites, 
+            hoodedSprites.Count > 0 ? hoodedSprites : defaultSprites 
+        };
         
-        foreach(Object obj in objs)
-        {
-            if (obj is Sprite s)
-            {
-                enemySprites.Add(s);
-            }
-        }
+        int columns = 8;
+        Debug.Log($"Spawning {enemyCount} varied enemies (Mummy, Ranger, Charger)");
         
-        // Sort by Y-position DESCENDING (top of sheet = Row 0), then by X (left to right)
-        // This ensures correct row order for standard sprite sheets
-        enemySprites.Sort((a, b) => {
-            // Primary sort: Y descending (higher Y = earlier in list = lower row index)
-            int yCompare = b.rect.y.CompareTo(a.rect.y);
-            if (yCompare != 0) return yCompare;
-            // Secondary sort: X ascending (left to right within row)
-            return a.rect.x.CompareTo(b.rect.x);
-        });
-        
-        int columns = 8; // Standard sheet has 8 frames per direction
-        int rowCount = enemySprites.Count / columns;
-        Debug.Log($"Spawning {enemyCount} enemies with {enemySprites.Count} sprites ({rowCount} rows x {columns} cols)");
-        
-        // Spawn Loop
+        // Spawn Loop with varied types
         for (int i = 0; i < enemyCount; i++)
         {
             // Position in circle around player (0,0)
@@ -209,49 +195,102 @@ public class DungeonGenerator : MonoBehaviour
             float y = Mathf.Sin(angle * Mathf.Deg2Rad) * radius;
             Vector3 pos = new Vector3(x, y, 0f); 
 
-            // Instantiate
-            GameObject enemy;
-            if (loadedPrefab != null)
-                enemy = (GameObject)PrefabUtility.InstantiatePrefab(loadedPrefab);
-            else
-                enemy = new GameObject($"Enemy_{i}");
+            // Determine enemy type based on index (cycle through types)
+            SpawnableEnemyType enemyType = (SpawnableEnemyType)(i % 3);
+            List<Sprite> sprites = spriteOptions[i % spriteOptions.Length];
             
+            // Create enemy GameObject
+            GameObject enemy = new GameObject($"{enemyType}_{i}");
             enemy.transform.position = pos;
             enemy.transform.SetParent(container.transform);
-            enemy.name = $"Enemy_{i}";
+            enemy.tag = "Enemy";
+            
+            // Add required components
+            Rigidbody2D rb = enemy.AddComponent<Rigidbody2D>();
+            rb.gravityScale = 0f;
+            rb.freezeRotation = true;
+            
+            CircleCollider2D col = enemy.AddComponent<CircleCollider2D>();
+            col.radius = 0.3f;
             
             // Setup SpriteRenderer
-            SpriteRenderer sr = enemy.GetComponent<SpriteRenderer>();
-            if (sr == null) sr = enemy.AddComponent<SpriteRenderer>();
+            SpriteRenderer sr = enemy.AddComponent<SpriteRenderer>();
             sr.sortingOrder = 10;
             
-            // Setup EnemyAnimator with sprites
-            EnemyAnimator anim = enemy.GetComponent<EnemyAnimator>();
-            if (anim == null) anim = enemy.AddComponent<EnemyAnimator>();
+            // Apply URP Lit Material
+            Material litMaterial = AssetDatabase.LoadAssetAtPath<Material>("Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat");
+            if (litMaterial != null) sr.material = litMaterial;
             
-            if (enemySprites.Count >= columns)
+            // Add Health component
+            Health health = enemy.AddComponent<Health>();
+            // Health will use default values
+            
+            // Add specific enemy type behavior
+            switch (enemyType)
             {
-                anim.Initialize(enemySprites, columns);
-                
-                // Configure row mappings based on typical sprite sheet layout:
-                // Row 0 = Front/Down, Row 1 = Left, Row 2 = Right, Row 3 = Back/Up
-                // If sheet differs, these can be adjusted
-                anim.ConfigureRows(
-                    down: 0,  // Front facing (walking toward camera)
-                    left: 1,  // Side left
-                    right: 2, // Side right  
-                    up: 3     // Back facing (walking away from camera)
-                );
-                
-                // Set initial sprite (facing down/toward player)
-                sr.sprite = enemySprites[0];
+                case SpawnableEnemyType.Mummy:
+                    enemy.AddComponent<MummyEnemy>();
+                    enemy.name = $"Mummy_{i}";
+                    break;
+                    
+                case SpawnableEnemyType.Ranger:
+                    RangerEnemy ranger = enemy.AddComponent<RangerEnemy>();
+                    enemy.name = $"Ranger_{i}";
+                    // Ranger needs a projectile prefab (will need to be assigned later)
+                    break;
+                    
+                case SpawnableEnemyType.Charger:
+                    enemy.AddComponent<ChargerEnemy>();
+                    enemy.name = $"Charger_{i}";
+                    break;
             }
-            else if (enemySprites.Count > 0)
+            
+            // Setup EnemyAnimator with sprites
+            EnemyAnimator anim = enemy.AddComponent<EnemyAnimator>();
+            
+            if (sprites != null && sprites.Count >= columns)
             {
-                // Fallback: just one sprite
-                sr.sprite = enemySprites[0];
+                anim.Initialize(sprites, columns);
+                anim.ConfigureRows(down: 0, left: 1, right: 2, up: 3);
+                sr.sprite = sprites[0];
+            }
+            else if (sprites != null && sprites.Count > 0)
+            {
+                sr.sprite = sprites[0];
+            }
+            
+            // Set layer for detection
+            int enemyLayer = LayerMask.NameToLayer("Enemy");
+            if (enemyLayer != -1) enemy.layer = enemyLayer;
+        }
+        
+        Debug.Log($"[DungeonGenerator] Spawned {enemyCount} enemies with varied types!");
+    }
+    
+    /// <summary>
+    /// Helper to load sprites from a sprite sheet.
+    /// </summary>
+    private List<Sprite> LoadSpriteSheet(string path)
+    {
+        List<Sprite> sprites = new List<Sprite>();
+        Object[] objs = AssetDatabase.LoadAllAssetsAtPath(path);
+        
+        foreach (Object obj in objs)
+        {
+            if (obj is Sprite s)
+            {
+                sprites.Add(s);
             }
         }
+        
+        // Sort by Y descending, then X ascending for proper row order
+        sprites.Sort((a, b) => {
+            int yCompare = b.rect.y.CompareTo(a.rect.y);
+            if (yCompare != 0) return yCompare;
+            return a.rect.x.CompareTo(b.rect.x);
+        });
+        
+        return sprites;
     }
     
     // Helper for sorting

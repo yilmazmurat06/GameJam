@@ -2,6 +2,7 @@ using UnityEngine;
 
 /// <summary>
 /// Abstract base class for all weapons.
+/// Now includes SoulKnight-style stats: energy cost, precision, attack speed.
 /// </summary>
 public abstract class WeaponBase : MonoBehaviour
 {
@@ -12,6 +13,11 @@ public abstract class WeaponBase : MonoBehaviour
     [SerializeField] protected float _range = 1f;
     [SerializeField] protected float _knockbackForce = 2f;
     
+    [Header("SoulKnight Stats")]
+    [SerializeField] protected float _energyCost = 5f;
+    [SerializeField] protected float _precision = 0.9f; // 0 = very inaccurate, 1 = perfect
+    [SerializeField] protected float _attackSpeed = 1f; // Multiplier for attack speed
+    
     [Header("References")]
     [SerializeField] protected Transform _attackPoint;
     [SerializeField] protected LayerMask _targetLayers;
@@ -20,6 +26,9 @@ public abstract class WeaponBase : MonoBehaviour
     public string WeaponName => _weaponName;
     public float Damage => _damage;
     public float Range => _range;
+    public float EnergyCost => _energyCost;
+    public float Precision => _precision;
+    public float AttackSpeed => _attackSpeed;
     public bool CanAttack => _cooldownTimer <= 0;
     
     protected float _cooldownTimer;
@@ -41,7 +50,8 @@ public abstract class WeaponBase : MonoBehaviour
     {
         if (!CanAttack) return false;
         
-        _cooldownTimer = _attackCooldown;
+        // Apply attack speed modifier to cooldown
+        _cooldownTimer = _attackCooldown / _attackSpeed;
         _isAttacking = true;
         
         PerformAttack();

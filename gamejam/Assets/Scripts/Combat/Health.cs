@@ -4,12 +4,20 @@ using System;
 /// <summary>
 /// Reusable health component for any entity.
 /// Attach to players, enemies, or destructible objects.
+/// Now includes SoulKnight-style armor system.
 /// </summary>
 public class Health : MonoBehaviour, IDamageable
 {
     [Header("Health Settings")]
     [SerializeField] private float _maxHealth = 100f;
     [SerializeField] private float _currentHealth;
+    
+    [Header("Armor Settings")]
+    [SerializeField] private float _maxArmor = 3f;
+    [SerializeField] private float _currentArmor;
+    [SerializeField] private float _armorRegenRate = 0.5f; // Armor per second
+    [SerializeField] private float _armorRegenDelay = 3f; // Seconds after taking damage
+    private float _armorRegenTimer;
     
     [Header("Invincibility")]
     [SerializeField] private float _invincibilityDuration = 0.5f;
@@ -25,13 +33,18 @@ public class Health : MonoBehaviour, IDamageable
     public event Action<float> OnHealed;
     public event Action OnDeath;
     public event Action<float, float> OnHealthChanged; // current, max
+    public event Action<float, float> OnArmorChanged; // current, max
     
     // Properties
     public float CurrentHealth => _currentHealth;
     public float MaxHealth => _maxHealth;
+    public float CurrentArmor => _currentArmor;
+    public float MaxArmor => _maxArmor;
     public bool IsAlive => _currentHealth > 0;
     public float HealthPercent => _currentHealth / _maxHealth;
+    public float ArmorPercent => _maxArmor > 0 ? _currentArmor / _maxArmor : 0;
     public bool IsInvincible => _invincibilityTimer > 0;
+    public bool HasArmor => _currentArmor > 0;
     
     private SpriteRenderer _spriteRenderer;
     private Color _originalColor;
@@ -39,6 +52,7 @@ public class Health : MonoBehaviour, IDamageable
     private void Awake()
     {
         _currentHealth = _maxHealth;
+        _currentArmor = _maxArmor;
         _spriteRenderer = GetComponent<SpriteRenderer>();
         if (_spriteRenderer != null)
             _originalColor = _spriteRenderer.color;
@@ -50,6 +64,18 @@ public class Health : MonoBehaviour, IDamageable
         if (_invincibilityTimer > 0)
         {
             _invincibilityTimer -= Time.deltaTime;
+        }
+        
+        // Update armor regeneration
+        if (_armorRegenTimer > 0)
+        {
+            _armorRegenTimer -= Time.deltaTime;
+        }
+        else if (_currentArmor < _maxArmor)
+        {
+            // Regenerate armor
+            _currentArmor = Mathf.Min(_currentArmor + _armorRegenRate * Time.deltaTime, _maxArmor);
+            OnArmorChanged?.Invoke(_currentArmor, _maxArmor);
         }
     }
     
@@ -63,8 +89,26 @@ public class Health : MonoBehaviour, IDamageable
         
         // Apply damage multiplier (for Hate mask damage reduction)
         float actualDamage = damageInfo.Amount * _damageMultiplier;
-        _currentHealth -= actualDamage;
-        _currentHealth = Mathf.Max(0, _currentHealth);
+        
+        // Reset armor regen timer on any damage
+        _armorRegenTimer = _armorRegenDelay;
+        
+        // Armor absorbs damage first (SoulKnight style)
+        float damageToArmor = Mathf.Min(actualDamage, _currentArmor);
+        float damageToHealth = actualDamage - damageToArmor;
+        
+        if (damageToArmor > 0)
+        {
+            _currentArmor -= damageToArmor;
+            OnArmorChanged?.Invoke(_currentArmor, _maxArmor);
+            Debug.Log($"[Health] Armor absorbed {damageToArmor} damage. Armor: {_currentArmor}/{_maxArmor}");
+        }
+        
+        if (damageToHealth > 0)
+        {
+            _currentHealth -= damageToHealth;
+            _currentHealth = Mathf.Max(0, _currentHealth);
+        }
         
         // Start invincibility
         _invincibilityTimer = _invincibilityDuration;
@@ -89,7 +133,7 @@ public class Health : MonoBehaviour, IDamageable
         OnDamaged?.Invoke(damageInfo);
         OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
         
-        Debug.Log($"[Health] {gameObject.name} took {damageInfo.Amount} damage. Health: {_currentHealth}/{_maxHealth}");
+        Debug.Log($"[Health] {gameObject.name} took {actualDamage} damage. Health: {_currentHealth}/{_maxHealth}");
         
         // Check for death
         if (!IsAlive)

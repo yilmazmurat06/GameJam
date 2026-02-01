@@ -35,6 +35,12 @@ public class MemoryTrigger : MonoBehaviour
         }
     }
     
+    public void Initialize(Sprite image, string text)
+    {
+        _memoryImage = image;
+        _memoryText = text;
+    }
+
     private void ShowMemory()
     {
         // Find or create MemoryUI

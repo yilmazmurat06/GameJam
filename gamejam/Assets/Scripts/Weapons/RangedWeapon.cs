@@ -2,14 +2,15 @@ using UnityEngine;
 
 /// <summary>
 /// Ranged weapon that fires projectiles.
+/// Now uses mouse aiming and precision-based spread.
 /// </summary>
 public class RangedWeapon : WeaponBase
 {
     [Header("Ranged Settings")]
-    [SerializeField] private GameObject _projectilePrefab;
-    [SerializeField] private float _projectileSpeed = 10f;
-    [SerializeField] private int _maxAmmo = -1; // -1 = infinite
-    [SerializeField] private Transform _firePoint;
+    [SerializeField] protected GameObject _projectilePrefab;
+    [SerializeField] protected float _projectileSpeed = 10f;
+    [SerializeField] protected int _maxAmmo = -1; // -1 = infinite
+    [SerializeField] protected Transform _firePoint;
     
     private int _currentAmmo;
     
@@ -58,11 +59,33 @@ public class RangedWeapon : WeaponBase
     }
     
     /// <summary>
-    /// Get aim direction (override for mouse aiming).
+    /// Get aim direction with precision-based spread.
+    /// Uses mouse position for aiming.
     /// </summary>
     protected virtual Vector2 GetAimDirection()
     {
-        // Default: fire in facing direction
+        Vector2 baseDir = GetBaseAimDirection();
+        
+        // Apply spread based on precision (lower precision = more spread)
+        float maxSpread = (1f - _precision) * 15f; // Up to 15 degrees spread at 0 precision
+        float spreadAngle = Random.Range(-maxSpread, maxSpread);
+        
+        return Quaternion.Euler(0, 0, spreadAngle) * baseDir;
+    }
+    
+    /// <summary>
+    /// Get base aim direction before spread is applied.
+    /// </summary>
+    protected virtual Vector2 GetBaseAimDirection()
+    {
+        // Try to get aim direction from player input handler
+        PlayerInputHandler inputHandler = GetComponentInParent<PlayerInputHandler>();
+        if (inputHandler != null)
+        {
+            return inputHandler.AimDirection;
+        }
+        
+        // Fallback: fire in facing direction
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
         if (sr != null)
         {

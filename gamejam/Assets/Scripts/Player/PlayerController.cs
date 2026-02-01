@@ -16,10 +16,12 @@ public enum MaskType
 /// Main player controller using a Finite State Machine pattern.
 /// Manages state transitions, physics, and responds to game events.
 /// Refactored for 8-directional top-down movement.
+/// Now includes SoulKnight-style dual-weapon system.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(PlayerInputHandler))]
 [RequireComponent(typeof(Health))]
+[RequireComponent(typeof(Energy))]
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement Settings")]
@@ -29,8 +31,10 @@ public class PlayerController : MonoBehaviour
     [Header("Mask System")]
     [SerializeField] private MaskType _currentMask = MaskType.None;
     
-    [Header("Combat")]
-    [SerializeField] private WeaponBase _currentWeapon;
+    [Header("Dual Weapon System")]
+    [SerializeField] private WeaponBase _weapon1;
+    [SerializeField] private WeaponBase _weapon2;
+    [SerializeField] private int _activeWeaponSlot = 0; // 0 = weapon1, 1 = weapon2
     
     [Header("Components")]
     [SerializeField] private SpriteRenderer _spriteRenderer;
@@ -38,15 +42,22 @@ public class PlayerController : MonoBehaviour
     // Public properties
     public float MoveSpeed => _moveSpeed;
     public MaskType CurrentMask => _currentMask;
-    public WeaponBase CurrentWeapon => _currentWeapon;
+    public WeaponBase CurrentWeapon => _activeWeaponSlot == 0 ? _weapon1 : _weapon2;
+    public WeaponBase Weapon1 => _weapon1;
+    public WeaponBase Weapon2 => _weapon2;
+    public int ActiveWeaponSlot => _activeWeaponSlot;
     public Rigidbody2D Rigidbody { get; private set; }
     public PlayerInputHandler InputHandler { get; private set; }
     public Health Health { get; private set; }
+    public Energy Energy { get; private set; }
     public Animator Animator { get; private set; }
     
     // State machine
     private IPlayerState _currentState;
     private IPlayerState _previousState;
+    
+    // Mask Ability
+    private MaskAbility _currentAbility;
     
     // Store state before cutscene to return to it
     private IPlayerState _stateBeforeFrozen;
@@ -59,6 +70,7 @@ public class PlayerController : MonoBehaviour
         Rigidbody = GetComponent<Rigidbody2D>();
         InputHandler = GetComponent<PlayerInputHandler>();
         Health = GetComponent<Health>();
+        Energy = GetComponent<Energy>();
         Animator = GetComponent<Animator>(); // May be null
         
         if (_spriteRenderer == null)
@@ -116,6 +128,24 @@ public class PlayerController : MonoBehaviour
     {
         // Execute current state
         _currentState?.Execute(this);
+        
+        // Handle Weapon Swap
+        if (InputHandler.WeaponSwapPressed)
+        {
+            SwapWeapon();
+        }
+        
+        // Handle Attack Input
+        if (InputHandler.AttackPressed || InputHandler.AttackHeld)
+        {
+            TryAttack();
+        }
+        
+        // Handle Ability Input (independent of state for now)
+        if (InputHandler.AbilityPressed && _currentAbility != null)
+        {
+            _currentAbility.Activate();
+        }
     }
     
     /// <summary>
@@ -136,7 +166,7 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     public void SetVelocity(Vector2 velocity)
     {
-        Rigidbody.linearVelocity = velocity;
+        Rigidbody.velocity = velocity;
     }
     
     /// <summary>
@@ -162,8 +192,43 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     public void SetMask(MaskType newMask)
     {
+        if (_currentMask == newMask) return;
+        
         _currentMask = newMask;
         ApplyMaskEffects();
+        UpdateMaskAbility();
+    }
+    
+    private void UpdateMaskAbility()
+    {
+        // Remove existing ability
+        if (_currentAbility != null)
+        {
+            Destroy(_currentAbility);
+            _currentAbility = null;
+        }
+        
+        // Add new ability component
+        switch (_currentMask)
+        {
+            case MaskType.Fear:
+                _currentAbility = gameObject.AddComponent<FearAbility>();
+                break;
+            case MaskType.Hate:
+                _currentAbility = gameObject.AddComponent<HateAbility>();
+                break;
+            case MaskType.Sorrow:
+                _currentAbility = gameObject.AddComponent<SorrowAbility>();
+                break;
+            case MaskType.Guilt:
+                _currentAbility = gameObject.AddComponent<GuiltAbility>();
+                break;
+        }
+        
+        if (_currentAbility != null)
+        {
+            Debug.Log($"[PlayerController] Added ability: {_currentAbility.GetType().Name}");
+        }
     }
     
     /// <summary>
@@ -248,11 +313,52 @@ public class PlayerController : MonoBehaviour
     }
     
     /// <summary>
-    /// Equip a new weapon.
+    /// Equip a new weapon to a specific slot.
     /// </summary>
-    public void EquipWeapon(WeaponBase weapon)
+    public void EquipWeapon(WeaponBase weapon, int slot = -1)
     {
-        _currentWeapon = weapon;
-        Debug.Log($"[PlayerController] Equipped {weapon?.WeaponName ?? "nothing"}");
+        if (slot < 0) slot = _activeWeaponSlot;
+        
+        if (slot == 0)
+            _weapon1 = weapon;
+        else
+            _weapon2 = weapon;
+            
+        Debug.Log($"[PlayerController] Equipped {weapon?.WeaponName ?? "nothing"} to slot {slot}");
+    }
+    
+    /// <summary>
+    /// Swap between weapon slots.
+    /// </summary>
+    public void SwapWeapon()
+    {
+        _activeWeaponSlot = _activeWeaponSlot == 0 ? 1 : 0;
+        Debug.Log($"[PlayerController] Weapon swapped to slot {_activeWeaponSlot}: {CurrentWeapon?.WeaponName ?? "empty"}");
+    }
+    
+    /// <summary>
+    /// Attempt to attack with current weapon, consuming energy if needed.
+    /// </summary>
+    public void TryAttack()
+    {
+        WeaponBase weapon = CurrentWeapon;
+        if (weapon == null) return;
+        if (!weapon.CanAttack) return;
+        
+        // Check energy cost
+        float energyCost = weapon.EnergyCost;
+        if (energyCost > 0 && !Energy.CanAfford(energyCost))
+        {
+            Debug.Log($"[PlayerController] Not enough energy for {weapon.WeaponName}");
+            return;
+        }
+        
+        // Consume energy and attack
+        if (energyCost > 0)
+        {
+            Energy.Consume(energyCost);
+        }
+        
+        weapon.Attack();
     }
 }

@@ -18,6 +18,24 @@ public class DungeonSceneBuilder : MonoBehaviour
     [SerializeField] private Sprite _floorSprite;
     [SerializeField] private Sprite _wallSprite;
     
+    [Header("Memory Visuals (Tableaux)")]
+    [SerializeField] private Sprite _fearMemoryImage;
+    [SerializeField] private Sprite _hateMemoryImage;
+    [SerializeField] private Sprite _sorrowMemoryImage;
+    [SerializeField] private Sprite _guiltMemoryImage;
+    
+    [Header("Enemy Prefabs")]
+    [SerializeField] private GameObject _fearEnemyPrefab;
+    [SerializeField] private GameObject _hateEnemyPrefab;
+    [SerializeField] private GameObject _sorrowEnemyPrefab;
+    [SerializeField] private GameObject _guiltEnemyPrefab;
+
+    [Header("Environment Prefabs")]
+    [SerializeField] private GameObject _crackedWallPrefab;   // Hate Room
+    [SerializeField] private GameObject _ironBarsPrefab;      // Sorrow Room
+    [SerializeField] private GameObject _regretBlockPrefab;   // Guilt Room
+    [SerializeField] private GameObject _pressurePlatePrefab; // Guilt Room
+
     [Header("Colors")]
     [SerializeField] private Color _fearColor = new Color(0.1f, 0.1f, 0.15f, 1f);
     [SerializeField] private Color _hateColor = new Color(0.3f, 0.1f, 0.1f, 1f);
@@ -104,6 +122,15 @@ public class DungeonSceneBuilder : MonoBehaviour
         {
             CreateMemoryTrigger(room.transform, roomType);
         }
+        
+        // Spawn Enemy
+        if (roomType != RoomManager.RoomType.Bedroom && roomType != RoomManager.RoomType.None)
+        {
+            CreateEnemy(room.transform, size, roomType);
+        }
+        
+        // Spawn Environment Objects
+        CreateEnvironmentObjects(room.transform, size, roomType);
     }
     
     private void CreateCorridor(Transform parent, string name, float xPos, Vector2 size, Color color)
@@ -262,6 +289,26 @@ public class DungeonSceneBuilder : MonoBehaviour
         col.isTrigger = true;
         
         MemoryTrigger mt = memory.AddComponent<MemoryTrigger>();
+        
+        Sprite image = roomType switch
+        {
+            RoomManager.RoomType.Fear => _fearMemoryImage,
+            RoomManager.RoomType.Hate => _hateMemoryImage,
+            RoomManager.RoomType.Sorrow => _sorrowMemoryImage,
+            RoomManager.RoomType.Guilt => _guiltMemoryImage,
+            _ => null
+        };
+        
+        string text = roomType switch
+        {
+            RoomManager.RoomType.Fear => "The face I loved... twisted by fear.",
+            RoomManager.RoomType.Hate => "Silence broken by rage.",
+            RoomManager.RoomType.Sorrow => "A future that never came to be.",
+            RoomManager.RoomType.Guilt => "It was always you.",
+            _ => ""
+        };
+        
+        mt.Initialize(image, text);
     }
     
     private Color GetMaskColor(RoomManager.RoomType roomType)
@@ -286,6 +333,83 @@ public class DungeonSceneBuilder : MonoBehaviour
             RoomManager.RoomType.Guilt => MaskType.Guilt,
             _ => MaskType.None
         };
+    }
+    
+    private void CreateEnemy(Transform parent, Vector2 roomSize, RoomManager.RoomType roomType)
+    {
+        GameObject prefab = roomType switch
+        {
+            RoomManager.RoomType.Fear => _fearEnemyPrefab,
+            RoomManager.RoomType.Hate => _hateEnemyPrefab,
+            RoomManager.RoomType.Sorrow => _sorrowEnemyPrefab,
+            RoomManager.RoomType.Guilt => _guiltEnemyPrefab,
+            _ => null
+        };
+        
+        if (prefab != null)
+        {
+            // Spawn 2-3 enemies per room
+            int count = 2;
+            for (int i = 0; i < count; i++)
+            {
+                GameObject enemy = PrefabUtility.InstantiatePrefab(prefab) as GameObject;
+                enemy.transform.SetParent(parent);
+                
+                // Random position away from center
+                float x = Random.Range(-roomSize.x / 3f, roomSize.x / 3f);
+                float y = Random.Range(-roomSize.y / 3f, roomSize.y / 3f);
+                enemy.transform.localPosition = new Vector3(x, y, 0f);
+            }
+        }
+    }
+
+    private void CreateEnvironmentObjects(Transform parent, Vector2 roomSize, RoomManager.RoomType roomType)
+    {
+        switch (roomType)
+        {
+            case RoomManager.RoomType.Hate:
+                if (_crackedWallPrefab != null)
+                {
+                    // Spawn 3 destructible walls
+                    for (int i = 0; i < 3; i++)
+                    {
+                        GameObject go = PrefabUtility.InstantiatePrefab(_crackedWallPrefab) as GameObject;
+                        go.transform.SetParent(parent);
+                        float x = Random.Range(-roomSize.x/3f, roomSize.x/3f);
+                        float y = Random.Range(-roomSize.y/3f, roomSize.y/3f);
+                        go.transform.localPosition = new Vector3(x, y, 0);
+                    }
+                }
+                break;
+                
+            case RoomManager.RoomType.Sorrow:
+                if (_ironBarsPrefab != null)
+                {
+                    // Spawn Iron Bars blocking path
+                    GameObject go = PrefabUtility.InstantiatePrefab(_ironBarsPrefab) as GameObject;
+                    go.transform.SetParent(parent);
+                    go.transform.localPosition = new Vector3(0, 0, 0); // Center block
+                    go.transform.localScale = new Vector3(1, 4, 1); // Tall bars
+                }
+                break;
+                
+            case RoomManager.RoomType.Guilt:
+                if (_regretBlockPrefab != null)
+                {
+                    // Spawn Heavy Blocks
+                    GameObject go = PrefabUtility.InstantiatePrefab(_regretBlockPrefab) as GameObject;
+                    go.transform.SetParent(parent);
+                    go.transform.localPosition = new Vector3(2, 0, 0);
+                }
+                if (_pressurePlatePrefab != null)
+                {
+                    // Spawn Pressure Plate
+                    GameObject go = PrefabUtility.InstantiatePrefab(_pressurePlatePrefab) as GameObject;
+                    go.transform.SetParent(parent);
+                    go.transform.localPosition = new Vector3(-2, 0, 0);
+                }
+                break;
+        }
     }
     
     [MenuItem("Tools/Generate Psychological Dungeon")]

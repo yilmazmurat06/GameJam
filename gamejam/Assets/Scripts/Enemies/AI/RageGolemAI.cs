@@ -85,7 +85,7 @@ public class RageGolemAI : MonoBehaviour
         
         if (_rb != null)
         {
-            _rb.linearVelocity = _patrolDirection * _patrolSpeed;
+            _rb.velocity = _patrolDirection * _patrolSpeed;
         }
         
         // Face direction
@@ -105,7 +105,7 @@ public class RageGolemAI : MonoBehaviour
         _chargeDirection = (_player.position - transform.position).normalized;
         
         // Stop during windup
-        if (_rb != null) _rb.linearVelocity = Vector2.zero;
+        if (_rb != null) _rb.velocity = Vector2.zero;
         
         // Windup visual (red tint)
         if (_sr != null) _sr.color = new Color(1f, 0.5f, 0.5f, 1f);
@@ -130,7 +130,7 @@ public class RageGolemAI : MonoBehaviour
         // Charging phase
         if (_rb != null)
         {
-            _rb.linearVelocity = _chargeDirection * _chargeSpeed;
+            _rb.velocity = _chargeDirection * _chargeSpeed;
         }
     }
     
@@ -172,7 +172,7 @@ public class RageGolemAI : MonoBehaviour
         {
             _state = GolemState.Stunned;
             _stateTimer = _stunDuration;
-            if (_rb != null) _rb.linearVelocity = Vector2.zero;
+            if (_rb != null) _rb.velocity = Vector2.zero;
             if (_sr != null) _sr.color = Color.yellow;
             Debug.Log("[RageGolem] STUNNED!");
         }

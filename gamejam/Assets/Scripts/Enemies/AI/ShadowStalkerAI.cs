@@ -59,9 +59,6 @@ public class ShadowStalkerAI : MonoBehaviour
             case StalkerState.Stalking:
                 UpdateStalking();
                 break;
-            case StalkerState.Vanishing:
-                UpdateVanishing();
-                break;
         }
     }
     
@@ -80,47 +77,17 @@ public class ShadowStalkerAI : MonoBehaviour
     {
         if (_player == null) return;
         
-        float dist = Vector2.Distance(transform.position, _player.position);
-        
-        // Check if player is "looking" at us (facing our direction)
-        PlayerController pc = _player.GetComponent<PlayerController>();
-        if (pc != null)
-        {
-            Vector2 toStalker = (transform.position - _player.position).normalized;
-            bool playerFacingUs = (pc.IsFacingRight && toStalker.x > 0.3f) || 
-                                  (!pc.IsFacingRight && toStalker.x < -0.3f);
-            
-            // Vanish if player looks at us
-            if (playerFacingUs && dist < _vanishDistance * 2)
-            {
-                EnterState(StalkerState.Vanishing);
-                return;
-            }
-        }
-        
-        // Move toward player
+        // Always move toward player (Solid Stalker)
         Vector2 dir = (_player.position - transform.position).normalized;
         if (_rb != null)
         {
-            _rb.linearVelocity = dir * _stalkSpeed;
+            _rb.velocity = dir * _stalkSpeed;
         }
         
         // Face player
         if (_sr != null)
         {
             _sr.flipX = dir.x < 0;
-        }
-    }
-    
-    private void UpdateVanishing()
-    {
-        _respawnTimer -= Time.deltaTime;
-        
-        if (_respawnTimer <= 0)
-        {
-            // Respawn at original position
-            transform.position = _spawnPosition;
-            EnterState(StalkerState.Lurking);
         }
     }
     
@@ -131,25 +98,18 @@ public class ShadowStalkerAI : MonoBehaviour
         switch (newState)
         {
             case StalkerState.Lurking:
-                if (_sr != null) _sr.color = _lurkColor;
-                if (_rb != null) _rb.linearVelocity = Vector2.zero;
+                if (_rb != null) _rb.velocity = Vector2.zero;
                 break;
                 
             case StalkerState.Stalking:
-                if (_sr != null) _sr.color = _stalkColor;
-                break;
-                
-            case StalkerState.Vanishing:
-                if (_sr != null) _sr.color = new Color(0, 0, 0, 0);
-                if (_rb != null) _rb.linearVelocity = Vector2.zero;
-                _respawnTimer = _respawnDelay;
+                // Full speed
                 break;
         }
     }
     
     private void OnCollisionEnter2D(Collision2D col)
     {
-        // Attack player on touch
+        // Attack player on touch (Physical contact)
         if (col.gameObject.CompareTag("Player") || col.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             Health playerHealth = col.gameObject.GetComponent<Health>();
@@ -157,10 +117,8 @@ public class ShadowStalkerAI : MonoBehaviour
             {
                 DamageInfo dmg = new DamageInfo(_attackDamage, gameObject);
                 playerHealth.TakeDamage(dmg);
-                Debug.Log("[ShadowStalker] Killed player!");
+                Debug.Log("[ShadowStalker] Contact! Dealing " + _attackDamage + " damage.");
             }
-            
-            EnterState(StalkerState.Vanishing);
         }
     }
     
@@ -168,7 +126,5 @@ public class ShadowStalkerAI : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, _detectionRange);
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, _vanishDistance);
     }
 }

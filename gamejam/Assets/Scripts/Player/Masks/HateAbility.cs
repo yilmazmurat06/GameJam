@@ -43,13 +43,13 @@ public class HateAbility : MaskAbility
         _dashTimer = _dashDuration;
         
         // Disable normal movement during dash
-        _player.Rigidbody.linearVelocity = Vector2.zero;
+        _player.Rigidbody.velocity = Vector2.zero;
     }
     
     protected override void OnDeactivate()
     {
         _isDashing = false;
-        _player.Rigidbody.linearVelocity = Vector2.zero;
+        _player.Rigidbody.velocity = Vector2.zero;
     }
     
     protected override void Update()
@@ -62,7 +62,7 @@ public class HateAbility : MaskAbility
             
             // Move in dash direction
             float speed = _dashDistance / _dashDuration;
-            _player.Rigidbody.linearVelocity = _dashDirection * speed;
+            _player.Rigidbody.velocity = _dashDirection * speed;
             
             // Check for destructibles
             CheckDestructibles();
