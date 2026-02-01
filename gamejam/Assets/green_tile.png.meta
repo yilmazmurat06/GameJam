@@ -1,0 +1,2482 @@
+fileFormatVersion: 2
+guid: 4f1a3d967befb42cda4d134d608968e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3923822255674076026
+    second: green_tile_0
+  - first:
+      213: 4347209253105619428
+    second: green_tile_1
+  - first:
+      213: -4051566562699671499
+    second: green_tile_2
+  - first:
+      213: -4297201716078759668
+    second: green_tile_3
+  - first:
+      213: -1546598191368422846
+    second: green_tile_4
+  - first:
+      213: -1805618599759482981
+    second: green_tile_5
+  - first:
+      213: -6416956573510852797
+    second: green_tile_6
+  - first:
+      213: 2868100390548087707
+    second: green_tile_7
+  - first:
+      213: -2519231539755790455
+    second: green_tile_8
+  - first:
+      213: 2536605146337200973
+    second: green_tile_9
+  - first:
+      213: -6506329204862435273
+    second: green_tile_10
+  - first:
+      213: -9115644117870060116
+    second: green_tile_11
+  - first:
+      213: 3817473097322822979
+    second: green_tile_12
+  - first:
+      213: 2721475668041158126
+    second: green_tile_13
+  - first:
+      213: -7871021757731176596
+    second: green_tile_14
+  - first:
+      213: 3729603995548129531
+    second: green_tile_15
+  - first:
+      213: -8391047537521658551
+    second: green_tile_16
+  - first:
+      213: -6024084637361222174
+    second: green_tile_17
+  - first:
+      213: -6133102025655793188
+    second: green_tile_18
+  - first:
+      213: -3782367899075108388
+    second: green_tile_19
+  - first:
+      213: 4727778640617879902
+    second: green_tile_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: green_tile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68456c0a278cb89c0800000000000000
+      internalID: -3923822255674076026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1d6af78c3645c30800000000000000
+      internalID: 4347209253105619428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5388f666da1f5c7c0800000000000000
+      internalID: -4051566562699671499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c013de88ec54d54c0800000000000000
+      internalID: -4297201716078759668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a3931a321698ae0800000000000000
+      internalID: -1546598191368422846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f6f79337721f6e0800000000000000
+      internalID: -1805618599759482981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_6
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f17c0bef362f6a0800000000000000
+      internalID: -6416956573510852797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_7
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9327cefb1a8dc720800000000000000
+      internalID: 2868100390548087707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_8
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f45e51344e90dd0800000000000000
+      internalID: -2519231539755790455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_9
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b4bdae0f4d33320800000000000000
+      internalID: 2536605146337200973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730cc686f00e4b5a0800000000000000
+      internalID: -6506329204862435273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadd977b8f9be7180800000000000000
+      internalID: -9115644117870060116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d79816e836af430800000000000000
+      internalID: 3817473097322822979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed467a73bf94c520800000000000000
+      internalID: 2721475668041158126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fff0fe96384c290800000000000000
+      internalID: -7871021757731176596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_15
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8168bd21732c330800000000000000
+      internalID: 3729603995548129531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_16
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945fa98e8b20d8b80800000000000000
+      internalID: -8391047537521658551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_17
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed423570f6266ca0800000000000000
+      internalID: -6024084637361222174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_18
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9ce85c338d2eaa0800000000000000
+      internalID: -6133102025655793188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_19
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1a9c58f64528bc0800000000000000
+      internalID: -3782367899075108388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5935b2ff917c9140800000000000000
+      internalID: 4727778640617879902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601e0afba45dd4ba0bf7d2dc679ee2ae
+      internalID: 2063253442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6383ceac0f1464ae7a0cc235d575839f
+      internalID: 2144704704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17463e0412474734b73f98db8d6c7f1
+      internalID: 1288692279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdf75c36486e4fbea6dab2a7ff78e09
+      internalID: 27612832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_25
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b46f78385047b8a772e93440e68c5
+      internalID: -83241014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_26
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a520859f52f9646058d7025db1f20ff9
+      internalID: 1585580013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_27
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315c1c7a807ca4b7eb6a7b692dc890c2
+      internalID: -252176709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_28
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d9a3b7396754e4e9f5dc9053ba2e2f
+      internalID: -1370722573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_29
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9f8381029774689914d0b114724a2a
+      internalID: 2099856823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b5f5a4546704fa3a9a0e2703ee9054
+      internalID: 40588020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec7a978ad550496eb61b8d14cf3c96b
+      internalID: 3812383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884d88d87fb3149659f73504114ae9a1
+      internalID: -1506559521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_33
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323769edb11934899acb05fc0ff67b39
+      internalID: 1627519537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_34
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abfe44fc3da9445db855b376acb1110
+      internalID: -41667524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_35
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab5bd0a997d34287a3eae504e4d0dd3
+      internalID: 538520554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_36
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420231afde1a94b108087eeb0cde258d
+      internalID: 610708705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_37
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac746d10c3ce94bffa5e4a5a722a963c
+      internalID: 1348517778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_38
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced9d2dc84e584d54bdcd945c7fef044
+      internalID: 510260780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_39
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4572a8a2d0753407f9610520f4f2e08a
+      internalID: 848029677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6af3182dd2914849bc48567609cb883
+      internalID: -174431915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814bdeffdf17f42c8943745728f8175a
+      internalID: -1600442297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_42
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8150c9a78ef47d1a57ae27e7d53955
+      internalID: -24619094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_43
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ca2c504bafc4f85b3848f3eb0fcd4d
+      internalID: -1003753916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_44
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d99bd7ec154c4a8db5f226bb34700dc
+      internalID: -258869842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_45
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb57285360884127b93cc253783b02c
+      internalID: 42944411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_46
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34929d59adbbf4688918821f65fc8d2f
+      internalID: -1610000677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_47
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a7160bfe7014b7d839ba303f2df112
+      internalID: -1928450425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_48
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4357737d0148478da5f76281ae0b183
+      internalID: 580384459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_49
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ef612b1643c42d5af789babf5290f6
+      internalID: -387274201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc1334c09b5045ddaa1e0ca83b7979f
+      internalID: -1958357107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98180928ed6b841aea1fbd31d8103f35
+      internalID: -1911060352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_52
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60385db02d8e24f7898e28d143e3a595
+      internalID: 1719107280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_53
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6353c4415298f4c6e887e910f7a2b8c5
+      internalID: -2121753758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_54
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca043052a89e497b8646313b0a59b24
+      internalID: -1224868862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_55
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f16fea3e53e4df9a5063745af57af1
+      internalID: 1084985490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_56
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18672b8cc6a14093a01f8454fa3ac94
+      internalID: -1401201643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_57
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cf29c348d164c11805bc949b634f91
+      internalID: -1766957335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_58
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542afcf03f47a4d26a54f8efd7d389ec
+      internalID: 1382791041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_59
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6279b9cf459a412aa23b34be863c821
+      internalID: -82264723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462d706cc904d4994b8c42c041cfd33c
+      internalID: 294670776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_61
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b822c65079b994bf7a267c5339eb4b14
+      internalID: -1314469632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_62
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e53189d7d734f3a84ea27c60d2c1e4
+      internalID: -1941955054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_63
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46349494311014336beae1c1b7a5ede8
+      internalID: 311584370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_64
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6473d61be064ea0b5044721eb17786
+      internalID: 975181386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_65
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a575bd4b55bf462eac8ee00b87b0389
+      internalID: -1954091284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_66
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348c15a8872f943b4a46f3a8b4705a66
+      internalID: 1084064512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_67
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73391ac1db3e34940a8d94ddba99d4d3
+      internalID: -530404883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_68
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bea1ab597144e0c87aeffd95268c86
+      internalID: 984263975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_69
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d05477284704ee7bf5409aa5998543
+      internalID: 395523901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533c88d89fce24ae08be9912587d0741
+      internalID: -1928341747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_71
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f5bd3117a274bafb4919ac0a6af823
+      internalID: -551980060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_72
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e583e0941d8948069e01d8c53d374ca
+      internalID: 2048652356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_73
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8750d60371a9414cb0ca7d320a8b40c
+      internalID: -251962146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_74
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc0ccfce9e0b4f1c8b9b0df8bc3b83f
+      internalID: -1472213541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_75
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f8ee74b440648619292f71c1fb5892
+      internalID: -597928002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_76
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea323418f79b400da08d42321456f32
+      internalID: -2137739901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_77
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a892a957fff24431f8fa5b7a2cc4383f
+      internalID: 1926778396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_78
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85c6231d41cf4aeb8ec9388b0d2907f
+      internalID: -1003020011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_79
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdcfa79aa7be4b06a7bcfa821d8f34c
+      internalID: 552482777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fcaf2ce689144ac940375653d83af3
+      internalID: 395232797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_81
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a365137a158a242c39f3edbbbd6af465
+      internalID: 811750559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_82
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b7b8e5600544374ac0c148c00a634e
+      internalID: 1060056651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_83
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cc40e5a77c14db09a4ec6ec1b53aae
+      internalID: 934003611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_84
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb84f4083c9241c58de90028e89747a
+      internalID: -1717341708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_85
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdf6fb40a8f94446943249949d979ac
+      internalID: -342040990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_86
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5cb54d244a34a00b629c78b8bb1cd6
+      internalID: 314730324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_87
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db539864aebbb44538dd8fd261cfa044
+      internalID: -717270446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_88
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a8f0d810b26464bb5393095d9cdfd6
+      internalID: -602561506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_89
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7633940ffaf2442ae83daeda07a83a36
+      internalID: -661378190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d775bbce739f445bbb7fda15d368b34
+      internalID: -1213437146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_91
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00276adb5ebc846569bf1f03e93bb0fe
+      internalID: -907765419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_92
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900584331e4b84b2c814fd6b0c7e3acb
+      internalID: -2041797592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_93
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0e4edbbc9774f0a97ced0bb8a9eaea
+      internalID: -1368584491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_94
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d8f7814625c4df19dd1575d5aacbdc
+      internalID: 1695923321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_95
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a692947bd84b4fc3bde290f4ce20544
+      internalID: -1666506985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_96
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933079fb8110d4fd1a2f6672578358e3
+      internalID: -1669614739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_97
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd20249caa9e34596a12d2744c7d375a
+      internalID: -438324497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_98
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fddcfc260f44375bff270ec0973b5a
+      internalID: -1582445804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_tile_99
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddec5073cb2b463fb5b3371454d1895
+      internalID: 52438697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dba85aaa138334aa3be8fdc9841b6823
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":10.0},"gridSpriteSize":{"x":204.0,"y":204.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      green_tile_0: -3923822255674076026
+      green_tile_1: 4347209253105619428
+      green_tile_10: -6506329204862435273
+      green_tile_11: -9115644117870060116
+      green_tile_12: 3817473097322822979
+      green_tile_13: 2721475668041158126
+      green_tile_14: -7871021757731176596
+      green_tile_15: 3729603995548129531
+      green_tile_16: -8391047537521658551
+      green_tile_17: -6024084637361222174
+      green_tile_18: -6133102025655793188
+      green_tile_19: -3782367899075108388
+      green_tile_2: -4051566562699671499
+      green_tile_20: 4727778640617879902
+      green_tile_21: 2063253442
+      green_tile_22: 2144704704
+      green_tile_23: 1288692279
+      green_tile_24: 27612832
+      green_tile_25: -83241014
+      green_tile_26: 1585580013
+      green_tile_27: -252176709
+      green_tile_28: -1370722573
+      green_tile_29: 2099856823
+      green_tile_3: -4297201716078759668
+      green_tile_30: 40588020
+      green_tile_31: 3812383
+      green_tile_32: -1506559521
+      green_tile_33: 1627519537
+      green_tile_34: -41667524
+      green_tile_35: 538520554
+      green_tile_36: 610708705
+      green_tile_37: 1348517778
+      green_tile_38: 510260780
+      green_tile_39: 848029677
+      green_tile_4: -1546598191368422846
+      green_tile_40: -174431915
+      green_tile_41: -1600442297
+      green_tile_42: -24619094
+      green_tile_43: -1003753916
+      green_tile_44: -258869842
+      green_tile_45: 42944411
+      green_tile_46: -1610000677
+      green_tile_47: -1928450425
+      green_tile_48: 580384459
+      green_tile_49: -387274201
+      green_tile_5: -1805618599759482981
+      green_tile_50: -1958357107
+      green_tile_51: -1911060352
+      green_tile_52: 1719107280
+      green_tile_53: -2121753758
+      green_tile_54: -1224868862
+      green_tile_55: 1084985490
+      green_tile_56: -1401201643
+      green_tile_57: -1766957335
+      green_tile_58: 1382791041
+      green_tile_59: -82264723
+      green_tile_6: -6416956573510852797
+      green_tile_60: 294670776
+      green_tile_61: -1314469632
+      green_tile_62: -1941955054
+      green_tile_63: 311584370
+      green_tile_64: 975181386
+      green_tile_65: -1954091284
+      green_tile_66: 1084064512
+      green_tile_67: -530404883
+      green_tile_68: 984263975
+      green_tile_69: 395523901
+      green_tile_7: 2868100390548087707
+      green_tile_70: -1928341747
+      green_tile_71: -551980060
+      green_tile_72: 2048652356
+      green_tile_73: -251962146
+      green_tile_74: -1472213541
+      green_tile_75: -597928002
+      green_tile_76: -2137739901
+      green_tile_77: 1926778396
+      green_tile_78: -1003020011
+      green_tile_79: 552482777
+      green_tile_8: -2519231539755790455
+      green_tile_80: 395232797
+      green_tile_81: 811750559
+      green_tile_82: 1060056651
+      green_tile_83: 934003611
+      green_tile_84: -1717341708
+      green_tile_85: -342040990
+      green_tile_86: 314730324
+      green_tile_87: -717270446
+      green_tile_88: -602561506
+      green_tile_89: -661378190
+      green_tile_9: 2536605146337200973
+      green_tile_90: -1213437146
+      green_tile_91: -907765419
+      green_tile_92: -2041797592
+      green_tile_93: -1368584491
+      green_tile_94: 1695923321
+      green_tile_95: -1666506985
+      green_tile_96: -1669614739
+      green_tile_97: -438324497
+      green_tile_98: -1582445804
+      green_tile_99: 52438697
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
