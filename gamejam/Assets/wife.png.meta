@@ -1,0 +1,4277 @@
+fileFormatVersion: 2
+guid: 60a39341401994d909ea0ca1028414f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2353376327185201564
+    second: wife_0
+  - first:
+      213: -6116455687998387656
+    second: wife_1
+  - first:
+      213: -5360462564578408438
+    second: wife_2
+  - first:
+      213: 364332240264148106
+    second: wife_3
+  - first:
+      213: -7313379266511601780
+    second: wife_4
+  - first:
+      213: 3639213035922331897
+    second: wife_5
+  - first:
+      213: -8673821427528909379
+    second: wife_6
+  - first:
+      213: -4997460487843457303
+    second: wife_7
+  - first:
+      213: -6953331524844760549
+    second: wife_8
+  - first:
+      213: 1280503873474960059
+    second: wife_9
+  - first:
+      213: 4903111994042040542
+    second: wife_10
+  - first:
+      213: -4117297817981674637
+    second: wife_11
+  - first:
+      213: -2818746359009795441
+    second: wife_12
+  - first:
+      213: 1035680858053490131
+    second: wife_13
+  - first:
+      213: -1232406605229720120
+    second: wife_14
+  - first:
+      213: 8552607664636063706
+    second: wife_15
+  - first:
+      213: -7558427596138231789
+    second: wife_16
+  - first:
+      213: -4750723810102817037
+    second: wife_17
+  - first:
+      213: 6341556434521123629
+    second: wife_18
+  - first:
+      213: 5759230717862111349
+    second: wife_19
+  - first:
+      213: 7054414088198546648
+    second: wife_20
+  - first:
+      213: -6419110218372150820
+    second: wife_21
+  - first:
+      213: 3250813433915364575
+    second: wife_22
+  - first:
+      213: 8173938891451578259
+    second: wife_23
+  - first:
+      213: 366642942694187956
+    second: wife_24
+  - first:
+      213: 2942187096724159365
+    second: wife_25
+  - first:
+      213: -6518283915659341775
+    second: wife_26
+  - first:
+      213: -6885367637432601070
+    second: wife_27
+  - first:
+      213: -3729887375298107294
+    second: wife_28
+  - first:
+      213: -3887816654558070844
+    second: wife_29
+  - first:
+      213: 418888549805442799
+    second: wife_30
+  - first:
+      213: 885406553154925467
+    second: wife_31
+  - first:
+      213: 8887838324493222309
+    second: wife_32
+  - first:
+      213: 5613625286060513422
+    second: wife_33
+  - first:
+      213: -1653726627711880903
+    second: wife_34
+  - first:
+      213: -8417261413293880304
+    second: wife_35
+  - first:
+      213: -8553550591491822153
+    second: wife_36
+  - first:
+      213: 6980416958882654664
+    second: wife_37
+  - first:
+      213: 1133926089155937861
+    second: wife_38
+  - first:
+      213: 4684129305873042874
+    second: wife_39
+  - first:
+      213: 4821674705538842186
+    second: wife_40
+  - first:
+      213: -1946204825061664244
+    second: wife_41
+  - first:
+      213: 1886018227564184783
+    second: wife_42
+  - first:
+      213: 1712457032248349409
+    second: wife_43
+  - first:
+      213: 7189320244875222195
+    second: wife_44
+  - first:
+      213: -7273447675545107830
+    second: wife_45
+  - first:
+      213: 8189268354676532766
+    second: wife_46
+  - first:
+      213: 7656328270440432866
+    second: wife_47
+  - first:
+      213: 1712072858667022412
+    second: wife_48
+  - first:
+      213: -5025501047104327055
+    second: wife_49
+  - first:
+      213: -3080173126090925979
+    second: wife_50
+  - first:
+      213: 6426770011557007815
+    second: wife_51
+  - first:
+      213: -1335177785019702847
+    second: wife_52
+  - first:
+      213: 7562587147132687289
+    second: wife_53
+  - first:
+      213: -9009374482372931353
+    second: wife_54
+  - first:
+      213: 5771837170680429655
+    second: wife_55
+  - first:
+      213: -1441284958956404003
+    second: wife_56
+  - first:
+      213: -1024078330897604319
+    second: wife_57
+  - first:
+      213: 7070744827983291544
+    second: wife_58
+  - first:
+      213: 609983831295404052
+    second: wife_59
+  - first:
+      213: 7463018419029314652
+    second: wife_60
+  - first:
+      213: -6602538459756886238
+    second: wife_61
+  - first:
+      213: 4933489937764737873
+    second: wife_62
+  - first:
+      213: 4777665828918275344
+    second: wife_63
+  - first:
+      213: 2959756824955072505
+    second: wife_64
+  - first:
+      213: -9089902120726004147
+    second: wife_65
+  - first:
+      213: 7640782488190927262
+    second: wife_66
+  - first:
+      213: -5513742807602855329
+    second: wife_67
+  - first:
+      213: -8113972156756807466
+    second: wife_68
+  - first:
+      213: 4232345066898921398
+    second: wife_69
+  - first:
+      213: 4923956490042969552
+    second: wife_70
+  - first:
+      213: -2751797379927642003
+    second: wife_71
+  - first:
+      213: -4076516651705570666
+    second: wife_72
+  - first:
+      213: -7339115056268338502
+    second: wife_73
+  - first:
+      213: 7090385564596907893
+    second: wife_74
+  - first:
+      213: 249205198234720149
+    second: wife_75
+  - first:
+      213: 9025133043193481702
+    second: wife_76
+  - first:
+      213: 3642414668042915905
+    second: wife_77
+  - first:
+      213: 8257326583971887438
+    second: wife_78
+  - first:
+      213: 1853290098109151233
+    second: wife_79
+  - first:
+      213: 286538615462449484
+    second: wife_80
+  - first:
+      213: -1613504333412015330
+    second: wife_81
+  - first:
+      213: 4549726266955192984
+    second: wife_82
+  - first:
+      213: 1709011892492623621
+    second: wife_83
+  - first:
+      213: -2962500687537224399
+    second: wife_84
+  - first:
+      213: 1056351870949588996
+    second: wife_85
+  - first:
+      213: 4157017662631798974
+    second: wife_86
+  - first:
+      213: 9111122421330989385
+    second: wife_87
+  - first:
+      213: -6949402163715454437
+    second: wife_88
+  - first:
+      213: 4616327187766460740
+    second: wife_89
+  - first:
+      213: 6798935744789695717
+    second: wife_90
+  - first:
+      213: 6268270920314542197
+    second: wife_91
+  - first:
+      213: 1055785332273096951
+    second: wife_92
+  - first:
+      213: -4215727853889960546
+    second: wife_93
+  - first:
+      213: 3812111765430719493
+    second: wife_94
+  - first:
+      213: 8859329280762989057
+    second: wife_95
+  - first:
+      213: -2275351806887191783
+    second: wife_96
+  - first:
+      213: -360716673398196547
+    second: wife_97
+  - first:
+      213: 6322092192398370756
+    second: wife_98
+  - first:
+      213: 3612986497361521749
+    second: wife_99
+  - first:
+      213: -6809333380626185100
+    second: wife_100
+  - first:
+      213: -362188970867745237
+    second: wife_101
+  - first:
+      213: 7199076757256232818
+    second: wife_102
+  - first:
+      213: 6648566281488925080
+    second: wife_103
+  - first:
+      213: -3449279312731629446
+    second: wife_104
+  - first:
+      213: 4199931047234971980
+    second: wife_105
+  - first:
+      213: -736761380279720792
+    second: wife_106
+  - first:
+      213: 4248650530438034972
+    second: wife_107
+  - first:
+      213: -109628261802997657
+    second: wife_108
+  - first:
+      213: 6006834828285544434
+    second: wife_109
+  - first:
+      213: -4240316528038072868
+    second: wife_110
+  - first:
+      213: 3933713890201835721
+    second: wife_111
+  - first:
+      213: 5104801672122705102
+    second: wife_112
+  - first:
+      213: 6487567041925103427
+    second: wife_113
+  - first:
+      213: 2108264005179133181
+    second: wife_114
+  - first:
+      213: 4014276961328680073
+    second: wife_115
+  - first:
+      213: 4074950575101576380
+    second: wife_116
+  - first:
+      213: -5155044090464818108
+    second: wife_117
+  - first:
+      213: 3450216309629026726
+    second: wife_118
+  - first:
+      213: -7315008070868590409
+    second: wife_119
+  - first:
+      213: -7474758042409773804
+    second: wife_120
+  - first:
+      213: 2686298739061117511
+    second: wife_121
+  - first:
+      213: 6588683771598234097
+    second: wife_122
+  - first:
+      213: -7154051453762946186
+    second: wife_123
+  - first:
+      213: 9063887896641910361
+    second: wife_124
+  - first:
+      213: 438645572543575465
+    second: wife_125
+  - first:
+      213: 2729766514633142538
+    second: wife_126
+  - first:
+      213: 8837944303468665536
+    second: wife_127
+  - first:
+      213: -6021610632280394437
+    second: wife_128
+  - first:
+      213: -1951881155984415527
+    second: wife_129
+  - first:
+      213: 554274401657854170
+    second: wife_130
+  - first:
+      213: -7331240290647476257
+    second: wife_131
+  - first:
+      213: -6114957784166058752
+    second: wife_132
+  - first:
+      213: 1558941569106931508
+    second: wife_133
+  - first:
+      213: -1268770203157304367
+    second: wife_134
+  - first:
+      213: 5371236498030868416
+    second: wife_135
+  - first:
+      213: 1984340465863641625
+    second: wife_136
+  - first:
+      213: -293490568238480615
+    second: wife_137
+  - first:
+      213: 6689956993864424895
+    second: wife_138
+  - first:
+      213: -3819490763388419953
+    second: wife_139
+  - first:
+      213: 4790930387315634092
+    second: wife_140
+  - first:
+      213: -8579072582542803704
+    second: wife_141
+  - first:
+      213: -2203116552784844813
+    second: wife_142
+  - first:
+      213: 8220932787578997742
+    second: wife_143
+  - first:
+      213: -2263665797142353033
+    second: wife_144
+  - first:
+      213: 5471858710964094558
+    second: wife_145
+  - first:
+      213: -1105478012186431876
+    second: wife_146
+  - first:
+      213: -1071426317200618219
+    second: wife_147
+  - first:
+      213: -5647172651684521271
+    second: wife_148
+  - first:
+      213: -6343332309658778737
+    second: wife_149
+  - first:
+      213: -2460770334949971989
+    second: wife_150
+  - first:
+      213: -8459055174368218732
+    second: wife_151
+  - first:
+      213: 1018200830768311628
+    second: wife_152
+  - first:
+      213: -6777399453017271438
+    second: wife_153
+  - first:
+      213: 1485266040246978092
+    second: wife_154
+  - first:
+      213: 4554832849230313152
+    second: wife_155
+  - first:
+      213: 4327515124636033298
+    second: wife_156
+  - first:
+      213: 1940123245490581301
+    second: wife_157
+  - first:
+      213: 176218859714463610
+    second: wife_158
+  - first:
+      213: -4878195926799962324
+    second: wife_159
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wife_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1376
+        width: 100
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466005bf2b0275fd0800000000000000
+      internalID: -2353376327185201564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1376
+        width: 103
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a407845fbfd1ba0800000000000000
+      internalID: -6116455687998387656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1387
+        width: 107
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08468ec2bfcb95b0800000000000000
+      internalID: -5360462564578408438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1370
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84ba210e3e5e0500800000000000000
+      internalID: 364332240264148106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_4
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1370
+        width: 100
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f7ed71e48a18a90800000000000000
+      internalID: -7313379266511601780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_5
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1370
+        width: 99
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f81f1c89f4118230800000000000000
+      internalID: 3639213035922331897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_6
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1370
+        width: 101
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdb7f61e5560a780800000000000000
+      internalID: -8673821427528909379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_7
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1388
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e65a0bf92475aab0800000000000000
+      internalID: -4997460487843457303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_8
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1370
+        width: 99
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b125a1881ddc08f90800000000000000
+      internalID: -6953331524844760549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_9
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1370
+        width: 93
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba9cff0d7345c110800000000000000
+      internalID: 1280503873474960059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_10
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1375
+        width: 98
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed045da716a5b0440800000000000000
+      internalID: 4903111994042040542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_11
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1376
+        width: 100
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b16bce27b6cd6c0800000000000000
+      internalID: -4117297817981674637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_12
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1387
+        width: 107
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82ab4fee1dc1e8d0800000000000000
+      internalID: -2818746359009795441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_13
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1446
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d533fcc04a7f5e00800000000000000
+      internalID: 1035680858053490131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_14
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1370
+        width: 107
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdff6cd8bc95eee0800000000000000
+      internalID: -1232406605229720120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_15
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1376
+        width: 97
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf6ae97b57f0b670800000000000000
+      internalID: 8552607664636063706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_16
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1375
+        width: 96
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318cba7c5221b1790800000000000000
+      internalID: -7558427596138231789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_17
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1387
+        width: 114
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fec4d87dd9021eb0800000000000000
+      internalID: -4750723810102817037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_18
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 1370
+        width: 89
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b69ba6afbb10850800000000000000
+      internalID: 6341556434521123629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1194
+        width: 97
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57860bdf2d5ecef40800000000000000
+      internalID: 5759230717862111349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1192
+        width: 97
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4e591cc3056e160800000000000000
+      internalID: 7054414088198546648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_21
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1206
+        width: 112
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd909db244dbae6a0800000000000000
+      internalID: -6419110218372150820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_22
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1192
+        width: 102
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4d79738953d1d20800000000000000
+      internalID: 3250813433915364575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_23
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1256
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397b8b84d1aaf6170800000000000000
+      internalID: 8173938891451578259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_24
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1192
+        width: 103
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3e0b650d3961500800000000000000
+      internalID: 366642942694187956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_25
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1192
+        width: 100
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b3bfa739fb4d820800000000000000
+      internalID: 2942187096724159365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_26
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1194
+        width: 106
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1309bf560576a85a0800000000000000
+      internalID: -6518283915659341775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_27
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1206
+        width: 86
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216fbde2d924270a0800000000000000
+      internalID: -6885367637432601070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_28
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1188
+        width: 79
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2686427a137cc3cc0800000000000000
+      internalID: -3729887375298107294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_29
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1193
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7f739e953bb0ac0800000000000000
+      internalID: -3887816654558070844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_30
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1188
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6c1abaae030d500800000000000000
+      internalID: 418888549805442799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_31
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1193
+        width: 102
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b933a9aa198994c00800000000000000
+      internalID: 885406553154925467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_32
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1206
+        width: 103
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a18588cdd1f75b70800000000000000
+      internalID: 8887838324493222309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_33
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1192
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8899c5947a97ed40800000000000000
+      internalID: 5613625286060513422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_34
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1194
+        width: 97
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931f0a7d468cc09e0800000000000000
+      internalID: -1653726627711880903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_35
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1194
+        width: 103
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c04075751ef2b80800000000000000
+      internalID: -8417261413293880304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_36
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 1206
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd2cc14e0fab4980800000000000000
+      internalID: -8553550591491822153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_37
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1194
+        width: 93
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c920528d3c6fd060800000000000000
+      internalID: 6980416958882654664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_38
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1007
+        width: 101
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54600b135c38cbf00800000000000000
+      internalID: 1133926089155937861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_39
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1006
+        width: 104
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd4f8e39ce510140800000000000000
+      internalID: 4684129305873042874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_40
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1018
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ef02e29970ae240800000000000000
+      internalID: 4821674705538842186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_41
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1061
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a5c06e501bdf4e0800000000000000
+      internalID: -1946204825061664244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_42
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1006
+        width: 104
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc400edd59b7c2a10800000000000000
+      internalID: 1886018227564184783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_43
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1007
+        width: 112
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2584c099ed3c710800000000000000
+      internalID: 1712457032248349409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_44
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1004
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcdf4c0ca895c360800000000000000
+      internalID: 7189320244875222195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_45
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1005
+        width: 103
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a824ebe10e58f0b90800000000000000
+      internalID: -7273447675545107830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_46
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1016
+        width: 92
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16a7d21e2026a170800000000000000
+      internalID: 8189268354676532766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_47
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1005
+        width: 89
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4026b3ffdb04a60800000000000000
+      internalID: 7656328270440432866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_48
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1005
+        width: 101
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c487f6aa13182c710800000000000000
+      internalID: 1712072858667022412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_49
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1006
+        width: 99
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1723ef48c65d14ab0800000000000000
+      internalID: -5025501047104327055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_50
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1007
+        width: 104
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56855ac7cd60145d0800000000000000
+      internalID: -3080173126090925979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_51
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1018
+        width: 112
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c11df76649703950800000000000000
+      internalID: 6426770011557007815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_52
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1005
+        width: 95
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c168ebe0ee787de0800000000000000
+      internalID: -1335177785019702847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_53
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 1005
+        width: 98
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b357c721f4b3f860800000000000000
+      internalID: 7562587147132687289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_54
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 1003
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e051b954a548f280800000000000000
+      internalID: -9009374482372931353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_55
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1009
+        width: 115
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c7dc3835fa91050800000000000000
+      internalID: 5771837170680429655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_56
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 1007
+        width: 95
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd24a4157f68ffbe0800000000000000
+      internalID: -1441284958956404003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_57
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1007
+        width: 88
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1216ca01f2eb9c1f0800000000000000
+      internalID: -1024078330897604319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_58
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 807
+        width: 103
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894ef5965f4502260800000000000000
+      internalID: 7070744827983291544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_59
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 807
+        width: 101
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418281f0019177800800000000000000
+      internalID: 609983831295404052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_60
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 819
+        width: 108
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c807a16b7f19760800000000000000
+      internalID: 7463018419029314652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_61
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 807
+        width: 103
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227065aa0421f54a0800000000000000
+      internalID: -6602538459756886238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_62
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 807
+        width: 97
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1536e6ba5f6477440800000000000000
+      internalID: 4933489937764737873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_63
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 807
+        width: 100
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d223c12cdad4240800000000000000
+      internalID: 4777665828918275344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_64
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 807
+        width: 102
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff2cfc962b231920800000000000000
+      internalID: 2959756824955072505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_65
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 813
+        width: 79
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e7e0b7e2e2ad180800000000000000
+      internalID: -9089902120726004147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_66
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 807
+        width: 94
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9145aeb033890a60800000000000000
+      internalID: 7640782488190927262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_67
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 807
+        width: 98
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5287f921204b73b0800000000000000
+      internalID: -5513742807602855329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_68
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 807
+        width: 104
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0b9172051656f80800000000000000
+      internalID: -8113972156756807466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_69
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 806
+        width: 102
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b713671a6f4cba30800000000000000
+      internalID: 4232345066898921398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_70
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 813
+        width: 115
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd8d76e658655440800000000000000
+      internalID: 4923956490042969552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_71
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 808
+        width: 97
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60ff83dcd6afc9d0800000000000000
+      internalID: -2751797379927642003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_72
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 807
+        width: 109
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69aef1e14bd4d67c0800000000000000
+      internalID: -4076516651705570666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_73
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 805
+        width: 106
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba97699db9362a90800000000000000
+      internalID: -7339115056268338502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_74
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 807
+        width: 110
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f2b52ca1c166260800000000000000
+      internalID: 7090385564596907893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_75
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 807
+        width: 91
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59716f4beca557300800000000000000
+      internalID: 249205198234720149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_76
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 807
+        width: 85
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e900328fa6bf3d70800000000000000
+      internalID: 9025133043193481702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_77
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 602
+        width: 116
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140de5d97d47c8230800000000000000
+      internalID: 3642414668042915905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_78
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 602
+        width: 107
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49b80867cae79270800000000000000
+      internalID: 8257326583971887438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_79
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 617
+        width: 101
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1087b8b668538b910800000000000000
+      internalID: 1853290098109151233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_80
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 597
+        width: 109
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4152154a5df9f300800000000000000
+      internalID: 286538615462449484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_81
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 600
+        width: 97
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e136c638b5eab99e0800000000000000
+      internalID: -1613504333412015330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_82
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 602
+        width: 108
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ad02f2fefd32f30800000000000000
+      internalID: 4549726266955192984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_83
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 597
+        width: 106
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fd0f0f241a7b710800000000000000
+      internalID: 1709011892492623621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_84
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 608
+        width: 85
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1354e78125513e6d0800000000000000
+      internalID: -2962500687537224399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_85
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 598
+        width: 90
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40005c90e6ae8ae00800000000000000
+      internalID: 1056351870949588996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_86
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 602
+        width: 98
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb861321a81b0b930800000000000000
+      internalID: 4157017662631798974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_87
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 597
+        width: 108
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941d784c195317e70800000000000000
+      internalID: 9111122421330989385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_88
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 597
+        width: 109
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ac8663d83ce8f90800000000000000
+      internalID: -6949402163715454437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_89
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 614
+        width: 108
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4414cc17e1d701040800000000000000
+      internalID: 4616327187766460740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_90
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 606
+        width: 101
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec45ee990caa5e50800000000000000
+      internalID: 6798935744789695717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_91
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 597
+        width: 108
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5785249f03f5df650800000000000000
+      internalID: 6268270920314542197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_92
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 602
+        width: 112
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8a4397a27e6ae00800000000000000
+      internalID: 1055785332273096951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_93
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 602
+        width: 114
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e954b2f4ad9be75c0800000000000000
+      internalID: -4215727853889960546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_94
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 602
+        width: 110
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504d596047757e430800000000000000
+      internalID: 3812111765430719493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_95
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 597
+        width: 109
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a4818ca09a2fa70800000000000000
+      internalID: 8859329280762989057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_96
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 600
+        width: 137
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b127346935c60e0800000000000000
+      internalID: -2275351806887191783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_97
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 405
+        width: 113
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db63a81c81a7efaf0800000000000000
+      internalID: -360716673398196547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_98
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 407
+        width: 108
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7ec256a559cb750800000000000000
+      internalID: 6322092192398370756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_99
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 420
+        width: 101
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c2481b318e32230800000000000000
+      internalID: 3612986497361521749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_100
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 407
+        width: 108
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47401922e536081a0800000000000000
+      internalID: -6809333380626185100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_101
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 407
+        width: 96
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e1dd9cc0f39faf0800000000000000
+      internalID: -362188970867745237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_102
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 407
+        width: 109
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f570b1b2248e360800000000000000
+      internalID: 7199076757256232818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_103
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 404
+        width: 105
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89189c1bec3744c50800000000000000
+      internalID: 6648566281488925080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_104
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 420
+        width: 102
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7817897db2b120d0800000000000000
+      internalID: -3449279312731629446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_105
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 408
+        width: 91
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4923970907294a30800000000000000
+      internalID: 4199931047234971980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_106
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 403
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4633c9d6f76c5f0800000000000000
+      internalID: -736761380279720792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_107
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 407
+        width: 109
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16b889a52d36fa30800000000000000
+      internalID: 4248650530438034972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_108
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 407
+        width: 108
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76883ed3da58a7ef0800000000000000
+      internalID: -109628261802997657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_109
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 407
+        width: 106
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7876463709c5350800000000000000
+      internalID: 6006834828285544434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_110
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 412
+        width: 103
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdda21b759e5725c0800000000000000
+      internalID: -4240316528038072868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_111
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 407
+        width: 103
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8108101fb579630800000000000000
+      internalID: 3933713890201835721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_112
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 468
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4a1bb0316e7d640800000000000000
+      internalID: 5104801672122705102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_113
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 405
+        width: 113
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f3a7e1ad7780a50800000000000000
+      internalID: 6487567041925103427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_114
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 472
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcc17151fe024d10800000000000000
+      internalID: 2108264005179133181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_115
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 407
+        width: 110
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cc706b0a395b730800000000000000
+      internalID: 4014276961328680073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_116
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 405
+        width: 114
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4043245f12d8830800000000000000
+      internalID: 4074950575101576380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_117
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 404
+        width: 113
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c2e5a56ba9578b0800000000000000
+      internalID: -5155044090464818108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_118
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 405
+        width: 121
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a182bd1471a1ef20800000000000000
+      internalID: 3450216309629026726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_119
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 209
+        width: 110
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b023c68aeedb7a90800000000000000
+      internalID: -7315008070868590409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_120
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 209
+        width: 103
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415db24d923544890800000000000000
+      internalID: -7474758042409773804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_121
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 221
+        width: 112
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74251567876a74520800000000000000
+      internalID: 2686298739061117511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_122
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 209
+        width: 109
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f16e7f5bf4bf6b50800000000000000
+      internalID: 6588683771598234097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_123
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 285
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bb7994b14b7bc90800000000000000
+      internalID: -7154051453762946186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_124
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 209
+        width: 102
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956bd4bf40669cd70800000000000000
+      internalID: 9063887896641910361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_125
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 209
+        width: 112
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5f1cdf2d1661600800000000000000
+      internalID: 438645572543575465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_126
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 209
+        width: 115
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01f670ae2412e520800000000000000
+      internalID: 2729766514633142538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_127
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 221
+        width: 105
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cadfe0c48fa6aa70800000000000000
+      internalID: 8837944303468665536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_128
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 213
+        width: 92
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b353637a801fe6ca0800000000000000
+      internalID: -6021610632280394437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_129
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 209
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d425cd1e6689e4e0800000000000000
+      internalID: -1951881155984415527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_130
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 205
+        width: 109
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad898e2b1ad21b700800000000000000
+      internalID: 554274401657854170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_131
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 205
+        width: 105
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7fce85cc3324a90800000000000000
+      internalID: -7331240290647476257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_132
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 209
+        width: 123
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005b5423b4e432ba0800000000000000
+      internalID: -6114957784166058752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_133
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 215
+        width: 104
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f6534f81972a510800000000000000
+      internalID: 1558941569106931508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_134
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 209
+        width: 112
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db6533f83c646ee0800000000000000
+      internalID: -1268770203157304367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_135
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 209
+        width: 115
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c73ebd03277a8a40800000000000000
+      internalID: 5371236498030868416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_136
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 209
+        width: 115
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a4c35e32bc98b10800000000000000
+      internalID: 1984340465863641625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_137
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 208
+        width: 115
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913c73712ef4debf0800000000000000
+      internalID: -293490568238480615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_138
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 209
+        width: 115
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbddde5e07087dc50800000000000000
+      internalID: 6689956993864424895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_139
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 209
+        width: 115
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80095123617efac0800000000000000
+      internalID: -3819490763388419953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_140
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4
+        width: 110
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafa297cdcdcc7240800000000000000
+      internalID: 4790930387315634092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_141
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 13
+        width: 107
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d3e37a0f201f880800000000000000
+      internalID: -8579072582542803704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_142
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 19
+        width: 110
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7e978fa25fc61e0800000000000000
+      internalID: -2203116552784844813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_143
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 0
+        width: 114
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb020e50de961270800000000000000
+      internalID: 8220932787578997742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_144
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 15
+        width: 100
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77be02f63f7d590e0800000000000000
+      internalID: -2263665797142353033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_145
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 0
+        width: 108
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e564428a182ffeb40800000000000000
+      internalID: 5471858710964094558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_146
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 0
+        width: 109
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e6f90ea9d88a0f0800000000000000
+      internalID: -1105478012186431876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_147
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 0
+        width: 114
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d8040f0778121f0800000000000000
+      internalID: -1071426317200618219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_148
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 16
+        width: 100
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca1b0fa46631a1b0800000000000000
+      internalID: -5647172651684521271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_149
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 15
+        width: 108
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83c78e6fd4f7f7a0800000000000000
+      internalID: -6343332309658778737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_150
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 12
+        width: 114
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7ec770b6699ddd0800000000000000
+      internalID: -2460770334949971989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_151
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 12
+        width: 108
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4913a5c03266b9a80800000000000000
+      internalID: -8459055174368218732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_152
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 13
+        width: 108
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4de3fbc240612e00800000000000000
+      internalID: 1018200830768311628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_153
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 0
+        width: 104
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2739afd0b17d1f1a0800000000000000
+      internalID: -6777399453017271438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_154
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 16
+        width: 108
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c264fd52899bc9410800000000000000
+      internalID: 1485266040246978092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_155
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 0
+        width: 115
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c637a50854063f30800000000000000
+      internalID: 4554832849230313152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_156
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 8
+        width: 113
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211af04e31c6e0c30800000000000000
+      internalID: 4327515124636033298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_157
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 0
+        width: 111
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fa1f300d3bcea10800000000000000
+      internalID: 1940123245490581301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_158
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 0
+        width: 114
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7741088e1e027200800000000000000
+      internalID: 176218859714463610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wife_159
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 0
+        width: 129
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fa45e76aa2d4cb0800000000000000
+      internalID: -4878195926799962324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wife_0: -2353376327185201564
+      wife_1: -6116455687998387656
+      wife_10: 4903111994042040542
+      wife_100: -6809333380626185100
+      wife_101: -362188970867745237
+      wife_102: 7199076757256232818
+      wife_103: 6648566281488925080
+      wife_104: -3449279312731629446
+      wife_105: 4199931047234971980
+      wife_106: -736761380279720792
+      wife_107: 4248650530438034972
+      wife_108: -109628261802997657
+      wife_109: 6006834828285544434
+      wife_11: -4117297817981674637
+      wife_110: -4240316528038072868
+      wife_111: 3933713890201835721
+      wife_112: 5104801672122705102
+      wife_113: 6487567041925103427
+      wife_114: 2108264005179133181
+      wife_115: 4014276961328680073
+      wife_116: 4074950575101576380
+      wife_117: -5155044090464818108
+      wife_118: 3450216309629026726
+      wife_119: -7315008070868590409
+      wife_12: -2818746359009795441
+      wife_120: -7474758042409773804
+      wife_121: 2686298739061117511
+      wife_122: 6588683771598234097
+      wife_123: -7154051453762946186
+      wife_124: 9063887896641910361
+      wife_125: 438645572543575465
+      wife_126: 2729766514633142538
+      wife_127: 8837944303468665536
+      wife_128: -6021610632280394437
+      wife_129: -1951881155984415527
+      wife_13: 1035680858053490131
+      wife_130: 554274401657854170
+      wife_131: -7331240290647476257
+      wife_132: -6114957784166058752
+      wife_133: 1558941569106931508
+      wife_134: -1268770203157304367
+      wife_135: 5371236498030868416
+      wife_136: 1984340465863641625
+      wife_137: -293490568238480615
+      wife_138: 6689956993864424895
+      wife_139: -3819490763388419953
+      wife_14: -1232406605229720120
+      wife_140: 4790930387315634092
+      wife_141: -8579072582542803704
+      wife_142: -2203116552784844813
+      wife_143: 8220932787578997742
+      wife_144: -2263665797142353033
+      wife_145: 5471858710964094558
+      wife_146: -1105478012186431876
+      wife_147: -1071426317200618219
+      wife_148: -5647172651684521271
+      wife_149: -6343332309658778737
+      wife_15: 8552607664636063706
+      wife_150: -2460770334949971989
+      wife_151: -8459055174368218732
+      wife_152: 1018200830768311628
+      wife_153: -6777399453017271438
+      wife_154: 1485266040246978092
+      wife_155: 4554832849230313152
+      wife_156: 4327515124636033298
+      wife_157: 1940123245490581301
+      wife_158: 176218859714463610
+      wife_159: -4878195926799962324
+      wife_16: -7558427596138231789
+      wife_17: -4750723810102817037
+      wife_18: 6341556434521123629
+      wife_19: 5759230717862111349
+      wife_2: -5360462564578408438
+      wife_20: 7054414088198546648
+      wife_21: -6419110218372150820
+      wife_22: 3250813433915364575
+      wife_23: 8173938891451578259
+      wife_24: 366642942694187956
+      wife_25: 2942187096724159365
+      wife_26: -6518283915659341775
+      wife_27: -6885367637432601070
+      wife_28: -3729887375298107294
+      wife_29: -3887816654558070844
+      wife_3: 364332240264148106
+      wife_30: 418888549805442799
+      wife_31: 885406553154925467
+      wife_32: 8887838324493222309
+      wife_33: 5613625286060513422
+      wife_34: -1653726627711880903
+      wife_35: -8417261413293880304
+      wife_36: -8553550591491822153
+      wife_37: 6980416958882654664
+      wife_38: 1133926089155937861
+      wife_39: 4684129305873042874
+      wife_4: -7313379266511601780
+      wife_40: 4821674705538842186
+      wife_41: -1946204825061664244
+      wife_42: 1886018227564184783
+      wife_43: 1712457032248349409
+      wife_44: 7189320244875222195
+      wife_45: -7273447675545107830
+      wife_46: 8189268354676532766
+      wife_47: 7656328270440432866
+      wife_48: 1712072858667022412
+      wife_49: -5025501047104327055
+      wife_5: 3639213035922331897
+      wife_50: -3080173126090925979
+      wife_51: 6426770011557007815
+      wife_52: -1335177785019702847
+      wife_53: 7562587147132687289
+      wife_54: -9009374482372931353
+      wife_55: 5771837170680429655
+      wife_56: -1441284958956404003
+      wife_57: -1024078330897604319
+      wife_58: 7070744827983291544
+      wife_59: 609983831295404052
+      wife_6: -8673821427528909379
+      wife_60: 7463018419029314652
+      wife_61: -6602538459756886238
+      wife_62: 4933489937764737873
+      wife_63: 4777665828918275344
+      wife_64: 2959756824955072505
+      wife_65: -9089902120726004147
+      wife_66: 7640782488190927262
+      wife_67: -5513742807602855329
+      wife_68: -8113972156756807466
+      wife_69: 4232345066898921398
+      wife_7: -4997460487843457303
+      wife_70: 4923956490042969552
+      wife_71: -2751797379927642003
+      wife_72: -4076516651705570666
+      wife_73: -7339115056268338502
+      wife_74: 7090385564596907893
+      wife_75: 249205198234720149
+      wife_76: 9025133043193481702
+      wife_77: 3642414668042915905
+      wife_78: 8257326583971887438
+      wife_79: 1853290098109151233
+      wife_8: -6953331524844760549
+      wife_80: 286538615462449484
+      wife_81: -1613504333412015330
+      wife_82: 4549726266955192984
+      wife_83: 1709011892492623621
+      wife_84: -2962500687537224399
+      wife_85: 1056351870949588996
+      wife_86: 4157017662631798974
+      wife_87: 9111122421330989385
+      wife_88: -6949402163715454437
+      wife_89: 4616327187766460740
+      wife_9: 1280503873474960059
+      wife_90: 6798935744789695717
+      wife_91: 6268270920314542197
+      wife_92: 1055785332273096951
+      wife_93: -4215727853889960546
+      wife_94: 3812111765430719493
+      wife_95: 8859329280762989057
+      wife_96: -2275351806887191783
+      wife_97: -360716673398196547
+      wife_98: 6322092192398370756
+      wife_99: 3612986497361521749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
