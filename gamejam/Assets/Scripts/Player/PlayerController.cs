@@ -166,7 +166,7 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     public void SetVelocity(Vector2 velocity)
     {
-        Rigidbody.velocity = velocity;
+        Rigidbody.linearVelocity = velocity;
     }
     
     /// <summary>

@@ -113,7 +113,7 @@ public class EnemyBase : MonoBehaviour
     /// </summary>
     public void SetVelocity(Vector2 velocity)
     {
-        Rigidbody.velocity = velocity;
+        Rigidbody.linearVelocity = velocity;
     }
     
     /// <summary>
@@ -136,7 +136,7 @@ public class EnemyBase : MonoBehaviour
         Vector2 targetVelocity = direction.normalized * _moveSpeed;
         
         // Smoothly interpolate current velocity to target velocity
-        Rigidbody.velocity = Vector2.Lerp(Rigidbody.velocity, targetVelocity, _acceleration * Time.deltaTime);
+        Rigidbody.linearVelocity = Vector2.Lerp(Rigidbody.linearVelocity, targetVelocity, _acceleration * Time.deltaTime);
         
         // Only flip manually if we don't have directional sprites
         EnemyAnimator anim = GetComponent<EnemyAnimator>();
@@ -152,7 +152,7 @@ public class EnemyBase : MonoBehaviour
         Animator animator = GetComponent<Animator>();
         if (animator != null)
         {
-             animator.SetBool("IsMoving", Rigidbody.velocity.magnitude > 0.1f);
+             animator.SetBool("IsMoving", Rigidbody.linearVelocity.magnitude > 0.1f);
              if (direction != Vector2.zero)
              {
                  animator.SetFloat("MoveX", direction.x);

@@ -63,7 +63,7 @@ public class GhostGuardAI : MonoBehaviour
         if (_patrolPoints == null || _patrolPoints.Length == 0)
         {
             // No patrol points - just stand
-            if (_rb != null) _rb.velocity = Vector2.zero;
+            if (_rb != null) _rb.linearVelocity = Vector2.zero;
             return;
         }
         
@@ -90,7 +90,7 @@ public class GhostGuardAI : MonoBehaviour
         
         if (_rb != null)
         {
-            _rb.velocity = dir * _patrolSpeed;
+            _rb.linearVelocity = dir * _patrolSpeed;
         }
         
         // Face direction
@@ -102,7 +102,7 @@ public class GhostGuardAI : MonoBehaviour
     
     private void UpdateBlocking()
     {
-        if (_rb != null) _rb.velocity = Vector2.zero;
+        if (_rb != null) _rb.linearVelocity = Vector2.zero;
         
         _stateTimer -= Time.deltaTime;
         if (_stateTimer <= 0)
@@ -113,7 +113,7 @@ public class GhostGuardAI : MonoBehaviour
     
     private void UpdateWeeping()
     {
-        if (_rb != null) _rb.velocity = Vector2.zero;
+        if (_rb != null) _rb.linearVelocity = Vector2.zero;
         
         _stateTimer -= Time.deltaTime;
         if (_stateTimer <= 0)

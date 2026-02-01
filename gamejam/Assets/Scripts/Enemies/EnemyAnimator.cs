@@ -57,7 +57,7 @@ public class EnemyAnimator : MonoBehaviour
         }
         
         // Get velocity direction
-        Vector2 vel = _rb != null ? _rb.velocity : Vector2.zero;
+        Vector2 vel = _rb != null ? _rb.linearVelocity : Vector2.zero;
         bool isMoving = vel.magnitude > 0.15f;
         
         if (isMoving)
@@ -102,7 +102,7 @@ public class EnemyAnimator : MonoBehaviour
     {
         if (_rb == null || _sr == null) return;
         
-        Vector2 vel = _rb.velocity;
+        Vector2 vel = _rb.linearVelocity;
         if (Mathf.Abs(vel.x) > 0.1f)
         {
             _sr.flipX = vel.x < 0;

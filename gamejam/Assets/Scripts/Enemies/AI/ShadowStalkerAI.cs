@@ -81,7 +81,7 @@ public class ShadowStalkerAI : MonoBehaviour
         Vector2 dir = (_player.position - transform.position).normalized;
         if (_rb != null)
         {
-            _rb.velocity = dir * _stalkSpeed;
+            _rb.linearVelocity = dir * _stalkSpeed;
         }
         
         // Face player
@@ -98,7 +98,7 @@ public class ShadowStalkerAI : MonoBehaviour
         switch (newState)
         {
             case StalkerState.Lurking:
-                if (_rb != null) _rb.velocity = Vector2.zero;
+                if (_rb != null) _rb.linearVelocity = Vector2.zero;
                 break;
                 
             case StalkerState.Stalking:
