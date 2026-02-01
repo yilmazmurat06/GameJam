@@ -3,6 +3,7 @@ using UnityEngine;
 /// <summary>
 /// Charger enemy - rushes directly at the player for contact damage.
 /// Similar to SoulKnight's charging enemies.
+/// Uses a custom charge behavior but integrates with the state machine.
 /// </summary>
 public class ChargerEnemy : EnemyBase
 {
@@ -26,7 +27,7 @@ public class ChargerEnemy : EnemyBase
         _enemyName = "Charger";
         _moveSpeed = 3f;
         _attackDamage = 15f;
-        _attackRange = 0.5f; // Contact damage
+        _attackRange = 2f; // Larger range to trigger charge
         _attackCooldown = 2f;
         _detectionRange = 7f;
         
@@ -36,10 +37,7 @@ public class ChargerEnemy : EnemyBase
     
     protected override void Update()
     {
-        base.Update();
-        
-        if (!Health.IsAlive) return;
-        
+        // Handle special charge behavior
         if (_isCharging)
         {
             HandleCharge();
@@ -52,22 +50,18 @@ public class ChargerEnemy : EnemyBase
             return;
         }
         
-        // Normal behavior: approach player and initiate charge when in range
-        if (Target != null)
-        {
-            float distance = GetDistanceToTarget();
-            
-            if (distance <= _attackRange + 0.5f && CanAttack)
-            {
-                // In attack range, start wind up for charge
-                StartWindup();
-            }
-            else if (distance <= _detectionRange)
-            {
-                // Chase player
-                SmoothMoveToward(Target.position);
-            }
-        }
+        // Run normal state machine when not charging
+        base.Update();
+    }
+    
+    /// <summary>
+    /// Override attack to start charge wind-up.
+    /// </summary>
+    public override void Attack()
+    {
+        if (!CanAttack || Target == null || _isCharging || _isWindingUp) return;
+        
+        StartWindup();
     }
     
     private void StartWindup()
@@ -80,6 +74,8 @@ public class ChargerEnemy : EnemyBase
         if (Target != null)
         {
             _chargeDirection = ((Vector2)Target.position - (Vector2)transform.position).normalized;
+            // Face the charge direction
+            FaceDirection(_chargeDirection);
         }
         
         // Visual feedback - flash color
@@ -87,11 +83,20 @@ public class ChargerEnemy : EnemyBase
         {
             _spriteRenderer.color = _chargeColor;
         }
+        
+        Debug.Log("[ChargerEnemy] Winding up charge!");
     }
     
     private void HandleWindup()
     {
         _chargeTimer -= Time.deltaTime;
+        
+        // Face target during windup (allows small aim adjustment)
+        if (Target != null)
+        {
+            _chargeDirection = ((Vector2)Target.position - (Vector2)transform.position).normalized;
+            FaceDirection(_chargeDirection);
+        }
         
         if (_chargeTimer <= 0)
         {
@@ -106,13 +111,25 @@ public class ChargerEnemy : EnemyBase
         _chargeTimer = _chargeDuration;
         _attackTimer = _attackCooldown;
         
-        SetVelocity(_chargeDirection * _chargeSpeed);
+        // Apply charge velocity with animator update
+        Rigidbody.linearVelocity = _chargeDirection * _chargeSpeed;
+        if (_enemyAnimator != null)
+        {
+            _enemyAnimator.SetDirection(_chargeDirection);
+        }
+        
         Debug.Log("[ChargerEnemy] Charging!");
     }
     
     private void HandleCharge()
     {
         _chargeTimer -= Time.deltaTime;
+        
+        // Keep animator updated during charge
+        if (_enemyAnimator != null)
+        {
+            _enemyAnimator.SetDirection(_chargeDirection);
+        }
         
         if (_chargeTimer <= 0)
         {
@@ -130,6 +147,8 @@ public class ChargerEnemy : EnemyBase
         {
             _spriteRenderer.color = _originalColor;
         }
+        
+        Debug.Log("[ChargerEnemy] Charge ended");
     }
     
     private void OnCollisionEnter2D(Collision2D collision)

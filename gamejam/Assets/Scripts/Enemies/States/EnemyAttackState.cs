@@ -20,6 +20,9 @@ public class EnemyAttackState : IEnemyState
         
         enemy.SetVelocity(Vector2.zero);
         
+        // Face target immediately
+        enemy.FaceTarget();
+        
         Debug.Log($"[{enemy.EnemyName}] Winding up attack...");
     }
     
@@ -36,9 +39,7 @@ public class EnemyAttackState : IEnemyState
         if (_phase == AttackPhase.WindUp)
         {
             // Face target during windup
-            Vector2 dir = enemy.Target.position - enemy.transform.position;
-            if (dir.x != 0 && enemy.GetComponent<SpriteRenderer>() is SpriteRenderer sr)
-                sr.flipX = dir.x < 0;
+            enemy.FaceTarget();
 
             if (_timer <= 0)
             {

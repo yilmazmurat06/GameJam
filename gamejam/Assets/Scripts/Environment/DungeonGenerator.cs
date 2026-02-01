@@ -5,14 +5,21 @@ using System.Collections.Generic;
 
 public class DungeonGenerator : MonoBehaviour
 {
-    [Header("Settings")]
-    public int width = 50;
-    public int height = 50;
-    public float perlinScale = 0.1f;
+    [Header("Dungeon Settings")]
+    public int width = 60;
+    public int height = 60;
+    public int minRoomSize = 6;
+    public int maxRoomSize = 12;
+    public int maxRooms = 10;
+    public int corridorWidth = 2;
     
     [Header("References")]
     public Texture2D floorTexture;
     public Texture2D wallTexture;
+    
+    // Internal data
+    private int[,] _dungeonMap; // 0 = wall, 1 = floor
+    private List<RectInt> _rooms = new List<RectInt>();
 
     [MenuItem("Tools/Generate Dungeon")]
     public static void Generate()
@@ -37,6 +44,170 @@ public class DungeonGenerator : MonoBehaviour
     }
 
     public void BuildDungeon()
+    {
+        // Initialize map as all walls
+        _dungeonMap = new int[width, height];
+        _rooms.Clear();
+        
+        // Generate rooms using BSP-like approach
+        GenerateRooms();
+        
+        // Connect rooms with corridors
+        ConnectRooms();
+        
+        // Setup tilemaps
+        SetupTilemaps();
+        
+        // Ensure EnemyManager exists
+        SetupEnemyManager();
+        
+        // Place torches
+        PlaceTorches();
+        
+        // Spawn player in first room
+        SpawnPlayer();
+        
+        // Spawn enemies in other rooms
+        SpawnEnemies();
+        
+        // Setup camera
+        FixCamera();
+        
+        Debug.Log($"Dungeon Generated with {_rooms.Count} rooms!");
+    }
+    
+    private void SetupEnemyManager()
+    {
+        GameObject managerGO = GameObject.Find("EnemyManager");
+        if (managerGO == null)
+        {
+            managerGO = new GameObject("EnemyManager");
+            managerGO.AddComponent<EnemyManager>();
+            Debug.Log("[DungeonGenerator] Created EnemyManager");
+        }
+    }
+    
+    private void GenerateRooms()
+    {
+        int attempts = 0;
+        int maxAttempts = maxRooms * 10;
+        
+        while (_rooms.Count < maxRooms && attempts < maxAttempts)
+        {
+            attempts++;
+            
+            // Random room size
+            int roomWidth = Random.Range(minRoomSize, maxRoomSize + 1);
+            int roomHeight = Random.Range(minRoomSize, maxRoomSize + 1);
+            
+            // Random position (with margin from edges)
+            int x = Random.Range(2, width - roomWidth - 2);
+            int y = Random.Range(2, height - roomHeight - 2);
+            
+            RectInt newRoom = new RectInt(x, y, roomWidth, roomHeight);
+            
+            // Check if it overlaps with existing rooms (with padding)
+            bool overlaps = false;
+            foreach (RectInt existingRoom in _rooms)
+            {
+                RectInt paddedExisting = new RectInt(
+                    existingRoom.x - 2, existingRoom.y - 2,
+                    existingRoom.width + 4, existingRoom.height + 4
+                );
+                
+                if (newRoom.Overlaps(paddedExisting))
+                {
+                    overlaps = true;
+                    break;
+                }
+            }
+            
+            if (!overlaps)
+            {
+                // Carve out the room
+                CarveRoom(newRoom);
+                _rooms.Add(newRoom);
+            }
+        }
+    }
+    
+    private void CarveRoom(RectInt room)
+    {
+        for (int x = room.x; x < room.x + room.width; x++)
+        {
+            for (int y = room.y; y < room.y + room.height; y++)
+            {
+                _dungeonMap[x, y] = 1; // Floor
+            }
+        }
+    }
+    
+    private void ConnectRooms()
+    {
+        // Connect each room to the next room in the list
+        for (int i = 0; i < _rooms.Count - 1; i++)
+        {
+            Vector2Int start = GetRoomCenter(_rooms[i]);
+            Vector2Int end = GetRoomCenter(_rooms[i + 1]);
+            
+            // Create L-shaped corridor
+            if (Random.value > 0.5f)
+            {
+                // Horizontal first, then vertical
+                CreateHorizontalCorridor(start.x, end.x, start.y);
+                CreateVerticalCorridor(start.y, end.y, end.x);
+            }
+            else
+            {
+                // Vertical first, then horizontal
+                CreateVerticalCorridor(start.y, end.y, start.x);
+                CreateHorizontalCorridor(start.x, end.x, end.y);
+            }
+        }
+    }
+    
+    private Vector2Int GetRoomCenter(RectInt room)
+    {
+        return new Vector2Int(room.x + room.width / 2, room.y + room.height / 2);
+    }
+    
+    private void CreateHorizontalCorridor(int x1, int x2, int y)
+    {
+        int minX = Mathf.Min(x1, x2);
+        int maxX = Mathf.Max(x1, x2);
+        
+        for (int x = minX; x <= maxX; x++)
+        {
+            for (int w = 0; w < corridorWidth; w++)
+            {
+                int yPos = y + w - corridorWidth / 2;
+                if (yPos >= 0 && yPos < height && x >= 0 && x < width)
+                {
+                    _dungeonMap[x, yPos] = 1;
+                }
+            }
+        }
+    }
+    
+    private void CreateVerticalCorridor(int y1, int y2, int x)
+    {
+        int minY = Mathf.Min(y1, y2);
+        int maxY = Mathf.Max(y1, y2);
+        
+        for (int y = minY; y <= maxY; y++)
+        {
+            for (int w = 0; w < corridorWidth; w++)
+            {
+                int xPos = x + w - corridorWidth / 2;
+                if (xPos >= 0 && xPos < width && y >= 0 && y < height)
+                {
+                    _dungeonMap[xPos, y] = 1;
+                }
+            }
+        }
+    }
+    
+    private void SetupTilemaps()
     {
         // 1. Setup Grid
         GameObject gridGO = GameObject.Find("Grid");
@@ -97,12 +268,7 @@ public class DungeonGenerator : MonoBehaviour
         }
 
         // 2. Create Tiles
-        // ... (Keep existing tile creation logic, just updated variable names)
-        
         Tile floorTile = ScriptableObject.CreateInstance<Tile>();
-        // Using PPU 1024 or standard? Let's check existing texture. 
-        // We will just re-load from path to be safe and use its settings.
-        
         string floorPath = AssetDatabase.GetAssetPath(floorTexture);
         if (string.IsNullOrEmpty(floorPath)) floorPath = "Assets/Sprites/Environment/dungeon_floor.png";
         
@@ -110,7 +276,6 @@ public class DungeonGenerator : MonoBehaviour
         if (floorSprite != null) floorTile.sprite = floorSprite;
         else 
         {
-             // Fallback create
              if (floorTexture != null)
                  floorTile.sprite = Sprite.Create(floorTexture, new Rect(0,0,floorTexture.width, floorTexture.height), new Vector2(0.5f, 0.5f), 1024);
         }
@@ -127,34 +292,57 @@ public class DungeonGenerator : MonoBehaviour
                  wallTile.sprite = Sprite.Create(wallTexture, new Rect(0,0,wallTexture.width, wallTexture.height), new Vector2(0.5f, 0.5f), 1024);
         }
         
-        // 3. Generate Map
+        // 3. Generate Map from _dungeonMap array
         floorTm.ClearAllTiles();
         wallTm.ClearAllTiles();
+        
+        // Center the dungeon at origin
+        int offsetX = -width / 2;
+        int offsetY = -height / 2;
 
-        for (int x = -width/2; x < width/2; x++)
+        for (int x = 0; x < width; x++)
         {
-            for (int y = -height/2; y < height/2; y++)
+            for (int y = 0; y < height; y++)
             {
-                Vector3Int pos = new Vector3Int(x, y, 0);
+                Vector3Int pos = new Vector3Int(x + offsetX, y + offsetY, 0);
                 
-                // Borders are walls
-                if (x == -width/2 || x == width/2 -1 || y == -height/2 || y == height/2 -1)
+                if (_dungeonMap[x, y] == 1)
                 {
-                    wallTm.SetTile(pos, wallTile);
+                    // Floor
+                    floorTm.SetTile(pos, floorTile);
                 }
                 else
                 {
-                    floorTm.SetTile(pos, floorTile);
+                    // Check if this wall is adjacent to a floor (visible wall)
+                    if (IsAdjacentToFloor(x, y))
+                    {
+                        wallTm.SetTile(pos, wallTile);
+                    }
+                    // Non-adjacent walls are just empty (black void)
                 }
             }
         }
-        
-        Debug.Log("Dungeon Generated with Separate Layers!");
-        
-        PlaceTorches();
-        SpawnPlayer();
-        SpawnEnemies();
-        FixCamera();
+    }
+    
+    private bool IsAdjacentToFloor(int x, int y)
+    {
+        for (int dx = -1; dx <= 1; dx++)
+        {
+            for (int dy = -1; dy <= 1; dy++)
+            {
+                if (dx == 0 && dy == 0) continue;
+                
+                int nx = x + dx;
+                int ny = y + dy;
+                
+                if (nx >= 0 && nx < width && ny >= 0 && ny < height)
+                {
+                    if (_dungeonMap[nx, ny] == 1)
+                        return true;
+                }
+            }
+        }
+        return false;
     }
 
     [Header("Enemies")]
@@ -170,37 +358,62 @@ public class DungeonGenerator : MonoBehaviour
         GameObject container = new GameObject("Enemies");
 
         // Load sprites from available enemy sprite sheets
-        List<Sprite> bananaSprites = LoadSpriteSheet("Assets/Sprites/Enemies/banana_enemy.png");
         List<Sprite> cultistSprites = LoadSpriteSheet("Assets/Sprites/Enemies/cultist_enemy.png");
         List<Sprite> hoodedSprites = LoadSpriteSheet("Assets/Sprites/Enemies/hooded_enemy.png");
         List<Sprite> defaultSprites = LoadSpriteSheet("Assets/enemy.png");
         
-        // Combine available sprite sets (use first non-empty for each type)
-        List<Sprite>[] spriteOptions = new List<Sprite>[] { 
-            bananaSprites.Count > 0 ? bananaSprites : defaultSprites,
-            cultistSprites.Count > 0 ? cultistSprites : defaultSprites, 
-            hoodedSprites.Count > 0 ? hoodedSprites : defaultSprites 
-        };
+        // Cultist sprite sheet: 18 columns, 24 rows
+        // Hooded enemy: Only 2 sprites (not directional)
+        // Default enemy: Unknown layout
         
-        int columns = 8;
-        Debug.Log($"Spawning {enemyCount} varied enemies (Mummy, Ranger, Charger)");
+        int offsetX = -width / 2;
+        int offsetY = -height / 2;
         
-        // Spawn Loop with varied types
-        for (int i = 0; i < enemyCount; i++)
+        // Spawn enemies in rooms (skip the first room where player spawns)
+        int enemiesSpawned = 0;
+        int enemiesPerRoom = Mathf.CeilToInt((float)enemyCount / Mathf.Max(1, _rooms.Count - 1));
+        
+        Debug.Log($"Spawning {enemyCount} enemies across {_rooms.Count - 1} rooms");
+        
+        for (int roomIndex = 1; roomIndex < _rooms.Count && enemiesSpawned < enemyCount; roomIndex++)
         {
-            // Position in circle around player (0,0)
-            float angle = i * (360f / enemyCount);
-            float radius = 4.5f + Random.Range(-0.5f, 0.5f);
-            float x = Mathf.Cos(angle * Mathf.Deg2Rad) * radius;
-            float y = Mathf.Sin(angle * Mathf.Deg2Rad) * radius;
-            Vector3 pos = new Vector3(x, y, 0f); 
-
-            // Determine enemy type based on index (cycle through types)
-            SpawnableEnemyType enemyType = (SpawnableEnemyType)(i % 3);
-            List<Sprite> sprites = spriteOptions[i % spriteOptions.Length];
+            RectInt room = _rooms[roomIndex];
+            int enemiesToSpawn = Mathf.Min(enemiesPerRoom, enemyCount - enemiesSpawned);
+            
+            for (int i = 0; i < enemiesToSpawn; i++)
+            {
+                // Random position within room
+                float x = Random.Range(room.x + 1, room.x + room.width - 1) + offsetX;
+                float y = Random.Range(room.y + 1, room.y + room.height - 1) + offsetY;
+                Vector3 pos = new Vector3(x, y, 0f);
+                
+                // Determine enemy type based on index (cycle through types)
+                SpawnableEnemyType enemyType = (SpawnableEnemyType)(enemiesSpawned % 3);
+                
+                // Select appropriate sprite list for this enemy type
+                List<Sprite> sprites;
+                
+                switch (enemyType)
+                {
+                    case SpawnableEnemyType.Mummy:
+                        // Use cultist sprites 
+                        sprites = cultistSprites.Count > 0 ? cultistSprites : defaultSprites;
+                        break;
+                        
+                    case SpawnableEnemyType.Ranger:
+                        // Use hooded enemy 
+                        sprites = hoodedSprites.Count > 0 ? hoodedSprites : defaultSprites;
+                        break;
+                        
+                    case SpawnableEnemyType.Charger:
+                    default:
+                        // Use default enemy sprites
+                        sprites = defaultSprites.Count > 0 ? defaultSprites : cultistSprites;
+                        break;
+                }
             
             // Create enemy GameObject
-            GameObject enemy = new GameObject($"{enemyType}_{i}");
+            GameObject enemy = new GameObject($"{enemyType}_{enemiesSpawned}");
             enemy.transform.position = pos;
             enemy.transform.SetParent(container.transform);
             enemy.tag = "Enemy";
@@ -230,45 +443,49 @@ public class DungeonGenerator : MonoBehaviour
             {
                 case SpawnableEnemyType.Mummy:
                     enemy.AddComponent<MummyEnemy>();
-                    enemy.name = $"Mummy_{i}";
+                    enemy.name = $"Mummy_{enemiesSpawned}";
                     break;
                     
                 case SpawnableEnemyType.Ranger:
                     RangerEnemy ranger = enemy.AddComponent<RangerEnemy>();
-                    enemy.name = $"Ranger_{i}";
+                    enemy.name = $"Ranger_{enemiesSpawned}";
                     // Ranger needs a projectile prefab (will need to be assigned later)
                     break;
                     
                 case SpawnableEnemyType.Charger:
                     enemy.AddComponent<ChargerEnemy>();
-                    enemy.name = $"Charger_{i}";
+                    enemy.name = $"Charger_{enemiesSpawned}";
                     break;
             }
             
             // Setup EnemyAnimator with sprites
+            // Use simple sprite flip for horizontal direction (no complex directional animation)
+            // This avoids issues with unknown sprite sheet layouts
             EnemyAnimator anim = enemy.AddComponent<EnemyAnimator>();
             
-            if (sprites != null && sprites.Count >= columns)
+            if (sprites != null && sprites.Count > 0)
             {
-                anim.Initialize(sprites, columns);
-                anim.ConfigureRows(down: 0, left: 1, right: 2, up: 3);
+                // Just use first sprite - the EnemyAnimator will handle flipping
                 sr.sprite = sprites[0];
-            }
-            else if (sprites != null && sprites.Count > 0)
-            {
-                sr.sprite = sprites[0];
+                
+                // For single sprites or unknown layouts, don't initialize directional animation
+                // The EnemyAnimator will fall back to simple horizontal flipping
             }
             
             // Set layer for detection
             int enemyLayer = LayerMask.NameToLayer("Enemy");
             if (enemyLayer != -1) enemy.layer = enemyLayer;
+            
+            enemiesSpawned++;
+            }
         }
         
-        Debug.Log($"[DungeonGenerator] Spawned {enemyCount} enemies with varied types!");
+        Debug.Log($"[DungeonGenerator] Spawned {enemiesSpawned} enemies across dungeon rooms!");
     }
     
     /// <summary>
     /// Helper to load sprites from a sprite sheet.
+    /// Returns sprites sorted by name suffix for proper animation order.
     /// </summary>
     private List<Sprite> LoadSpriteSheet(string path)
     {
@@ -283,11 +500,11 @@ public class DungeonGenerator : MonoBehaviour
             }
         }
         
-        // Sort by Y descending, then X ascending for proper row order
+        // Sort by sprite name suffix number (e.g., cultist_0, cultist_1, ...)
         sprites.Sort((a, b) => {
-            int yCompare = b.rect.y.CompareTo(a.rect.y);
-            if (yCompare != 0) return yCompare;
-            return a.rect.x.CompareTo(b.rect.x);
+            int suffixA = GetSuffix(a.name);
+            int suffixB = GetSuffix(b.name);
+            return suffixA.CompareTo(suffixB);
         });
         
         return sprites;
@@ -359,8 +576,19 @@ public class DungeonGenerator : MonoBehaviour
             }
         }
         
-        // Reset Position to center
-        player.transform.position = Vector3.zero;
+        // Spawn player in center of first room
+        if (_rooms.Count > 0)
+        {
+            Vector2Int roomCenter = GetRoomCenter(_rooms[0]);
+            int offsetX = -width / 2;
+            int offsetY = -height / 2;
+            player.transform.position = new Vector3(roomCenter.x + offsetX, roomCenter.y + offsetY, 0);
+        }
+        else
+        {
+            // Fallback to origin
+            player.transform.position = Vector3.zero;
+        }
         
         // Ensure Sorting Order high enough
         SpriteRenderer sr = player.GetComponent<SpriteRenderer>();
@@ -372,7 +600,7 @@ public class DungeonGenerator : MonoBehaviour
              if (litMaterial != null) sr.material = litMaterial;
         }
 
-        Debug.Log("Player spawned/reset at (0,0)");
+        Debug.Log($"Player spawned at {player.transform.position}");
     }
 
     void FixCamera()
@@ -385,10 +613,18 @@ public class DungeonGenerator : MonoBehaviour
              cam.tag = "MainCamera";
         }
         
-        // Fit Height - NO, User wants Follow
-        // cameraComponent.orthographicSize = height / 2f; 
-        // Center camera initially
-        cam.transform.position = new Vector3(0, 0, -10);
+        // Center camera on player spawn position
+        if (_rooms.Count > 0)
+        {
+            Vector2Int roomCenter = GetRoomCenter(_rooms[0]);
+            int offsetX = -width / 2;
+            int offsetY = -height / 2;
+            cam.transform.position = new Vector3(roomCenter.x + offsetX, roomCenter.y + offsetY, -10);
+        }
+        else
+        {
+            cam.transform.position = new Vector3(0, 0, -10);
+        }
 
         Camera cameraComponent = cam.GetComponent<Camera>();
         cameraComponent.orthographic = true;
@@ -396,7 +632,7 @@ public class DungeonGenerator : MonoBehaviour
         cameraComponent.clearFlags = CameraClearFlags.SolidColor;
         cameraComponent.backgroundColor = Color.black;
 
-        // Ensure URP Data (rest of code...)
+        // Ensure URP Data
         var ura = cam.GetComponent<UnityEngine.Rendering.Universal.UniversalAdditionalCameraData>();
         if (ura == null) ura = cam.AddComponent<UnityEngine.Rendering.Universal.UniversalAdditionalCameraData>();
         ura.renderType = UnityEngine.Rendering.Universal.CameraRenderType.Base;
@@ -407,10 +643,10 @@ public class DungeonGenerator : MonoBehaviour
         
         follow.target = GameObject.Find("Player")?.transform;
         follow.useDeadzone = true;
-        follow.deadzoneSize = new Vector2(0.5f, 0.5f); // Very small deadzone for immediate follow
+        follow.deadzoneSize = new Vector2(0.5f, 0.5f);
         follow.useBounds = true;
-        follow.minBounds = new Vector2(-width/2f + 5, -height/2f + 5); // Add margin
-        follow.maxBounds = new Vector2(width/2f - 5, height/2f - 5);
+        follow.minBounds = new Vector2(-width/2f + 3, -height/2f + 3);
+        follow.maxBounds = new Vector2(width/2f - 3, height/2f - 3);
     }
 
 
@@ -433,31 +669,36 @@ public class DungeonGenerator : MonoBehaviour
         GameObject container = new GameObject("Torches");
         container.transform.SetParent(gridGO.transform);
 
+        Sprite torchSprite = null;
+        if (torchTexture != null)
+            torchSprite = Sprite.Create(torchTexture, new Rect(0,0,torchTexture.width, torchTexture.height), new Vector2(0.5f, 0.5f), 1024);
 
-        Sprite torchSprite = Sprite.Create(torchTexture, new Rect(0,0,torchTexture.width, torchTexture.height), new Vector2(0.5f, 0.5f), 1024);
+        int offsetX = -width / 2;
+        int offsetY = -height / 2;
 
-        // Scan borders
-        for (int x = -width/2; x < width/2; x++)
+        // Place torches in each room
+        foreach (RectInt room in _rooms)
         {
-            if (x % torchInterval == 0)
+            // Place torches at corners and along walls of each room
+            List<Vector3> torchPositions = new List<Vector3>
             {
-                SpawnTorch(new Vector3(x, -height/2, 0), container.transform, torchSprite); // Bottom wall
-                SpawnTorch(new Vector3(x, height/2 - 1, 0), container.transform, torchSprite); // Top wall
-            }
-        }
-        
-        for (int y = -height/2; y < height/2; y++)
-        {
-            if (y % torchInterval == 0)
+                new Vector3(room.x + 1 + offsetX, room.y + 1 + offsetY, 0),
+                new Vector3(room.x + room.width - 2 + offsetX, room.y + 1 + offsetY, 0),
+                new Vector3(room.x + 1 + offsetX, room.y + room.height - 2 + offsetY, 0),
+                new Vector3(room.x + room.width - 2 + offsetX, room.y + room.height - 2 + offsetY, 0)
+            };
+            
+            foreach (Vector3 pos in torchPositions)
             {
-                SpawnTorch(new Vector3(-width/2, y, 0), container.transform, torchSprite); // Left wall
-                SpawnTorch(new Vector3(width/2 - 1, y, 0), container.transform, torchSprite); // Right wall
+                SpawnTorch(pos, container.transform, torchSprite);
             }
         }
     }
 
     void SpawnTorch(Vector3 position, Transform parent, Sprite sprite)
     {
+        if (sprite == null) return;
+        
         GameObject go = new GameObject("WallTorch");
         go.transform.position = position + new Vector3(0, 0.2f, 0); // Slightly up on wall
         go.transform.SetParent(parent);

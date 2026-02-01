@@ -43,7 +43,7 @@ public class EnemyChaseState : IEnemyState
         if (enemy.IsTargetInAttackRange())
         {
             // Try to get token. If yes, Attack. If no, Strafe.
-            if (enemy.CanAttack && EnemyManager.Instance.RequestAttackToken(enemy))
+            if (enemy.CanAttack && (EnemyManager.Instance == null || EnemyManager.Instance.RequestAttackToken(enemy)))
             {
                 enemy.ChangeState(new EnemyAttackState());
             }
@@ -56,7 +56,12 @@ public class EnemyChaseState : IEnemyState
         
         // Smooth Move toward target with Separation
         Vector2 targetPos = enemy.Target.position;
-        Vector2 separation = EnemyManager.Instance.GetSeparationVector(enemy, 1.2f); // Avoid others
+        Vector2 separation = Vector2.zero;
+        
+        if (EnemyManager.Instance != null)
+        {
+            separation = EnemyManager.Instance.GetSeparationVector(enemy, 1.2f); // Avoid others
+        }
         
         // Blend movement and separation
         enemy.SmoothMoveToward(targetPos + separation); // Boid-like steering
