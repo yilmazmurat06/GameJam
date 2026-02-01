@@ -62,7 +62,7 @@ public class FearAbility : MaskAbility
         // While active, reduce velocity
         if (_isActive && _player != null && _player.Rigidbody != null)
         {
-            _player.Rigidbody.velocity *= _speedMultiplier;
+            _player.Rigidbody.linearVelocity *= _speedMultiplier;
         }
     }
 }

@@ -28,8 +28,19 @@ public class EnemyAnimator : MonoBehaviour
     private int _currentFrame;
     private int _currentRow;
     private Vector2 _lastDirection = Vector2.down; // Default facing
+    private Vector2 _externalDirection; // Direction set externally (for when velocity doesn't update correctly)
+    private bool _useExternalDirection;
     
-    public bool HasDirectionalSprites => _allSprites != null && _allSprites.Count >= _columns;
+    /// <summary>
+    /// Returns true if this animator has enough sprites for 4-directional animation.
+    /// Requires at least 4 rows of sprites (4 * columns).
+    /// </summary>
+    public bool HasDirectionalSprites => _allSprites != null && _allSprites.Count >= _columns * 4 && _columns > 1;
+    
+    /// <summary>
+    /// Gets the current movement direction being used for animation.
+    /// </summary>
+    public Vector2 CurrentDirection => _lastDirection;
 
     public void Initialize(List<Sprite> sprites, int columns = 8)
     {
@@ -46,6 +57,34 @@ public class EnemyAnimator : MonoBehaviour
         _sr = GetComponent<SpriteRenderer>();
         _rb = GetComponent<Rigidbody2D>();
     }
+    
+    /// <summary>
+    /// Manually set the facing direction. Use this when movement doesn't rely on Rigidbody velocity.
+    /// Also handles simple flip for non-directional sprites.
+    /// </summary>
+    public void SetDirection(Vector2 direction)
+    {
+        if (direction.sqrMagnitude > 0.01f)
+        {
+            _externalDirection = direction.normalized;
+            _useExternalDirection = true;
+            _lastDirection = _externalDirection;
+            
+            // For simple flip mode, update immediately
+            if (_sr != null && !HasDirectionalSprites && Mathf.Abs(direction.x) > 0.1f)
+            {
+                _sr.flipX = direction.x < 0;
+            }
+        }
+    }
+    
+    /// <summary>
+    /// Clear external direction and revert to velocity-based animation.
+    /// </summary>
+    public void ClearExternalDirection()
+    {
+        _useExternalDirection = false;
+    }
 
     private void Update()
     {
@@ -56,24 +95,41 @@ public class EnemyAnimator : MonoBehaviour
             return;
         }
         
-        // Get velocity direction
-        Vector2 vel = _rb != null ? _rb.velocity : Vector2.zero;
-        bool isMoving = vel.magnitude > 0.15f;
+        // Get direction - prioritize external direction if set, otherwise use velocity
+        Vector2 moveDir = Vector2.zero;
+        bool isMoving = false;
+        
+        if (_useExternalDirection && _externalDirection.sqrMagnitude > 0.01f)
+        {
+            moveDir = _externalDirection;
+            isMoving = true;
+            // Clear after use (requires continuous updates)
+            _useExternalDirection = false;
+        }
+        else if (_rb != null)
+        {
+            Vector2 vel = _rb.linearVelocity;
+            isMoving = vel.magnitude > 0.1f;
+            if (isMoving)
+            {
+                moveDir = vel.normalized;
+            }
+        }
         
         if (isMoving)
         {
-            _lastDirection = vel.normalized;
+            _lastDirection = moveDir;
             
-            // Determine dominant axis
-            if (Mathf.Abs(vel.x) > Mathf.Abs(vel.y))
+            // Determine dominant axis for direction
+            if (Mathf.Abs(moveDir.x) > Mathf.Abs(moveDir.y))
             {
                 // Horizontal movement dominates
-                _currentRow = vel.x > 0 ? RowRight : RowLeft;
+                _currentRow = moveDir.x > 0 ? RowRight : RowLeft;
             }
             else
             {
                 // Vertical movement dominates  
-                _currentRow = vel.y > 0 ? RowUp : RowDown;
+                _currentRow = moveDir.y > 0 ? RowUp : RowDown;
             }
             
             // Animate
@@ -90,7 +146,10 @@ public class EnemyAnimator : MonoBehaviour
             _currentFrame = 0;
         }
         
-        // Apply sprite
+        // Apply sprite - ensure row is valid
+        int rowCount = _allSprites.Count / _columns;
+        _currentRow = Mathf.Clamp(_currentRow, 0, rowCount - 1);
+        
         int index = (_currentRow * _columns) + _currentFrame;
         if (index >= 0 && index < _allSprites.Count && _sr != null)
         {
@@ -100,12 +159,62 @@ public class EnemyAnimator : MonoBehaviour
     
     private void HandleSimpleFlip()
     {
-        if (_rb == null || _sr == null) return;
+        if (_sr == null) return;
         
-        Vector2 vel = _rb.velocity;
-        if (Mathf.Abs(vel.x) > 0.1f)
+        Vector2 dir = Vector2.zero;
+        
+        // Check external direction first
+        if (_useExternalDirection && _externalDirection.sqrMagnitude > 0.01f)
         {
-            _sr.flipX = vel.x < 0;
+            dir = _externalDirection;
+            _useExternalDirection = false; // Clear after use
+        }
+        else if (_rb != null)
+        {
+            dir = _rb.linearVelocity;
+        }
+        
+        // Flip sprite based on horizontal movement
+        if (Mathf.Abs(dir.x) > 0.1f)
+        {
+            _sr.flipX = dir.x < 0;
+        }
+        
+        // Update last direction for facing
+        if (dir.sqrMagnitude > 0.01f)
+        {
+            _lastDirection = dir.normalized;
+        }
+    }
+    
+    /// <summary>
+    /// Force set the current row (for idle facing direction).
+    /// Also handles simple flip for non-directional sprites.
+    /// </summary>
+    public void SetFacingDirection(Vector2 direction)
+    {
+        if (direction.sqrMagnitude < 0.01f) return;
+        
+        _lastDirection = direction.normalized;
+        
+        // For simple flip mode (no directional sprites)
+        if (_sr != null && !HasDirectionalSprites)
+        {
+            if (Mathf.Abs(direction.x) > 0.1f)
+            {
+                _sr.flipX = direction.x < 0;
+            }
+            return;
+        }
+        
+        // For directional sprites
+        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        {
+            _currentRow = direction.x > 0 ? RowRight : RowLeft;
+        }
+        else
+        {
+            _currentRow = direction.y > 0 ? RowUp : RowDown;
         }
     }
     

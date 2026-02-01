@@ -41,7 +41,7 @@ public class Projectile : MonoBehaviour
         _initialized = true;
         
         // Set velocity
-        _rigidbody.velocity = _direction * _speed;
+        _rigidbody.linearVelocity = _direction * _speed;
         
         // Rotate to face direction
         float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;

@@ -25,7 +25,7 @@ public class PushableBlock : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _rb.gravityScale = 0f;
-        _rb.drag = _friction;
+        _rb.linearDamping = _friction;
         _rb.mass = _pushResistance;
         _rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         
@@ -42,13 +42,13 @@ public class PushableBlock : MonoBehaviour
     private void Update()
     {
         // Clamp velocity
-        if (_rb.velocity.magnitude > _maxSpeed)
+        if (_rb.linearVelocity.magnitude > _maxSpeed)
         {
-            _rb.velocity = _rb.velocity.normalized * _maxSpeed;
+            _rb.linearVelocity = _rb.linearVelocity.normalized * _maxSpeed;
         }
         
         // Handle push sound
-        bool isMoving = _rb.velocity.magnitude > 0.1f;
+        bool isMoving = _rb.linearVelocity.magnitude > 0.1f;
         if (isMoving && !_audioSource.isPlaying && _pushSound != null)
         {
             _audioSource.Play();

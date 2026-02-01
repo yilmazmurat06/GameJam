@@ -33,7 +33,8 @@ public class EnemyStrafeState : IEnemyState
         
         // 1. Check if we can attack now?
         // Retrying periodically to see if a token opened up
-        if (enemy.CanAttack && enemy.IsTargetInAttackRange() && EnemyManager.Instance.RequestAttackToken(enemy))
+        if (enemy.CanAttack && enemy.IsTargetInAttackRange() && 
+            (EnemyManager.Instance == null || EnemyManager.Instance.RequestAttackToken(enemy)))
         {
             enemy.ChangeState(new EnemyAttackState());
             return;
@@ -58,13 +59,17 @@ public class EnemyStrafeState : IEnemyState
         Vector2 finalDir = (tangent + adjustment).normalized;
         
         // Separation from other enemies
-        Vector2 separation = EnemyManager.Instance.GetSeparationVector(enemy, 1.5f);
+        Vector2 separation = Vector2.zero;
+        if (EnemyManager.Instance != null)
+        {
+            separation = EnemyManager.Instance.GetSeparationVector(enemy, 1.5f);
+        }
         
-        enemy.SetVelocity((finalDir + separation).normalized * (enemy.MoveSpeed * 0.8f));
+        Vector2 moveDirection = (finalDir + separation).normalized;
+        enemy.SetVelocity(moveDirection * (enemy.MoveSpeed * 0.8f));
         
-        // Face target
-        if (enemy.GetComponent<SpriteRenderer>() is SpriteRenderer sr && toTarget.x != 0)
-            sr.flipX = toTarget.x < 0;
+        // Face target while strafing
+        enemy.FaceTarget();
             
         // Timeout -> maybe switch direction or try chasing again
         if (_timer <= 0)

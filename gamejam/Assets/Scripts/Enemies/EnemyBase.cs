@@ -47,12 +47,16 @@ public class EnemyBase : MonoBehaviour
     protected IEnemyState _currentState;
     protected float _attackTimer;
     
+    // Cached animator reference
+    protected EnemyAnimator _enemyAnimator;
+    
     public bool CanAttack => _attackTimer <= 0;
     
     protected virtual void Awake()
     {
         Rigidbody = GetComponent<Rigidbody2D>();
         Health = GetComponent<Health>();
+        _enemyAnimator = GetComponent<EnemyAnimator>();
         
         if (_spriteRenderer == null)
             _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -113,7 +117,13 @@ public class EnemyBase : MonoBehaviour
     /// </summary>
     public void SetVelocity(Vector2 velocity)
     {
-        Rigidbody.velocity = velocity;
+        Rigidbody.linearVelocity = velocity;
+        
+        // Update animator direction when setting velocity
+        if (velocity.sqrMagnitude > 0.01f && _enemyAnimator != null)
+        {
+            _enemyAnimator.SetDirection(velocity.normalized);
+        }
     }
     
     /// <summary>
@@ -123,11 +133,6 @@ public class EnemyBase : MonoBehaviour
     public void SmoothMoveToward(Vector2 targetPosition)
     {
         Vector2 direction = (targetPosition - (Vector2)transform.position).normalized;
-        
-        // If target is very close (e.g. separation vector addition), just use the vector provided if it was meant to be a direction
-        // But here we assume targetPosition is a world point.
-        // Let's Add a Steering helper.
-        
         ApplySteering(direction);
     }
     
@@ -136,12 +141,17 @@ public class EnemyBase : MonoBehaviour
         Vector2 targetVelocity = direction.normalized * _moveSpeed;
         
         // Smoothly interpolate current velocity to target velocity
-        Rigidbody.velocity = Vector2.Lerp(Rigidbody.velocity, targetVelocity, _acceleration * Time.deltaTime);
+        Vector2 newVelocity = Vector2.Lerp(Rigidbody.linearVelocity, targetVelocity, _acceleration * Time.deltaTime);
+        Rigidbody.linearVelocity = newVelocity;
         
-        // Only flip manually if we don't have directional sprites
-        EnemyAnimator anim = GetComponent<EnemyAnimator>();
-        if (anim == null || !anim.HasDirectionalSprites)
+        // Update EnemyAnimator with movement direction
+        if (_enemyAnimator != null && _enemyAnimator.HasDirectionalSprites)
         {
+            _enemyAnimator.SetDirection(direction);
+        }
+        else
+        {
+            // Fall back to sprite flip for non-directional sprites
             if (direction.x != 0 && _spriteRenderer != null)
             {
                 _spriteRenderer.flipX = direction.x < 0;
@@ -152,7 +162,7 @@ public class EnemyBase : MonoBehaviour
         Animator animator = GetComponent<Animator>();
         if (animator != null)
         {
-             animator.SetBool("IsMoving", Rigidbody.velocity.magnitude > 0.1f);
+             animator.SetBool("IsMoving", Rigidbody.linearVelocity.magnitude > 0.1f);
              if (direction != Vector2.zero)
              {
                  animator.SetFloat("MoveX", direction.x);
@@ -169,10 +179,41 @@ public class EnemyBase : MonoBehaviour
         Vector2 direction = (targetPosition - (Vector2)transform.position).normalized;
         SetVelocity(direction * _moveSpeed);
         
-        // Face target
-        if (direction.x != 0 && _spriteRenderer != null)
+        // Update animator
+        if (_enemyAnimator != null && _enemyAnimator.HasDirectionalSprites)
+        {
+            _enemyAnimator.SetDirection(direction);
+        }
+        else if (direction.x != 0 && _spriteRenderer != null)
         {
             _spriteRenderer.flipX = direction.x < 0;
+        }
+    }
+    
+    /// <summary>
+    /// Face a specific direction without moving.
+    /// </summary>
+    public void FaceDirection(Vector2 direction)
+    {
+        if (_enemyAnimator != null)
+        {
+            _enemyAnimator.SetFacingDirection(direction);
+        }
+        else if (direction.x != 0 && _spriteRenderer != null)
+        {
+            _spriteRenderer.flipX = direction.x < 0;
+        }
+    }
+    
+    /// <summary>
+    /// Face the current target.
+    /// </summary>
+    public void FaceTarget()
+    {
+        if (Target != null)
+        {
+            Vector2 dir = (Target.position - transform.position).normalized;
+            FaceDirection(dir);
         }
     }
     

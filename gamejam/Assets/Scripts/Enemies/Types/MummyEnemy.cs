@@ -3,6 +3,7 @@ using UnityEngine;
 /// <summary>
 /// Mummy enemy - basic melee chaser.
 /// Similar to SoulKnight's basic melee enemies.
+/// Uses the state machine from EnemyBase for AI behavior.
 /// </summary>
 public class MummyEnemy : EnemyBase
 {
@@ -24,26 +25,8 @@ public class MummyEnemy : EnemyBase
         _detectionRange = 6f;
     }
     
-    protected override void Update()
-    {
-        base.Update();
-        
-        if (!Health.IsAlive) return;
-        if (Target == null) return;
-        
-        float distance = GetDistanceToTarget();
-        
-        // Chase player when in detection range
-        if (distance > _attackRange && distance <= _detectionRange)
-        {
-            SmoothMoveToward(Target.position);
-        }
-        else if (distance <= _attackRange && CanAttack)
-        {
-            // In range, attack
-            Attack();
-        }
-    }
+    // MummyEnemy relies entirely on the state machine from EnemyBase
+    // No need to override Update() - let the FSM handle movement and attacks
     
     /// <summary>
     /// Override attack to perform a melee swing with area damage.

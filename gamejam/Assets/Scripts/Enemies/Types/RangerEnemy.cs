@@ -3,6 +3,7 @@ using UnityEngine;
 /// <summary>
 /// Ranger enemy - keeps distance and shoots at player.
 /// Similar to SoulKnight's ranged enemies.
+/// Uses a custom kiting behavior but integrates with the state machine.
 /// </summary>
 public class RangerEnemy : EnemyBase
 {
@@ -28,18 +29,29 @@ public class RangerEnemy : EnemyBase
     
     protected override void Update()
     {
-        base.Update();
+        // Update attack cooldown
+        if (_attackTimer > 0)
+            _attackTimer -= Time.deltaTime;
+        
+        // Detect player
+        DetectPlayer();
         
         if (!Health.IsAlive) return;
-        if (Target == null) return;
+        if (Target == null)
+        {
+            // No target - use state machine for idle/roaming
+            _currentState?.Execute(this);
+            return;
+        }
         
         float distance = GetDistanceToTarget();
+        Vector2 dirToTarget = (Target.position - transform.position).normalized;
         
-        // Maintain preferred distance
+        // Maintain preferred distance (kiting behavior)
         if (distance < _retreatDistance)
         {
             // Too close, retreat
-            Vector2 awayDir = ((Vector2)transform.position - (Vector2)Target.position).normalized;
+            Vector2 awayDir = -dirToTarget;
             ApplySteering(awayDir);
         }
         else if (distance > _preferredDistance + 1f)
@@ -49,14 +61,14 @@ public class RangerEnemy : EnemyBase
         }
         else
         {
-            // Good range, stop and shoot
+            // Good range - stop and face player
             SetVelocity(Vector2.zero);
+            FaceDirection(dirToTarget);
             
-            // Face player
-            Vector2 dir = (Target.position - transform.position).normalized;
-            if (_spriteRenderer != null && dir.x != 0)
+            // Try to attack if can
+            if (CanAttack)
             {
-                _spriteRenderer.flipX = dir.x < 0;
+                Attack();
             }
         }
     }
@@ -77,6 +89,9 @@ public class RangerEnemy : EnemyBase
         
         Vector2 firePos = _firePoint != null ? (Vector2)_firePoint.position : (Vector2)transform.position;
         Vector2 direction = ((Vector2)Target.position - firePos).normalized;
+        
+        // Face the shooting direction
+        FaceDirection(direction);
         
         GameObject projectileObj = Instantiate(_projectilePrefab, firePos, Quaternion.identity);
         Projectile projectile = projectileObj.GetComponent<Projectile>();
