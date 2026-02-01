@@ -1,0 +1,2482 @@
+fileFormatVersion: 2
+guid: 5ba4c16592e184b6f94be7acd8f6ba79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3955571030791987977
+    second: blue_tile_0
+  - first:
+      213: -2645202714082996201
+    second: blue_tile_1
+  - first:
+      213: -5439309904170793108
+    second: blue_tile_2
+  - first:
+      213: 6778832672918594128
+    second: blue_tile_3
+  - first:
+      213: 1830220165816916949
+    second: blue_tile_4
+  - first:
+      213: 6609897765301659604
+    second: blue_tile_5
+  - first:
+      213: -7889086261166172201
+    second: blue_tile_6
+  - first:
+      213: -2293600852649434171
+    second: blue_tile_7
+  - first:
+      213: 3154139661954161471
+    second: blue_tile_8
+  - first:
+      213: -8606573891111331042
+    second: blue_tile_9
+  - first:
+      213: -8398756105612412917
+    second: blue_tile_10
+  - first:
+      213: 7044304246950051849
+    second: blue_tile_11
+  - first:
+      213: -313240468034650883
+    second: blue_tile_12
+  - first:
+      213: 2174282223362494041
+    second: blue_tile_13
+  - first:
+      213: 4820810093502690004
+    second: blue_tile_14
+  - first:
+      213: -7194791307215451946
+    second: blue_tile_15
+  - first:
+      213: -7424308202121652162
+    second: blue_tile_16
+  - first:
+      213: -769877552394841875
+    second: blue_tile_17
+  - first:
+      213: 50471552257198692
+    second: blue_tile_18
+  - first:
+      213: 4979205621456427479
+    second: blue_tile_19
+  - first:
+      213: -756734687542905071
+    second: blue_tile_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue_tile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc51d1ea1dfa19c0800000000000000
+      internalID: -3955571030791987977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7101f2c752a5a4bd0800000000000000
+      internalID: -2645202714082996201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67c2aaf570b384b0800000000000000
+      internalID: -5439309904170793108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052ef157660431e50800000000000000
+      internalID: 6778832672918594128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_4
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db164c3b8f366910800000000000000
+      internalID: 1830220165816916949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_5
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7247e2ff21bbb50800000000000000
+      internalID: 6609897765301659604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_6
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d796c8f7d5548290800000000000000
+      internalID: -7889086261166172201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_7
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c32c413d2e7b20e0800000000000000
+      internalID: -2293600852649434171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_8
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b9fbaaf41c5cb20800000000000000
+      internalID: 3154139661954161471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_9
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 2132
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b582745ae4f8880800000000000000
+      internalID: -8606573891111331042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0834d902df917b80800000000000000
+      internalID: -8398756105612412917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900cb39e36562c160800000000000000
+      internalID: 7044304246950051849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_12
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc7485347527abf0800000000000000
+      internalID: -313240468034650883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_13
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ec7fc892a9c2e10800000000000000
+      internalID: 2174282223362494041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_14
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d278d00d35f6e240800000000000000
+      internalID: 4820810093502690004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_15
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8ca5cfc67f62c90800000000000000
+      internalID: -7194791307215451946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_16
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38158d960f87f890800000000000000
+      internalID: -7424308202121652162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_17
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de055f0f178d055f0800000000000000
+      internalID: -769877552394841875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_18
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a8d8ffb9f43b000800000000000000
+      internalID: 50471552257198692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_19
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1896
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9d98ab121b91540800000000000000
+      internalID: 4979205621456427479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117f9cf9fc98f75f0800000000000000
+      internalID: -756734687542905071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a49a958ff5c4fda97c47b902b95213
+      internalID: -727982261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_22
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d21bbb09fe24f439fcef808dace23d
+      internalID: -982285223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_23
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2391f7f44fe80464ba072805b8386e13
+      internalID: -984640670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_24
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb26ac1ad64f74b07a8406aa5844488e
+      internalID: -1972397107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_25
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd049a20cd51440c9a9cd46fa1d434c
+      internalID: 474430853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_26
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f149afa844b74264afe4d4b97c221f0
+      internalID: 435850664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_27
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147952efe8d28426c9cbf86eaf731e30
+      internalID: 689406021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_28
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b28468fbfae14faba283f37e8b335c5
+      internalID: -1168503078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_29
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1660
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c326df469081443b59cafb232e5e5c39
+      internalID: -931490394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992e4052c2282437a9877ac1597ab284
+      internalID: 1572265494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_31
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5612853a6c9842f88b557061176c0e7
+      internalID: -1969371496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_32
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9bbd243b7c34643a40f1b916a1dcb6
+      internalID: 244473344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_33
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89611969735f4427997a534395884a51
+      internalID: 791202251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_34
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e394403202239491fac91090e99f3a32
+      internalID: -1435439757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_35
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91be9ed0d22e478a8ca5e3e77c0ee0d
+      internalID: -1114783422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_36
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54b6fe1200f7424693a29a35f1e1daa
+      internalID: 1216788149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_37
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb97fbdd289cb437a8386ed778d5aff2
+      internalID: -1993287797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_38
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938ab6a88d9bd48d48cfe992307e5445
+      internalID: -1561708934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_39
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1424
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1f0baea230349138d6cfee6e5dcb92
+      internalID: -1521431852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daa4b09706444e25ac31ca76a51f9aa
+      internalID: 542996141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_41
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7d41a38c1104342920f62bdddfd0a4
+      internalID: 77009600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_42
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e5919c4ca004a62882e8a4b559d26e
+      internalID: 2091277401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_43
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dde9d740e3a433a84513c7b51e658a
+      internalID: 2109005573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_44
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f56f707e8f748f9b867bb54c83b2d0
+      internalID: 1507968768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_45
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cbdd36c9a3c4e33a78e4763cc0baf7
+      internalID: 1613220764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_46
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359ca60d282e44b7dab4120d7ba94a85
+      internalID: -265489061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_47
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fff1d84337fd40619da04d453c81064
+      internalID: 793589494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_48
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da10e6d504cb84792a49989672a59bb8
+      internalID: 1820156620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_49
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1188
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1604918ced9544563b631afc97c570f5
+      internalID: 414650797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b54d60a29560472e9271e4d183a6b22
+      internalID: -2036827376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_51
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b1c2138abd6467c873bd392dd678c9
+      internalID: -610448016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_52
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aaadc07726e475e85028fa7c02aeb2
+      internalID: -22857200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_53
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f696a889f1b46929a6b31b9288437d
+      internalID: -500836235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_54
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c7f413706c6490480dfeea8ba12f96
+      internalID: 426385994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_55
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe2ed97b76fc4aa2bac4f32fcf77628
+      internalID: 1813968295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_56
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0df122c7bac4aaea4692a408aab1b4
+      internalID: 815742559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_57
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467450eaa0c07424097378b9c142a9b8
+      internalID: -1894291198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_58
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9fcda07dda34eb19e40c4ef99f22d4
+      internalID: 1143251505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_59
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 952
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851d7d86242fc415cb04e47860bdc84f
+      internalID: -2125826064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a07be7923ab401ab66974305bb6c6f
+      internalID: 1853289772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_61
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f18c94cb012f4c0badc986cceebdfb0
+      internalID: 1628326185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_62
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41faf017ab82440bc8a5da719280d84c
+      internalID: 1274848011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_63
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40187db3ea654d2cbcd4fcd70bffbeb
+      internalID: 1640969284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_64
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105e66732538d4687b5b4c6ed7acb1dc
+      internalID: -939067287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_65
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411d2ea31833f4b47b27c60ff81d4839
+      internalID: -117123599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_66
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89161beee5b84589b3c64f9396fc4ce
+      internalID: 1935634244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_67
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22e8cab9b5d74a46a3f24dd4f90a5a8
+      internalID: 1726693685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_68
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c053ca0242da4f30b116f8f27a8979a
+      internalID: -1513915623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_69
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 716
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229534fa1f181400caad4f657505a258
+      internalID: 316812880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280ba33088b8645e28e28573a106572d
+      internalID: 763580498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_71
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff88634a52ced4a87bf8d60d38916fe3
+      internalID: -921661994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_72
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08056339634544a93a228902e3de62f6
+      internalID: 1029143623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_73
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe6de2eb6f444c81b6b3fb851818e0d
+      internalID: 1000275395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_74
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0c6a6c42490432a9e334ad932c9044
+      internalID: 346584991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_75
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a8406e3b41147c598c8e2e3dfbeb34
+      internalID: 1609170377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_76
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5936c396aad54b3293106d9d2afebc4
+      internalID: 1742191008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_77
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c73579c2f8648b9a20e6d27947e58b
+      internalID: 1572693735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_78
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe3cbb7877f749b09c68e95dc3b8563
+      internalID: -1607476524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_79
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 480
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5928dd86010d94510a7b98076fd31661
+      internalID: -1264785601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320e471317e80479aba8f75715aa68c0
+      internalID: 1513765221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_81
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6abf433df0644af18a3bbf7e6d6d6dd
+      internalID: 1104477313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_82
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f642b60eab8a4d33ab0b85de92aa4fe
+      internalID: -783957842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_83
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fa39a48931c446b8f1fa4509b29229
+      internalID: 1521878750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_84
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f1f3233863549e19cd7f76f03087d2
+      internalID: -2070803285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_85
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20434f1aa9f34452193859f665fea8d9
+      internalID: -1468556277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_86
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28917c27daa864977b6ac51e95eb8d49
+      internalID: -434055275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_87
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10167e01a32f45f386223534dda3487
+      internalID: -544214037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_88
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ca0a031ce3847d49d79e8f5ede80e8
+      internalID: 1459897343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_89
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 244
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cbb332f73024bebb976a4c16646179
+      internalID: 609866336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfa9223cc5d84a2684381895eaf69a2
+      internalID: -433398971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_91
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6233f93bd0348049056506429128b0
+      internalID: 1604193557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_92
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81c22674f0374514a7acf0913736aa2
+      internalID: -533707374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_93
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12f2af0771024507876b65835868058
+      internalID: 464524452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_94
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e738041d644a440f0b772ddf4b846218
+      internalID: -1997250460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_95
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6332dcaa6fe3146a9938aa448b9098f5
+      internalID: -512720315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_96
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e0af11993a045a49a43b50e9d13772
+      internalID: -1632198097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_97
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82483563e85914e6d99ea1f63d97980e
+      internalID: -1762427292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_98
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c2647dbc11d4a09ae61e30a37bc5b8
+      internalID: -1788310433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tile_99
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 8
+        width: 179
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8db16dfd6f1499599eef28abe84e78
+      internalID: 2023126805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 71a11600bf20942dfa02a6c889e8ae79
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":10.0},"gridSpriteSize":{"x":179.0,"y":236.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      blue_tile_0: -3955571030791987977
+      blue_tile_1: -2645202714082996201
+      blue_tile_10: -8398756105612412917
+      blue_tile_11: 7044304246950051849
+      blue_tile_12: -313240468034650883
+      blue_tile_13: 2174282223362494041
+      blue_tile_14: 4820810093502690004
+      blue_tile_15: -7194791307215451946
+      blue_tile_16: -7424308202121652162
+      blue_tile_17: -769877552394841875
+      blue_tile_18: 50471552257198692
+      blue_tile_19: 4979205621456427479
+      blue_tile_2: -5439309904170793108
+      blue_tile_20: -756734687542905071
+      blue_tile_21: -727982261
+      blue_tile_22: -982285223
+      blue_tile_23: -984640670
+      blue_tile_24: -1972397107
+      blue_tile_25: 474430853
+      blue_tile_26: 435850664
+      blue_tile_27: 689406021
+      blue_tile_28: -1168503078
+      blue_tile_29: -931490394
+      blue_tile_3: 6778832672918594128
+      blue_tile_30: 1572265494
+      blue_tile_31: -1969371496
+      blue_tile_32: 244473344
+      blue_tile_33: 791202251
+      blue_tile_34: -1435439757
+      blue_tile_35: -1114783422
+      blue_tile_36: 1216788149
+      blue_tile_37: -1993287797
+      blue_tile_38: -1561708934
+      blue_tile_39: -1521431852
+      blue_tile_4: 1830220165816916949
+      blue_tile_40: 542996141
+      blue_tile_41: 77009600
+      blue_tile_42: 2091277401
+      blue_tile_43: 2109005573
+      blue_tile_44: 1507968768
+      blue_tile_45: 1613220764
+      blue_tile_46: -265489061
+      blue_tile_47: 793589494
+      blue_tile_48: 1820156620
+      blue_tile_49: 414650797
+      blue_tile_5: 6609897765301659604
+      blue_tile_50: -2036827376
+      blue_tile_51: -610448016
+      blue_tile_52: -22857200
+      blue_tile_53: -500836235
+      blue_tile_54: 426385994
+      blue_tile_55: 1813968295
+      blue_tile_56: 815742559
+      blue_tile_57: -1894291198
+      blue_tile_58: 1143251505
+      blue_tile_59: -2125826064
+      blue_tile_6: -7889086261166172201
+      blue_tile_60: 1853289772
+      blue_tile_61: 1628326185
+      blue_tile_62: 1274848011
+      blue_tile_63: 1640969284
+      blue_tile_64: -939067287
+      blue_tile_65: -117123599
+      blue_tile_66: 1935634244
+      blue_tile_67: 1726693685
+      blue_tile_68: -1513915623
+      blue_tile_69: 316812880
+      blue_tile_7: -2293600852649434171
+      blue_tile_70: 763580498
+      blue_tile_71: -921661994
+      blue_tile_72: 1029143623
+      blue_tile_73: 1000275395
+      blue_tile_74: 346584991
+      blue_tile_75: 1609170377
+      blue_tile_76: 1742191008
+      blue_tile_77: 1572693735
+      blue_tile_78: -1607476524
+      blue_tile_79: -1264785601
+      blue_tile_8: 3154139661954161471
+      blue_tile_80: 1513765221
+      blue_tile_81: 1104477313
+      blue_tile_82: -783957842
+      blue_tile_83: 1521878750
+      blue_tile_84: -2070803285
+      blue_tile_85: -1468556277
+      blue_tile_86: -434055275
+      blue_tile_87: -544214037
+      blue_tile_88: 1459897343
+      blue_tile_89: 609866336
+      blue_tile_9: -8606573891111331042
+      blue_tile_90: -433398971
+      blue_tile_91: 1604193557
+      blue_tile_92: -533707374
+      blue_tile_93: 464524452
+      blue_tile_94: -1997250460
+      blue_tile_95: -512720315
+      blue_tile_96: -1632198097
+      blue_tile_97: -1762427292
+      blue_tile_98: -1788310433
+      blue_tile_99: 2023126805
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

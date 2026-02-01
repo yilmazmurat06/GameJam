@@ -1,0 +1,2485 @@
+fileFormatVersion: 2
+guid: 11203a52a22b24762acdcf4bc9fbe657
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8008637748369954598
+    second: purple_tile_0
+  - first:
+      213: -1836634620498333345
+    second: purple_tile_1
+  - first:
+      213: 1284327901356574605
+    second: purple_tile_2
+  - first:
+      213: 1928893175414504725
+    second: purple_tile_3
+  - first:
+      213: 4939207044575214696
+    second: purple_tile_4
+  - first:
+      213: -8556539131982436304
+    second: purple_tile_5
+  - first:
+      213: -1084641895116231859
+    second: purple_tile_6
+  - first:
+      213: 372936551310323567
+    second: purple_tile_7
+  - first:
+      213: -3438577051872068026
+    second: purple_tile_8
+  - first:
+      213: -6727075303694492331
+    second: purple_tile_9
+  - first:
+      213: 4820333403716962962
+    second: purple_tile_10
+  - first:
+      213: 1644310272469371889
+    second: purple_tile_11
+  - first:
+      213: -2972563646700428622
+    second: purple_tile_12
+  - first:
+      213: 2382938478352977515
+    second: purple_tile_13
+  - first:
+      213: 6874924126433354751
+    second: purple_tile_14
+  - first:
+      213: -2635941439218119052
+    second: purple_tile_15
+  - first:
+      213: 6328440378945937838
+    second: purple_tile_16
+  - first:
+      213: -155531126498664388
+    second: purple_tile_17
+  - first:
+      213: -1125299507328441291
+    second: purple_tile_18
+  - first:
+      213: -7909379438580242024
+    second: purple_tile_19
+  - first:
+      213: 7771964729500819805
+    second: purple_tile_20
+  - first:
+      213: -4844491677906415584
+    second: purple_tile_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: purple_tile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627106eb995642f60800000000000000
+      internalID: 8008637748369954598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5133072b86f286e0800000000000000
+      internalID: -1836634620498333345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d874b7feb69d2d110800000000000000
+      internalID: 1284327901356574605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51db1429f1ec4ca10800000000000000
+      internalID: 1928893175414504725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c330453a69b8440800000000000000
+      internalID: 4939207044575214696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03825737ef0114980800000000000000
+      internalID: -8556539131982436304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_6
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b271d61f392f0f0800000000000000
+      internalID: -1084641895116231859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_7
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f6c9841dfec2500800000000000000
+      internalID: 372936551310323567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_8
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64efa52c368b740d0800000000000000
+      internalID: -3438577051872068026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_9
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1844
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d9cf127a0a4a2a0800000000000000
+      internalID: -6727075303694492331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29acf7301b345e240800000000000000
+      internalID: 4820333403716962962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb001b1b73c1d610800000000000000
+      internalID: 1644310272469371889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b26e26dc155fb6d0800000000000000
+      internalID: -2972563646700428622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ec6d3bbe5e11120800000000000000
+      internalID: 2382938478352977515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3a2dd6113a86f50800000000000000
+      internalID: 6874924126433354751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_15
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e0ca21a314b6bd0800000000000000
+      internalID: -2635941439218119052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_16
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1af41cef223d750800000000000000
+      internalID: 6328440378945937838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_17
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30e785b34177ddf0800000000000000
+      internalID: -155531126498664388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_18
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53424c76f022260f0800000000000000
+      internalID: -1125299507328441291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_19
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1640
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89965a96e4d3c3290800000000000000
+      internalID: -7909379438580242024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51e2cc6eb09bdb60800000000000000
+      internalID: 7771964729500819805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0205d057c78e4ccb0800000000000000
+      internalID: -4844491677906415584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f5afde48b554f05b11e98dc8edc4ac
+      internalID: 1506222552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0a6c4d5e7c94eefb79d7306d067e7e
+      internalID: 1706865564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ac0aa3796f24748befb9d4d9ceac8d
+      internalID: 1710880593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_25
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9ab42ca82f0408baabceb32b3f7fcc
+      internalID: -858927734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_26
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debecd996c4e84b67944cd422eabca1d
+      internalID: -926835226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_27
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cb4e30392c24be2b813a5c2b6a8289
+      internalID: 347848436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_28
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df332017e2c44fd98af31bc364d58a1
+      internalID: 811890709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_29
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1436
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403a79dc3a4c5430cabb1d0d9d2237cb
+      internalID: 877905794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bab6b442cee400d86ddbcd7ef4af70
+      internalID: -1918754200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d43badc71ca146f8b21b22e0ef68c2b
+      internalID: -1261864866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd71cba5cee2446a1a027f29c7c91a43
+      internalID: -1411613034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_33
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07a700b5b4d04220a29eb00fb320f67
+      internalID: 1822376656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_34
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe91393cdf66f4643a88a18a46e68884
+      internalID: 1192125637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_35
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49cae2aa21984810bd4ffbbcf40846b
+      internalID: 1030122263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_36
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e33975a0b7944e4aec68a8aac811f4
+      internalID: 442092240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_37
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d868cf93bc840b2b61a1a1719a66f0
+      internalID: -1890923334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_38
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcc502d1a5d240ed9bf0e1206e4e5c5
+      internalID: -1000207520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_39
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1232
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9076d110ffb4c93957a19461de10c7
+      internalID: 1333714933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc6cef8a8c324609a3667b92aa84a3f
+      internalID: 193121892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fef68639da744e1b5d54b9aa783ee4
+      internalID: -216321945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_42
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a4156f5a7f24501878395aac2094b5
+      internalID: -692492885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_43
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e56f84d207ab4bf99093516a6f62e9c
+      internalID: 1425131026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_44
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367a3df1a861144259c42ae37f019892
+      internalID: 1997049211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_45
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a270c598e6e44f6902b2aa94745ff9
+      internalID: 384641096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_46
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec1d882ece56457db4d25af6a161113
+      internalID: 1015681609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_47
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c5d045b233445694ec255fb4b5f5c
+      internalID: -1970556763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_48
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb62e82ff7ac47409e22648f71085ae
+      internalID: 846006177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_49
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1028
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdc009b27a5943e7b8cb627c8241725
+      internalID: -642483978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76052e8179d274ae6aa8b2422030ca67
+      internalID: 505426384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf47129c10da149ab96cc1d531277647
+      internalID: -219659047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_52
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57734629421574df99f5eda3c52fdeae
+      internalID: 1760006388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_53
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5c1443741eb4ff684162b526e57f28
+      internalID: -843261053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_54
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a8ddd436a7549ce878730bb0ce4f4e
+      internalID: -841935040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_55
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12715883fbb054066ac2d426bc2fdb34
+      internalID: -1310737001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_56
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a74caca8159a4d0bab418aed79b41fc
+      internalID: -1946706366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_57
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7558e0f7361fa45e5a9c8f35aabb74dd
+      internalID: 1263781827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_58
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d080e830101b9408daf475b8a6b6c40e
+      internalID: 1387801739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_59
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 824
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cff2d7cd342240a094e6c7246de6c92
+      internalID: 1634913029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951a6ae29714d431786d207f98b2bffe
+      internalID: 1628416326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_61
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6669177665e214760a20e48b74cf505d
+      internalID: -1069385953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_62
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbdfc1c3e6e240a1b880e43c0d3e31c
+      internalID: 1004639871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_63
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369a77b26cc8c4a2584cfb4d41e3ed90
+      internalID: -1691238468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_64
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cea5a1d0f23c4a3f9e5ec020fc0e788
+      internalID: 1803490645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_65
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc1c878259654c25b4f4d7ab297896e
+      internalID: -1739303725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_66
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b920d7a9d2a7d4c20a42e070a38df441
+      internalID: 299221080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_67
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c920d92a9ae41d3af26e2218bf3e59
+      internalID: -223644655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_68
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3b1a00a8ab041d8b3c10bdfa2ca054
+      internalID: 423158601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_69
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 620
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d04d039a674a4e479c66700daab4664
+      internalID: -1973185990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b92e5af17424ed5944b28f741fe3de
+      internalID: 1566301193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_71
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0953f5cdb382341cfbe03864bf8b083c
+      internalID: -1955501077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_72
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a736ad3b9722e47fa834701997957d09
+      internalID: -2052700168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_73
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7885681fd23b47bb8a4a1523a572b8d
+      internalID: -1438325063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_74
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0763fc1c4dfbf419da8e942fe2044f14
+      internalID: 1202760139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_75
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a1ba423162240439adb8e15d95ed66
+      internalID: -319073687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_76
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc4dcfe89b7a4066b9cc88c4e05e55e
+      internalID: -1529288817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_77
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861aacd11ca384f7283f450001e51f50
+      internalID: -1994354661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_78
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fa5e0cfaccf4bb294685dfe6362b04
+      internalID: -2100853707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_79
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 416
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2507d4264a8bd4c46b2ee8135c3208cf
+      internalID: 1572521029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9a6a5b37ece40f3b90ef28b8668606
+      internalID: 714713061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_81
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31ca88e521054be7be73d8b9fca05a1
+      internalID: 112771029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_82
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab841e8e9cce04efe865549742335df9
+      internalID: -97237735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_83
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd70bf0949c1947908dc07fb9e92d43b
+      internalID: 174573238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_84
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d181ed94290f4d6f97517e4d14a8039
+      internalID: -1602666642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_85
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea10fbb0cc13745188c32e7c74018dff
+      internalID: -142847659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_86
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c633c813ecd2147599d9959db9a2111e
+      internalID: -776033428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_87
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb94417e2679422d880f23b3ba14eee
+      internalID: -1248012130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_88
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8c103726dea4daaa3d57631dabf568
+      internalID: 634208206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_89
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 212
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ffcffd3e8b649949045368fe75079e
+      internalID: 1649232631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3780cb7fb4594d2fa9efbc5519b9026
+      internalID: -449822760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_91
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b4f211acd0347f7bc81cb50d9dc8e9
+      internalID: 303322612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_92
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a0d7e99e1694199a61e570981704ee
+      internalID: -2132589865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_93
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0f6274862894406b1a530dd9edc1b2
+      internalID: -1673948219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_94
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1934898358766464081c16432ed8458e
+      internalID: 2146162810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_95
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f337d51868a45e8b11a8adb518bf71
+      internalID: 1175546089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_96
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2707becbf32d94c34aab05604079e661
+      internalID: 1043964373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_97
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83a484c5b1564341acbd858ac23dc6c
+      internalID: 2036716157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_98
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4de5104254d2482883cd127ce9c2037
+      internalID: 817015549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_tile_99
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 8
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d95f8e28bbf493c94fc3393f3ac6aa
+      internalID: 363261666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 791c2f73ae77f450b8f067e6a360f491
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":10.0},"gridSpriteSize":{"x":204.0,"y":204.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      purple_tile_0: 8008637748369954598
+      purple_tile_1: -1836634620498333345
+      purple_tile_10: 4820333403716962962
+      purple_tile_11: 1644310272469371889
+      purple_tile_12: -2972563646700428622
+      purple_tile_13: 2382938478352977515
+      purple_tile_14: 6874924126433354751
+      purple_tile_15: -2635941439218119052
+      purple_tile_16: 6328440378945937838
+      purple_tile_17: -155531126498664388
+      purple_tile_18: -1125299507328441291
+      purple_tile_19: -7909379438580242024
+      purple_tile_2: 1284327901356574605
+      purple_tile_20: 7771964729500819805
+      purple_tile_21: -4844491677906415584
+      purple_tile_22: 1506222552
+      purple_tile_23: 1706865564
+      purple_tile_24: 1710880593
+      purple_tile_25: -858927734
+      purple_tile_26: -926835226
+      purple_tile_27: 347848436
+      purple_tile_28: 811890709
+      purple_tile_29: 877905794
+      purple_tile_3: 1928893175414504725
+      purple_tile_30: -1918754200
+      purple_tile_31: -1261864866
+      purple_tile_32: -1411613034
+      purple_tile_33: 1822376656
+      purple_tile_34: 1192125637
+      purple_tile_35: 1030122263
+      purple_tile_36: 442092240
+      purple_tile_37: -1890923334
+      purple_tile_38: -1000207520
+      purple_tile_39: 1333714933
+      purple_tile_4: 4939207044575214696
+      purple_tile_40: 193121892
+      purple_tile_41: -216321945
+      purple_tile_42: -692492885
+      purple_tile_43: 1425131026
+      purple_tile_44: 1997049211
+      purple_tile_45: 384641096
+      purple_tile_46: 1015681609
+      purple_tile_47: -1970556763
+      purple_tile_48: 846006177
+      purple_tile_49: -642483978
+      purple_tile_5: -8556539131982436304
+      purple_tile_50: 505426384
+      purple_tile_51: -219659047
+      purple_tile_52: 1760006388
+      purple_tile_53: -843261053
+      purple_tile_54: -841935040
+      purple_tile_55: -1310737001
+      purple_tile_56: -1946706366
+      purple_tile_57: 1263781827
+      purple_tile_58: 1387801739
+      purple_tile_59: 1634913029
+      purple_tile_6: -1084641895116231859
+      purple_tile_60: 1628416326
+      purple_tile_61: -1069385953
+      purple_tile_62: 1004639871
+      purple_tile_63: -1691238468
+      purple_tile_64: 1803490645
+      purple_tile_65: -1739303725
+      purple_tile_66: 299221080
+      purple_tile_67: -223644655
+      purple_tile_68: 423158601
+      purple_tile_69: -1973185990
+      purple_tile_7: 372936551310323567
+      purple_tile_70: 1566301193
+      purple_tile_71: -1955501077
+      purple_tile_72: -2052700168
+      purple_tile_73: -1438325063
+      purple_tile_74: 1202760139
+      purple_tile_75: -319073687
+      purple_tile_76: -1529288817
+      purple_tile_77: -1994354661
+      purple_tile_78: -2100853707
+      purple_tile_79: 1572521029
+      purple_tile_8: -3438577051872068026
+      purple_tile_80: 714713061
+      purple_tile_81: 112771029
+      purple_tile_82: -97237735
+      purple_tile_83: 174573238
+      purple_tile_84: -1602666642
+      purple_tile_85: -142847659
+      purple_tile_86: -776033428
+      purple_tile_87: -1248012130
+      purple_tile_88: 634208206
+      purple_tile_89: 1649232631
+      purple_tile_9: -6727075303694492331
+      purple_tile_90: -449822760
+      purple_tile_91: 303322612
+      purple_tile_92: -2132589865
+      purple_tile_93: -1673948219
+      purple_tile_94: 2146162810
+      purple_tile_95: 1175546089
+      purple_tile_96: 1043964373
+      purple_tile_97: 2036716157
+      purple_tile_98: 817015549
+      purple_tile_99: 363261666
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
