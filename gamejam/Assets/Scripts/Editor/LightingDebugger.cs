@@ -9,7 +9,7 @@ public class LightingDebugger : MonoBehaviour
     {
         Debug.Log($"Current Render Pipeline: {GraphicsSettings.currentRenderPipeline?.GetType().Name ?? "Null (Built-in)"}");
         
-        var globalLights = FindObjectsOfType<Light2D>();
+        var globalLights = FindObjectsByType<Light2D>(FindObjectsSortMode.None);
         Debug.Log($"Found {globalLights.Length} Light2D objects.");
         
         foreach(var light in globalLights)

@@ -44,8 +44,8 @@ public class GuiltAbility : MaskAbility
     
     protected override void OnDeactivate()
     {
-        // Restore original mass (still heavy from Guilt passive)
-        _player.Rigidbody.mass = 200f; // Guilt passive mass
+        // Restore original mass (which was set by the Guilt mask passive effect)
+        _player.Rigidbody.mass = _originalMass;
         
         // Restore color
         if (_spriteRenderer != null)

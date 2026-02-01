@@ -34,7 +34,7 @@ public class ShadowStalkerAI : MonoBehaviour
         _spawnPosition = transform.position;
         
         // Find player
-        PlayerController pc = FindObjectOfType<PlayerController>();
+        PlayerController pc = FindFirstObjectByType<PlayerController>();
         if (pc != null) _player = pc.transform;
         
         // Setup physics

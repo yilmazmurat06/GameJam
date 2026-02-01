@@ -36,7 +36,7 @@ public class RageGolemAI : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _startPosition = transform.position;
         
-        PlayerController pc = FindObjectOfType<PlayerController>();
+        PlayerController pc = FindFirstObjectByType<PlayerController>();
         if (pc != null) _player = pc.transform;
         
         if (_rb != null)

@@ -59,10 +59,16 @@ public class FearAbility : MaskAbility
     {
         base.Update();
         
-        // While active, reduce velocity
+        // Speed reduction is now handled by clamping max velocity magnitude
+        // instead of multiplying each frame (which would compound to zero)
         if (_isActive && _player != null && _player.Rigidbody != null)
         {
-            _player.Rigidbody.linearVelocity *= _speedMultiplier;
+            Vector2 velocity = _player.Rigidbody.linearVelocity;
+            float maxSpeed = _player.MoveSpeed * _speedMultiplier;
+            if (velocity.magnitude > maxSpeed)
+            {
+                _player.Rigidbody.linearVelocity = velocity.normalized * maxSpeed;
+            }
         }
     }
 }

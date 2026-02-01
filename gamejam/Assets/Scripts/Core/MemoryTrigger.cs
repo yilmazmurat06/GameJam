@@ -44,7 +44,7 @@ public class MemoryTrigger : MonoBehaviour
     private void ShowMemory()
     {
         // Find or create MemoryUI
-        MemoryUI ui = FindObjectOfType<MemoryUI>();
+        MemoryUI ui = FindFirstObjectByType<MemoryUI>();
         if (ui == null)
         {
             // Create canvas with MemoryUI

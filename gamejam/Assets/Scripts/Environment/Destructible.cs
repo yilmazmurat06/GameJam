@@ -27,7 +27,7 @@ public class Destructible : MonoBehaviour
     /// <summary>
     /// Destroy this object (called by abilities or golem).
     /// </summary>
-    public void Destroy()
+    public void DestroyObject()
     {
         // Spawn debris
         if (_debrisPrefab != null)
@@ -49,7 +49,7 @@ public class Destructible : MonoBehaviour
     {
         if (!_requireBashToDestroy)
         {
-            Destroy();
+            DestroyObject();
             return;
         }
         
@@ -57,14 +57,14 @@ public class Destructible : MonoBehaviour
         HateAbility bash = col.gameObject.GetComponent<HateAbility>();
         if (bash != null && bash.IsActive)
         {
-            Destroy();
+            DestroyObject();
         }
         
         // Check if hit by Rage Golem
         RageGolemAI golem = col.gameObject.GetComponent<RageGolemAI>();
         if (golem != null)
         {
-            Destroy();
+            DestroyObject();
         }
     }
 }

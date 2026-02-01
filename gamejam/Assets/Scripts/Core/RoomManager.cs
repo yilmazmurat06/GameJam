@@ -77,7 +77,7 @@ public class RoomManager : MonoBehaviour
     /// </summary>
     private void EquipMask(MaskType mask)
     {
-        PlayerController player = FindObjectOfType<PlayerController>();
+        PlayerController player = FindFirstObjectByType<PlayerController>();
         if (player != null)
         {
             player.SetMask(mask);

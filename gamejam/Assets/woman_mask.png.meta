@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 26b76eafb87514fa0841107c6b5af7d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2770901177124497584
+    second: woman_mask_0
+  - first:
+      213: -585920979545265482
+    second: woman_mask_1
+  - first:
+      213: 3811311331305671989
+    second: woman_mask_2
+  - first:
+      213: 7940917899932616384
+    second: woman_mask_3
+  - first:
+      213: 7934289344732887391
+    second: woman_mask_4
+  - first:
+      213: -8075955428592200147
+    second: woman_mask_5
+  - first:
+      213: 9221489140245173903
+    second: woman_mask_6
+  - first:
+      213: -7515851334130046579
+    second: woman_mask_7
+  - first:
+      213: 2118112609149992260
+    second: woman_mask_8
+  - first:
+      213: 4258927945196526424
+    second: woman_mask_9
+  - first:
+      213: 8380641095960977259
+    second: woman_mask_10
+  - first:
+      213: -3425849047108160758
+    second: woman_mask_11
+  - first:
+      213: 8698478709317205153
+    second: woman_mask_12
+  - first:
+      213: -875131640310673943
+    second: woman_mask_13
+  - first:
+      213: 5632184665166795563
+    second: woman_mask_14
+  - first:
+      213: -8112582466508587895
+    second: woman_mask_15
+  - first:
+      213: 6779574303712864556
+    second: woman_mask_16
+  - first:
+      213: 2596841586260497613
+    second: woman_mask_17
+  - first:
+      213: 1934693198659991685
+    second: woman_mask_18
+  - first:
+      213: 2056369274257094205
+    second: woman_mask_19
+  - first:
+      213: -984854356865925229
+    second: woman_mask_20
+  - first:
+      213: 2428414369346124231
+    second: woman_mask_21
+  - first:
+      213: -8523511191970854437
+    second: woman_mask_22
+  - first:
+      213: -4999740616129444981
+    second: woman_mask_23
+  - first:
+      213: -5303862104079425722
+    second: woman_mask_24
+  - first:
+      213: 5228837515444676248
+    second: woman_mask_25
+  - first:
+      213: -9189439942645786078
+    second: woman_mask_26
+  - first:
+      213: 2129187177844214658
+    second: woman_mask_27
+  - first:
+      213: 3661786378356121100
+    second: woman_mask_28
+  - first:
+      213: -244600002269072095
+    second: woman_mask_29
+  - first:
+      213: 6879994349368419520
+    second: woman_mask_30
+  - first:
+      213: -7209145246904042872
+    second: woman_mask_31
+  - first:
+      213: -3345752846566468257
+    second: woman_mask_32
+  - first:
+      213: 4531410066844180250
+    second: woman_mask_33
+  - first:
+      213: 6221134290985479144
+    second: woman_mask_34
+  - first:
+      213: 7944807438925838415
+    second: woman_mask_35
+  - first:
+      213: -1938450001289826360
+    second: woman_mask_36
+  - first:
+      213: 3588082654068995093
+    second: woman_mask_37
+  - first:
+      213: -1423100863400755954
+    second: woman_mask_38
+  - first:
+      213: -6579221779982890584
+    second: woman_mask_39
+  - first:
+      213: 2752950587919062754
+    second: woman_mask_40
+  - first:
+      213: 2296489047572242732
+    second: woman_mask_41
+  - first:
+      213: -356427316714288477
+    second: woman_mask_42
+  - first:
+      213: -8229559910938990412
+    second: woman_mask_43
+  - first:
+      213: -8025223821003878156
+    second: woman_mask_44
+  - first:
+      213: -3995759437955275462
+    second: woman_mask_45
+  - first:
+      213: -1789430980490007420
+    second: woman_mask_46
+  - first:
+      213: -1246448447846096923
+    second: woman_mask_47
+  - first:
+      213: -7820630530307184228
+    second: woman_mask_48
+  - first:
+      213: -4642721818939860321
+    second: woman_mask_49
+  - first:
+      213: 1952275535670044603
+    second: woman_mask_50
+  - first:
+      213: 4692195117323181758
+    second: woman_mask_51
+  - first:
+      213: 2650708242991457845
+    second: woman_mask_52
+  - first:
+      213: 474478006795261921
+    second: woman_mask_53
+  - first:
+      213: 6396657609202713466
+    second: woman_mask_54
+  - first:
+      213: -5947356859537730028
+    second: woman_mask_55
+  - first:
+      213: -2092534662058554160
+    second: woman_mask_56
+  - first:
+      213: -222011618153934193
+    second: woman_mask_57
+  - first:
+      213: -8621182897983888223
+    second: woman_mask_58
+  - first:
+      213: -49595181936104074
+    second: woman_mask_59
+  - first:
+      213: 2326253370976487865
+    second: woman_mask_60
+  - first:
+      213: -2667796171387391204
+    second: woman_mask_61
+  - first:
+      213: -2277964634753762386
+    second: woman_mask_62
+  - first:
+      213: 1435090394961950232
+    second: woman_mask_63
+  - first:
+      213: 3121102014898479907
+    second: woman_mask_64
+  - first:
+      213: 136451593092944294
+    second: woman_mask_65
+  - first:
+      213: 6853610869101574930
+    second: woman_mask_66
+  - first:
+      213: -6118559528073041970
+    second: woman_mask_67
+  - first:
+      213: 3172018192865078403
+    second: woman_mask_68
+  - first:
+      213: -7814702398766121655
+    second: woman_mask_69
+  - first:
+      213: 9322749978703871
+    second: woman_mask_70
+  - first:
+      213: -6340667810244731646
+    second: woman_mask_71
+  - first:
+      213: 4269071151761933916
+    second: woman_mask_72
+  - first:
+      213: -1069149336838568108
+    second: woman_mask_73
+  - first:
+      213: 1558914537350353997
+    second: woman_mask_74
+  - first:
+      213: 914372660917683633
+    second: woman_mask_75
+  - first:
+      213: -3253768718737510037
+    second: woman_mask_76
+  - first:
+      213: 7693127710227230440
+    second: woman_mask_77
+  - first:
+      213: 3103470841381265085
+    second: woman_mask_78
+  - first:
+      213: -1206159882070683881
+    second: woman_mask_79
+  - first:
+      213: 8650332232882656833
+    second: woman_mask_80
+  - first:
+      213: -6180313281363290138
+    second: woman_mask_81
+  - first:
+      213: -883321297892934290
+    second: woman_mask_82
+  - first:
+      213: 4744003086600416637
+    second: woman_mask_83
+  - first:
+      213: 530257940479163750
+    second: woman_mask_84
+  - first:
+      213: -5645807151916250566
+    second: woman_mask_85
+  - first:
+      213: 2926224508804851859
+    second: woman_mask_86
+  - first:
+      213: -2120418871148683542
+    second: woman_mask_87
+  - first:
+      213: 2471035175787204288
+    second: woman_mask_88
+  - first:
+      213: 3876198072697129987
+    second: woman_mask_89
+  - first:
+      213: -4331660048311737694
+    second: woman_mask_90
+  - first:
+      213: 8780015903496330810
+    second: woman_mask_91
+  - first:
+      213: 7652985440119626722
+    second: woman_mask_92
+  - first:
+      213: -2131139696244777202
+    second: woman_mask_93
+  - first:
+      213: -5876984945375558845
+    second: woman_mask_94
+  - first:
+      213: 1309119295245496773
+    second: woman_mask_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_mask_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1812
+        width: 120
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05758cd6f08cb89d0800000000000000
+      internalID: -2770901177124497584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1820
+        width: 118
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba61c339f36ed7f0800000000000000
+      internalID: -585920979545265482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_2
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1811
+        width: 131
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d45ee667f74e430800000000000000
+      internalID: 3811311331305671989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_3
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1812
+        width: 126
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c64608d1cec33e60800000000000000
+      internalID: 7940917899932616384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_4
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1810
+        width: 123
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5978f11f124c1e60800000000000000
+      internalID: 7934289344732887391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_5
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1831
+        width: 124
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26dfd073517cef80800000000000000
+      internalID: -8075955428592200147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_6
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1810
+        width: 128
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f869f68f38f49ff70800000000000000
+      internalID: 9221489140245173903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_7
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1813
+        width: 118
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d896884480552b790800000000000000
+      internalID: -7515851334130046579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_8
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1812
+        width: 124
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d39ae123c056d10800000000000000
+      internalID: 2118112609149992260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_9
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1821
+        width: 123
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b5c61c660ca1b30800000000000000
+      internalID: 4258927945196526424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_10
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1829
+        width: 126
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f5bca9ca40e4470800000000000000
+      internalID: 8380641095960977259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_11
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1812
+        width: 118
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03f10d4170f470d0800000000000000
+      internalID: -3425849047108160758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1572
+        width: 124
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac7623bc4437b870800000000000000
+      internalID: 8698478709317205153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1573
+        width: 121
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edc397e868ead3f0800000000000000
+      internalID: -875131640310673943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_14
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1573
+        width: 127
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b235ba4cc1a892e40800000000000000
+      internalID: 5632184665166795563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_15
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1575
+        width: 124
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c71b0aa315a6f80800000000000000
+      internalID: -8112582466508587895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_16
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1573
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29eb25d8e2e51e50800000000000000
+      internalID: 6779574303712864556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_17
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1589
+        width: 107
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4d40ff9a5d90420800000000000000
+      internalID: 2596841586260497613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_18
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1575
+        width: 110
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5883e77b63969da10800000000000000
+      internalID: 1934693198659991685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_19
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1574
+        width: 115
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d363f17b5f0b98c10800000000000000
+      internalID: 2056369274257094205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_20
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1574
+        width: 122
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fb28f2e281552f0800000000000000
+      internalID: -984854356865925229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_21
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1576
+        width: 123
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9745ca00673b120800000000000000
+      internalID: 2428414369346124231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_22
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1587
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9c28bfab766b980800000000000000
+      internalID: -8523511191970854437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_23
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1577
+        width: 110
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83038e366a5d9ab0800000000000000
+      internalID: -4999740616129444981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1330
+        width: 120
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f90b47485e466b0800000000000000
+      internalID: -5303862104079425722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_25
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1331
+        width: 120
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896e0584400909840800000000000000
+      internalID: 5228837515444676248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_26
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1328
+        width: 127
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22adfc55f0d887080800000000000000
+      internalID: -9189439942645786078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_27
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1324
+        width: 123
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b88b315746c8d10800000000000000
+      internalID: 2129187177844214658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_28
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1332
+        width: 122
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ed7456f4741d230800000000000000
+      internalID: 3661786378356121100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_29
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1344
+        width: 107
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12531b808910b9cf0800000000000000
+      internalID: -244600002269072095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_30
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1328
+        width: 113
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4acc2b866aa7f50800000000000000
+      internalID: 6879994349368419520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_31
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1331
+        width: 119
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ab618f798f3fb90800000000000000
+      internalID: -7209145246904042872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_32
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1331
+        width: 121
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55572a338f7191d0800000000000000
+      internalID: -3345752846566468257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_33
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1330
+        width: 125
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f50e5827dc2ee30800000000000000
+      internalID: 4531410066844180250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_34
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1328
+        width: 113
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebe03a3da8e55650800000000000000
+      internalID: 6221134290985479144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_35
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1328
+        width: 115
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f483e06b540a14e60800000000000000
+      internalID: 7944807438925838415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1073
+        width: 122
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfa3428efd3915e0800000000000000
+      internalID: -1938450001289826360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_37
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1074
+        width: 117
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514f584d92e6bc130800000000000000
+      internalID: 3588082654068995093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_38
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1074
+        width: 132
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d327dfd41204ce0800000000000000
+      internalID: -1423100863400755954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_39
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1073
+        width: 125
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a94b9936a8e1b4a0800000000000000
+      internalID: -6579221779982890584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_40
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1076
+        width: 121
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e65e1559f1743620800000000000000
+      internalID: 2752950587919062754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_41
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1082
+        width: 102
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c216e171f94cedf10800000000000000
+      internalID: 2296489047572242732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_42
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1075
+        width: 123
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aacffe6e37bd0bf0800000000000000
+      internalID: -356427316714288477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_43
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1078
+        width: 120
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8afa2fcdabacd80800000000000000
+      internalID: -8229559910938990412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_44
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1076
+        width: 122
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f09f0a447da0a090800000000000000
+      internalID: -8025223821003878156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_45
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1074
+        width: 127
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35e2cc26f53c88c0800000000000000
+      internalID: -3995759437955275462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_46
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1076
+        width: 115
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c60d9010aaa27e0800000000000000
+      internalID: -1789430980490007420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_47
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1079
+        width: 111
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efdb4b9db9b3bee0800000000000000
+      internalID: -1246448447846096923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 817
+        width: 131
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c992779d7f9877390800000000000000
+      internalID: -7820630530307184228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_49
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 816
+        width: 132
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a52279a1db19fb0800000000000000
+      internalID: -4642721818939860321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_50
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 821
+        width: 130
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb76c4f8140e71b10800000000000000
+      internalID: 1952275535670044603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_51
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 819
+        width: 123
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebeded059960e1140800000000000000
+      internalID: 4692195117323181758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_52
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 817
+        width: 107
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536a4ba5a1539c420800000000000000
+      internalID: 2650708242991457845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_53
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 819
+        width: 122
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e754c8bb3fa59600800000000000000
+      internalID: 474478006795261921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_54
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 817
+        width: 136
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73c352643e75c850800000000000000
+      internalID: 6396657609202713466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_55
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 825
+        width: 127
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41655ca527eb67da0800000000000000
+      internalID: -5947356859537730028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_56
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 817
+        width: 122
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dccec3cfc2d5f2e0800000000000000
+      internalID: -2092534662058554160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_57
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 821
+        width: 143
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82dceb0c914becf0800000000000000
+      internalID: -222011618153934193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_58
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 818
+        width: 137
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a46ffdc4d76b5880800000000000000
+      internalID: -8621182897983888223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_59
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 821
+        width: 133
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67da02ed17dcf4ff0800000000000000
+      internalID: -49595181936104074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 565
+        width: 133
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9cb9aad13884020800000000000000
+      internalID: 2326253370976487865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_61
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 566
+        width: 131
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13be4744851afad0800000000000000
+      internalID: -2667796171387391204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_62
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 568
+        width: 125
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab799edb3b0360e0800000000000000
+      internalID: -2277964634753762386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_63
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 563
+        width: 125
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816384c5c177ae310800000000000000
+      internalID: 1435090394961950232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_64
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 562
+        width: 112
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323a7c90fb1605b20800000000000000
+      internalID: 3121102014898479907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_65
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 561
+        width: 123
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1575f3006c4e100800000000000000
+      internalID: 136451593092944294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_66
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 565
+        width: 132
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b3e8106caec1f50800000000000000
+      internalID: 6853610869101574930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_67
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 574
+        width: 125
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7ef18d682861ba0800000000000000
+      internalID: -6118559528073041970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_68
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 564
+        width: 122
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cacc68db5450c20800000000000000
+      internalID: 3172018192865078403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_69
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 570
+        width: 133
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94df62882999c8390800000000000000
+      internalID: -7814702398766121655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_70
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 565
+        width: 132
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff77fc0edfe112000800000000000000
+      internalID: 9322749978703871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_71
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 565
+        width: 132
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ddb9b883c6108a0800000000000000
+      internalID: -6340667810244731646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_72
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 311
+        width: 134
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5643a11899ce3b30800000000000000
+      internalID: 4269071151761933916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_73
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 312
+        width: 128
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45784edb75e9921f0800000000000000
+      internalID: -1069149336838568108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_74
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 320
+        width: 126
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44d5f1238062a510800000000000000
+      internalID: 1558914537350353997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_75
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 314
+        width: 126
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5c35e271180bc00800000000000000
+      internalID: 914372660917683633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_76
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 320
+        width: 111
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b617f5ae69a48d2d0800000000000000
+      internalID: -3253768718737510037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_77
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 312
+        width: 124
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeeecb74ea73ca60800000000000000
+      internalID: 7693127710227230440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_78
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 314
+        width: 132
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe105f894eb11b20800000000000000
+      internalID: 3103470841381265085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_79
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 319
+        width: 126
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f89de4afbd24fe0800000000000000
+      internalID: -1206159882070683881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_80
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 314
+        width: 122
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146151a95572c0870800000000000000
+      internalID: 8650332232882656833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_81
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 310
+        width: 134
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e756b7b0dd1b3aa0800000000000000
+      internalID: -6180313281363290138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_82
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 310
+        width: 132
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dfd88a5ffcdb3f0800000000000000
+      internalID: -883321297892934290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_83
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 316
+        width: 133
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dac262ca516d140800000000000000
+      internalID: 4744003086600416637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_84
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 58
+        width: 136
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d379599cadb5700800000000000000
+      internalID: 530257940479163750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_85
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 65
+        width: 132
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a0cafde4016a1b0800000000000000
+      internalID: -5645807151916250566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_86
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 58
+        width: 127
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398ea5cdfa90c9820800000000000000
+      internalID: 2926224508804851859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_87
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 62
+        width: 126
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeed52a6542c292e0800000000000000
+      internalID: -2120418871148683542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_88
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 63
+        width: 124
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce8a487661ea4220800000000000000
+      internalID: 2471035175787204288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_89
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 64
+        width: 116
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c8a223c950bc530800000000000000
+      internalID: 3876198072697129987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_90
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 58
+        width: 133
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2a0acd22ad2e3c0800000000000000
+      internalID: -4331660048311737694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_91
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 61
+        width: 129
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3edd2a12f1e8d970800000000000000
+      internalID: 8780015903496330810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_92
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 62
+        width: 123
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb1195e5bdd43a60800000000000000
+      internalID: 7652985440119626722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_93
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 59
+        width: 136
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f989eccbbac62e0800000000000000
+      internalID: -2131139696244777202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_94
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 59
+        width: 132
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343429c6451c07ea0800000000000000
+      internalID: -5876984945375558845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mask_95
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 62
+        width: 140
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1b7b1201dea2210800000000000000
+      internalID: 1309119295245496773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      woman_mask_0: -2770901177124497584
+      woman_mask_1: -585920979545265482
+      woman_mask_10: 8380641095960977259
+      woman_mask_11: -3425849047108160758
+      woman_mask_12: 8698478709317205153
+      woman_mask_13: -875131640310673943
+      woman_mask_14: 5632184665166795563
+      woman_mask_15: -8112582466508587895
+      woman_mask_16: 6779574303712864556
+      woman_mask_17: 2596841586260497613
+      woman_mask_18: 1934693198659991685
+      woman_mask_19: 2056369274257094205
+      woman_mask_2: 3811311331305671989
+      woman_mask_20: -984854356865925229
+      woman_mask_21: 2428414369346124231
+      woman_mask_22: -8523511191970854437
+      woman_mask_23: -4999740616129444981
+      woman_mask_24: -5303862104079425722
+      woman_mask_25: 5228837515444676248
+      woman_mask_26: -9189439942645786078
+      woman_mask_27: 2129187177844214658
+      woman_mask_28: 3661786378356121100
+      woman_mask_29: -244600002269072095
+      woman_mask_3: 7940917899932616384
+      woman_mask_30: 6879994349368419520
+      woman_mask_31: -7209145246904042872
+      woman_mask_32: -3345752846566468257
+      woman_mask_33: 4531410066844180250
+      woman_mask_34: 6221134290985479144
+      woman_mask_35: 7944807438925838415
+      woman_mask_36: -1938450001289826360
+      woman_mask_37: 3588082654068995093
+      woman_mask_38: -1423100863400755954
+      woman_mask_39: -6579221779982890584
+      woman_mask_4: 7934289344732887391
+      woman_mask_40: 2752950587919062754
+      woman_mask_41: 2296489047572242732
+      woman_mask_42: -356427316714288477
+      woman_mask_43: -8229559910938990412
+      woman_mask_44: -8025223821003878156
+      woman_mask_45: -3995759437955275462
+      woman_mask_46: -1789430980490007420
+      woman_mask_47: -1246448447846096923
+      woman_mask_48: -7820630530307184228
+      woman_mask_49: -4642721818939860321
+      woman_mask_5: -8075955428592200147
+      woman_mask_50: 1952275535670044603
+      woman_mask_51: 4692195117323181758
+      woman_mask_52: 2650708242991457845
+      woman_mask_53: 474478006795261921
+      woman_mask_54: 6396657609202713466
+      woman_mask_55: -5947356859537730028
+      woman_mask_56: -2092534662058554160
+      woman_mask_57: -222011618153934193
+      woman_mask_58: -8621182897983888223
+      woman_mask_59: -49595181936104074
+      woman_mask_6: 9221489140245173903
+      woman_mask_60: 2326253370976487865
+      woman_mask_61: -2667796171387391204
+      woman_mask_62: -2277964634753762386
+      woman_mask_63: 1435090394961950232
+      woman_mask_64: 3121102014898479907
+      woman_mask_65: 136451593092944294
+      woman_mask_66: 6853610869101574930
+      woman_mask_67: -6118559528073041970
+      woman_mask_68: 3172018192865078403
+      woman_mask_69: -7814702398766121655
+      woman_mask_7: -7515851334130046579
+      woman_mask_70: 9322749978703871
+      woman_mask_71: -6340667810244731646
+      woman_mask_72: 4269071151761933916
+      woman_mask_73: -1069149336838568108
+      woman_mask_74: 1558914537350353997
+      woman_mask_75: 914372660917683633
+      woman_mask_76: -3253768718737510037
+      woman_mask_77: 7693127710227230440
+      woman_mask_78: 3103470841381265085
+      woman_mask_79: -1206159882070683881
+      woman_mask_8: 2118112609149992260
+      woman_mask_80: 8650332232882656833
+      woman_mask_81: -6180313281363290138
+      woman_mask_82: -883321297892934290
+      woman_mask_83: 4744003086600416637
+      woman_mask_84: 530257940479163750
+      woman_mask_85: -5645807151916250566
+      woman_mask_86: 2926224508804851859
+      woman_mask_87: -2120418871148683542
+      woman_mask_88: 2471035175787204288
+      woman_mask_89: 3876198072697129987
+      woman_mask_9: 4258927945196526424
+      woman_mask_90: -4331660048311737694
+      woman_mask_91: 8780015903496330810
+      woman_mask_92: 7652985440119626722
+      woman_mask_93: -2131139696244777202
+      woman_mask_94: -5876984945375558845
+      woman_mask_95: 1309119295245496773
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

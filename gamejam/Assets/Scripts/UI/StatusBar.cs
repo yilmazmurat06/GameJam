@@ -50,7 +50,7 @@ public class StatusBar : MonoBehaviour
     {
         if (_player == null)
         {
-            _player = FindObjectOfType<PlayerController>();
+            _player = FindFirstObjectByType<PlayerController>();
         }
         
         if (_player != null)
@@ -198,7 +198,7 @@ public class StatusBar : MonoBehaviour
     public void CreateStatusBarUI()
     {
         // Create Canvas if not exists
-        Canvas canvas = FindObjectOfType<Canvas>();
+        Canvas canvas = FindFirstObjectByType<Canvas>();
         if (canvas == null)
         {
             GameObject canvasObj = new GameObject("StatusBarCanvas");
