@@ -40,8 +40,14 @@ public class EnemyBase : MonoBehaviour
     public float AttackRecoveryTime => _attackRecoveryTime;
     public Rigidbody2D Rigidbody { get; private set; }
     public Health Health { get; private set; }
-    public Transform Target { get; private set; }
+    public Transform Target { get; protected set; }
     public bool HasTarget => Target != null;
+    
+    // SoulKnight-style spawn position for patrol returns
+    public Vector2 SpawnPosition { get; private set; }
+    
+    // Health percentage for flee behavior (SoulKnight monsters flee at low HP)
+    public float HealthPercentage => Health != null ? (float)Health.CurrentHealth / Health.MaxHealth : 1f;
     
     // State machine
     protected IEnemyState _currentState;
@@ -67,6 +73,9 @@ public class EnemyBase : MonoBehaviour
     
     protected virtual void Start()
     {
+        // Store spawn position for patrol behavior (SoulKnight style)
+        SpawnPosition = transform.position;
+        
         // Subscribe to death event
         Health.OnDeath += HandleDeath;
         
@@ -278,6 +287,60 @@ public class EnemyBase : MonoBehaviour
         return GetDistanceToTarget() <= _attackRange;
     }
     
+    /// <summary>
+    /// Manually set the target (SoulKnight style - for AI brain integration).
+    /// </summary>
+    public void SetTarget(Transform newTarget)
+    {
+        Target = newTarget;
+    }
+    
+    /// <summary>
+    /// Clear the current target.
+    /// </summary>
+    public void ClearTarget()
+    {
+        Target = null;
+    }
+    
+    /// <summary>
+    /// Check if target is within detection range (SoulKnight style).
+    /// </summary>
+    public bool IsTargetInDetectionRange()
+    {
+        return GetDistanceToTarget() <= _detectionRange;
+    }
+    
+    /// <summary>
+    /// Get direction to target (SoulKnight style).
+    /// </summary>
+    public Vector2 GetDirectionToTarget()
+    {
+        if (Target == null) return Vector2.zero;
+        return ((Vector2)Target.position - (Vector2)transform.position).normalized;
+    }
+    
+    /// <summary>
+    /// Move away from target (SoulKnight flee behavior).
+    /// </summary>
+    public void MoveAwayFromTarget()
+    {
+        if (Target == null) return;
+        Vector2 fleeDirection = -GetDirectionToTarget();
+        SetVelocity(fleeDirection * _moveSpeed);
+        
+        if (_enemyAnimator != null)
+            _enemyAnimator.SetDirection(fleeDirection);
+    }
+    
+    /// <summary>
+    /// Get current state name for debugging.
+    /// </summary>
+    public string GetCurrentStateName()
+    {
+        return _currentState?.GetType().Name ?? "None";
+    }
+
     protected virtual void HandleDeath()
     {
         ChangeState(new EnemyDeathState());

@@ -26,7 +26,7 @@ public class LightingFixer : MonoBehaviour
         }
 
         // 2. Assign to all SpriteRenderers
-        SpriteRenderer[] renderers = FindObjectsOfType<SpriteRenderer>();
+        SpriteRenderer[] renderers = FindObjectsByType<SpriteRenderer>(FindObjectsSortMode.None);
         int count = 0;
         foreach (var sr in renderers)
         {
@@ -35,7 +35,7 @@ public class LightingFixer : MonoBehaviour
         }
         
         // 3. Assign to all TilemapRenderers
-        TilemapRenderer[] mapRenderers = FindObjectsOfType<TilemapRenderer>();
+        TilemapRenderer[] mapRenderers = FindObjectsByType<TilemapRenderer>(FindObjectsSortMode.None);
         foreach(var tr in mapRenderers)
         {
             tr.material = litMaterial;
@@ -44,8 +44,8 @@ public class LightingFixer : MonoBehaviour
         
         Debug.Log($"Assigned Lit material to {count} renderers (Sprites + Tilemaps).");
         
-        // 3. Fix Global Light Layer Targets
-        Light2D[] lights = FindObjectsOfType<Light2D>();
+        // 4. Fix Global Light Layer Targets
+        Light2D[] lights = FindObjectsByType<Light2D>(FindObjectsSortMode.None);
         foreach(var light in lights)
         {
              // Ensure they target all layers (internal property, might need serialized object fallback if API limited)
