@@ -33,7 +33,7 @@ public class PhasableObject : MonoBehaviour
     private void Update()
     {
         // Visual hint when player is phasing
-        PlayerController player = FindObjectOfType<PlayerController>();
+        PlayerController player = FindFirstObjectByType<PlayerController>();
         if (player != null)
         {
             SorrowAbility sorrow = player.GetComponent<SorrowAbility>();

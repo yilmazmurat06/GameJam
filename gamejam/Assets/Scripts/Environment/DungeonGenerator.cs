@@ -14,8 +14,8 @@ public class DungeonGenerator : MonoBehaviour
     public int corridorWidth = 2;
     
     [Header("References")]
-    public Texture2D floorTexture;
-    public Texture2D wallTexture;
+    public Sprite floorSprite;
+    public Sprite wallSprite;
     
     // Internal data
     private int[,] _dungeonMap; // 0 = wall, 1 = floor
@@ -30,17 +30,68 @@ public class DungeonGenerator : MonoBehaviour
         GameObject go = new GameObject("Dungeon Generator");
         DungeonGenerator generator = go.AddComponent<DungeonGenerator>();
         
-        // Find texture assets by name if not assigned (since we are calling static)
-        if (generator.floorTexture == null)
-            generator.floorTexture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Sprites/Environment/dungeon_floor.png");
+        // Try to load default sprites if not assigned
+        if (generator.floorSprite == null)
+            generator.floorSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Environment/dungeon_floor.png");
+            
+        // Fallback to searching inside the tileset if specific files aren't found
+        if (generator.floorSprite == null)
+        {
+             // Try to find first sprite in tileset
+             Object[] assets = AssetDatabase.LoadAllAssetsAtPath("Assets/Dungeon_Tileset.png");
+             foreach(Object asset in assets) {
+                 if (asset is Sprite s) { generator.floorSprite = s; break; }
+             }
+        }
         
-        if (generator.wallTexture == null)
-            generator.wallTexture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Sprites/Environment/dungeon_wall.png");
+        if (generator.wallSprite == null)
+            generator.wallSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Environment/dungeon_wall.png");
+
+         if (generator.wallSprite == null && generator.floorSprite != null)
+        {
+             // If we found a floor in tileset, try to find a wall (e.g. 2nd sprite)
+             Object[] assets = AssetDatabase.LoadAllAssetsAtPath("Assets/Dungeon_Tileset.png");
+             int count = 0;
+             foreach(Object asset in assets) {
+                 if (asset is Sprite s) { 
+                     count++;
+                     if (count == 2) { generator.wallSprite = s; break; } // Pick 2nd sprite as wall
+                 }
+             }
+        }
             
         generator.BuildDungeon();
         
-        // Cleanup generator GO because we just wanted the script execution
-        DestroyImmediate(go);
+        // changes: Do NOT destroy the generator. Let it persist so the user can modify settings.
+        // DestroyImmediate(go); 
+        Selection.activeGameObject = go;
+    }
+
+    [ContextMenu("Regenerate Dungeon")]
+    public void Regenerate()
+    {
+        BuildDungeon();
+    }
+
+    [ContextMenu("Clear Map")]
+    public void ClearMap()
+    {
+        // 1. Setup/Find Grid (needed to find tilemaps)
+        GameObject gridGO = GameObject.Find("Grid");
+        if (gridGO != null)
+        {
+            Tilemap[] maps = gridGO.GetComponentsInChildren<Tilemap>();
+            foreach(var tm in maps) tm.ClearAllTiles();
+            
+            Transform torchContainer = gridGO.transform.Find("Torches");
+            if (torchContainer != null) DestroyImmediate(torchContainer.gameObject);
+            
+            Transform enemies = GameObject.Find("Enemies")?.transform;
+            if (enemies != null) DestroyImmediate(enemies.gameObject);
+        }
+        
+        _rooms.Clear();
+        Debug.Log("Dungeon Cleared for manual building!");
     }
 
     public void BuildDungeon()
@@ -206,7 +257,7 @@ public class DungeonGenerator : MonoBehaviour
             }
         }
     }
-    
+
     private void SetupTilemaps()
     {
         // 1. Setup Grid
@@ -269,28 +320,12 @@ public class DungeonGenerator : MonoBehaviour
 
         // 2. Create Tiles
         Tile floorTile = ScriptableObject.CreateInstance<Tile>();
-        string floorPath = AssetDatabase.GetAssetPath(floorTexture);
-        if (string.IsNullOrEmpty(floorPath)) floorPath = "Assets/Sprites/Environment/dungeon_floor.png";
-        
-        Sprite floorSprite = AssetDatabase.LoadAssetAtPath<Sprite>(floorPath);
         if (floorSprite != null) floorTile.sprite = floorSprite;
-        else 
-        {
-             if (floorTexture != null)
-                 floorTile.sprite = Sprite.Create(floorTexture, new Rect(0,0,floorTexture.width, floorTexture.height), new Vector2(0.5f, 0.5f), 1024);
-        }
+        else Debug.LogWarning("Floor sprite is missing!");
         
         Tile wallTile = ScriptableObject.CreateInstance<Tile>();
-        string wallPath = AssetDatabase.GetAssetPath(wallTexture);
-        if (string.IsNullOrEmpty(wallPath)) wallPath = "Assets/Sprites/Environment/dungeon_wall.png";
-        
-        Sprite wallSprite = AssetDatabase.LoadAssetAtPath<Sprite>(wallPath);
         if (wallSprite != null) wallTile.sprite = wallSprite;
-        else
-        {
-             if (wallTexture != null)
-                 wallTile.sprite = Sprite.Create(wallTexture, new Rect(0,0,wallTexture.width, wallTexture.height), new Vector2(0.5f, 0.5f), 1024);
-        }
+        else Debug.LogWarning("Wall sprite is missing!");
         
         // 3. Generate Map from _dungeonMap array
         floorTm.ClearAllTiles();
@@ -535,8 +570,8 @@ public class DungeonGenerator : MonoBehaviour
          if (container != null) DestroyImmediate(container);
          
          // Also search for any object with "banana" in name just in case
-         // Note: FindObjectsOfTypeAll is generally editor only but we are in editor tool
-         var allObjects = GameObject.FindObjectsOfType<GameObject>();
+         // Note: FindObjectsByType is the modern API (Unity 2023.1+)
+         var allObjects = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
          foreach(var go in allObjects)
          {
              if (go.name.ToLower().Contains("banana") || go.name.ToLower().Contains("enemy"))

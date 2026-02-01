@@ -6,7 +6,6 @@ using UnityEngine;
 public class EnemyAttackState : IEnemyState
 {
     private float _timer;
-    private bool _hasAttacked;
     private AttackPhase _phase;
     
     private enum AttackPhase { WindUp, Recovery }
@@ -16,7 +15,6 @@ public class EnemyAttackState : IEnemyState
         // Start WindUp
         _phase = AttackPhase.WindUp;
         _timer = enemy.AttackWindUpTime;
-        _hasAttacked = false;
         
         enemy.SetVelocity(Vector2.zero);
         
@@ -66,8 +64,6 @@ public class EnemyAttackState : IEnemyState
     
     public void Exit(EnemyBase enemy)
     {
-        _hasAttacked = false;
-        
         // Release token so others can attack
         if (EnemyManager.Instance != null)
             EnemyManager.Instance.ReleaseAttackToken(enemy);

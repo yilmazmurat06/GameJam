@@ -33,7 +33,7 @@ public class ChainDemonAI : MonoBehaviour
         _sr = GetComponent<SpriteRenderer>();
         
         // Find player
-        PlayerController pc = FindObjectOfType<PlayerController>();
+        PlayerController pc = FindFirstObjectByType<PlayerController>();
         if (pc != null)
         {
             _player = pc.transform;

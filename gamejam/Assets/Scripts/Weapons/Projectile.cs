@@ -95,8 +95,8 @@ public class Projectile : MonoBehaviour
     {
         if (!_initialized) return;
         
-        // Skip source
-        if (other.gameObject == _source || other.transform.IsChildOf(_source.transform))
+        // Skip source (with null check in case source was destroyed)
+        if (_source != null && (other.gameObject == _source || other.transform.IsChildOf(_source.transform)))
             return;
         
         // Check if target is on target layer

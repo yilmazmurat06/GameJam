@@ -35,15 +35,8 @@ public class PlayerMoveState : IPlayerState
         // Apply 8-directional movement
         player.SetVelocity(moveInput * player.MoveSpeed);
         
-        // Update animator blend tree parameters
-        if (player.Animator != null)
-        {
-            player.Animator.SetFloat(MoveXHash, moveInput.x);
-            player.Animator.SetFloat(MoveYHash, moveInput.y);
-        }
-        
-        // Update animator blend tree parameters ONLY if moving
-        // This ensures appropriate MoveX/MoveY values persist for the Idle state
+        // Update animator blend tree parameters with normalized direction
+        // Only update if moving to preserve last direction for idle state
         if (player.Animator != null && moveInput.magnitude > 0.01f)
         {
             // Normalize the vector we send to the animator for clean directional states

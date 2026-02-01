@@ -28,7 +28,7 @@ public class RoomCamera : MonoBehaviour
         // Find player if not assigned
         if (_target == null)
         {
-            PlayerController player = FindObjectOfType<PlayerController>();
+            PlayerController player = FindFirstObjectByType<PlayerController>();
             if (player != null) _target = player.transform;
         }
     }

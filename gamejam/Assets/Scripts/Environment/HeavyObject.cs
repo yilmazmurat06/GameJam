@@ -37,7 +37,7 @@ public class HeavyObject : MonoBehaviour
     private void Update()
     {
         // Check if player can push (has high mass from Anchor)
-        PlayerController player = FindObjectOfType<PlayerController>();
+        PlayerController player = FindFirstObjectByType<PlayerController>();
         if (player != null && player.Rigidbody != null)
         {
             _canBePushed = player.Rigidbody.mass >= _pushThreshold;
